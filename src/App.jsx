@@ -573,34 +573,66 @@ function MapZoomContainer({ children, floor }) {
     const el = containerRef.current;
     if (!el) return;
 
+    const TAP_THRESHOLD = 8; // この距離以内ならタップと判定（px）
+
     const handleTouchStart = (e) => {
-      if (e.touches.length !== 2) return;
-      e.preventDefault();
       const rect = el.getBoundingClientRect();
-      gestureRef.current = {
-        type: "pinch",
-        dist: getDist(e.touches[0], e.touches[1]),
-        mid: {
-          x: (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left,
-          y: (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top,
-        },
-        startScale: scaleRef.current,
-        startTranslate: { ...translateRef.current },
-      };
+
+      if (e.touches.length === 1) {
+        // 1本指：まずタップ候補として記録（preventDefaultしない）
+        gestureRef.current = {
+          type: "pan1",
+          startX: e.touches[0].clientX,
+          startY: e.touches[0].clientY,
+          startTranslate: { ...translateRef.current },
+          isPanning: false, // まだパン開始していない
+        };
+      } else if (e.touches.length === 2) {
+        // 2本指：ピンチズーム
+        e.preventDefault();
+        const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left;
+        const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
+        gestureRef.current = {
+          type: "pinch",
+          dist: getDist(e.touches[0], e.touches[1]),
+          startMidX: midX,
+          startMidY: midY,
+          startScale: scaleRef.current,
+          startTranslate: { ...translateRef.current },
+        };
+      }
     };
 
     const handleTouchMove = (e) => {
-      if (!gestureRef.current || e.touches.length !== 2) return;
-      e.preventDefault();
-      const newDist = getDist(e.touches[0], e.touches[1]);
-      const ratio = newDist / gestureRef.current.dist;
-      const newScale = Math.min(4, Math.max(minScaleRef.current, gestureRef.current.startScale * ratio));
-      const { mid, startTranslate, startScale } = gestureRef.current;
-      const scaleChange = newScale / startScale;
-      const rawTx = mid.x - scaleChange * (mid.x - startTranslate.x);
-      const rawTy = mid.y - scaleChange * (mid.y - startTranslate.y);
-      setScale(newScale);
-      setTranslate(clampTranslate(rawTx, rawTy, newScale));
+      if (!gestureRef.current) return;
+
+      if (gestureRef.current.type === "pan1" && e.touches.length === 1) {
+        const dx = e.touches[0].clientX - gestureRef.current.startX;
+        const dy = e.touches[0].clientY - gestureRef.current.startY;
+        const dist = Math.hypot(dx, dy);
+
+        if (!gestureRef.current.isPanning && dist < TAP_THRESHOLD) return; // まだタップ範囲内
+
+        // 閾値を超えたらパン開始
+        e.preventDefault();
+        gestureRef.current.isPanning = true;
+        const tx = gestureRef.current.startTranslate.x + dx;
+        const ty = gestureRef.current.startTranslate.y + dy;
+        setTranslate(clampTranslate(tx, ty, scaleRef.current));
+
+      } else if (gestureRef.current.type === "pinch" && e.touches.length === 2) {
+        e.preventDefault();
+        const rect = el.getBoundingClientRect();
+        const newDist = getDist(e.touches[0], e.touches[1]);
+        const ratio = newDist / gestureRef.current.dist;
+        const newScale = Math.min(4, Math.max(minScaleRef.current, gestureRef.current.startScale * ratio));
+        const scaleChange = newScale / gestureRef.current.startScale;
+        const { startMidX, startMidY, startTranslate } = gestureRef.current;
+        const tx = startTranslate.x * scaleChange + startMidX * (1 - scaleChange);
+        const ty = startTranslate.y * scaleChange + startMidY * (1 - scaleChange);
+        setScale(newScale);
+        setTranslate(clampTranslate(tx, ty, newScale));
+      }
     };
 
     const handleTouchEnd = () => { gestureRef.current = null; };

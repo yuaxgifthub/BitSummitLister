@@ -509,7 +509,27 @@ function extractBooths(grid) {
   return booths;
 }
 
-function MapZoomContainer({ children, floor }) {
+// グリッドからブースの中心座標を取得
+function findBoothCenter(boothId, floor) {
+  const grid = floor === "1F" ? MAP_1F : MAP_3F;
+  const CELL = 9, PAD = 10;
+  let minR = Infinity, maxR = -Infinity, minC = Infinity, maxC = -Infinity;
+  for (let r = 0; r < grid.length; r++) {
+    for (let c = 0; c < (grid[r]?.length || 0); c++) {
+      if (grid[r][c] === boothId) {
+        minR = Math.min(minR, r); maxR = Math.max(maxR, r);
+        minC = Math.min(minC, c); maxC = Math.max(maxC, c);
+      }
+    }
+  }
+  if (minR === Infinity) return null;
+  return {
+    cx: PAD + (minC + (maxC - minC + 1) / 2) * CELL,
+    cy: PAD + (minR + (maxR - minR + 1) / 2) * CELL,
+  };
+}
+
+function MapZoomContainer({ children, floor, zoomTarget }) {
   const [scale, setScale] = useState(1);
   const [translate, setTranslate] = useState({ x: 0, y: 0 });
   const gestureRef = useRef(null);
@@ -558,6 +578,25 @@ function MapZoomContainer({ children, floor }) {
     const timer = setTimeout(calcFitScale, 50);
     return () => clearTimeout(timer);
   }, [floor, calcFitScale]);
+
+  // zoomTargetが変わったら該当ブースにズームイン
+  useEffect(() => {
+    if (!zoomTarget || !containerRef.current) return;
+    const pos = findBoothCenter(zoomTarget.boothId, zoomTarget.floor);
+    if (!pos) return;
+    const timer = setTimeout(() => {
+      const container = containerRef.current;
+      if (!container) return;
+      const containerW = container.clientWidth;
+      const containerH = container.clientHeight;
+      const targetScale = Math.min(4, Math.max(minScaleRef.current * 2, 2.5));
+      const tx = containerW / 2 - pos.cx * targetScale;
+      const ty = containerH / 2 - pos.cy * targetScale;
+      setScale(targetScale);
+      setTranslate(clampTranslate(tx, ty, targetScale));
+    }, 100);
+    return () => clearTimeout(timer);
+  }, [zoomTarget, clampTranslate]);
 
   const getDist = (t1, t2) =>
     Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
@@ -880,7 +919,9 @@ export default function App() {
   const [checkedIds, setCheckedIds] = useState(new Set());
   const [activeTab, setActiveTab] = useState("list"); // 'list' | 'map'
   const [mapFloor, setMapFloor] = useState("1F"); // "1F" | "3F" | "checklist"
+  const [mapZoomTarget, setMapZoomTarget] = useState(null);
   const [selectedGame, setSelectedGame] = useState(null);
+  const [modalSource, setModalSource] = useState("list"); // "list" | "checklist"
 
   const filtered = useMemo(() => {
     return GAMES.filter(g => {
@@ -891,7 +932,9 @@ export default function App() {
         g.booth.toLowerCase().includes(q) ||
         g.description.toLowerCase().includes(q);
       const matchGenre = selectedGenre === "すべて" || g.genre === selectedGenre;
-      const matchFloor = selectedFloor === "すべて" || g.floor === selectedFloor;
+      const matchFloor = selectedFloor === "すべて"
+        || (selectedFloor === "選択中" && checkedIds.has(g.id))
+        || g.floor === selectedFloor;
       return matchText && matchGenre && matchFloor;
     });
   }, [searchText, selectedGenre, selectedFloor]);
@@ -912,7 +955,7 @@ export default function App() {
 
   const handleBoothClick = (boothId) => {
     const games = GAMES.filter(g => g.booth === boothId);
-    if (games.length > 0) setSelectedGame(games[0]);
+    if (games.length > 0) { setSelectedGame(games[0]); setModalSource("checklist"); }
   };
 
   return (
@@ -1042,7 +1085,7 @@ export default function App() {
             </select>
 
             {/* Floor filter */}
-            {["すべて", "1F", "3F"].map(f => (
+            {["すべて", "選択中", "1F", "3F"].map(f => (
               <button key={f} onClick={() => setSelectedFloor(f)}
                 style={{
                   padding: "6px 14px",
@@ -1077,7 +1120,7 @@ export default function App() {
           }}>
             {filtered.map(game => (
               <div key={game.id}
-                onClick={() => setSelectedGame(game)}
+                onClick={() => { setSelectedGame(game); setModalSource("list"); }}
                 style={{
                   background: checkedIds.has(game.id) ? "#fff8ee" : "#fafafa",
                   border: `1px solid ${checkedIds.has(game.id) ? "#ff9e00" : "#eeeeee"}`,
@@ -1173,7 +1216,7 @@ export default function App() {
               height: "calc(100vh - 48px - 50px)",
               WebkitOverflowScrolling: "touch",
             }}>
-              <MapZoomContainer floor={mapFloor}>
+              <MapZoomContainer floor={mapFloor} zoomTarget={mapZoomTarget}>
                 <FloorMap
                   floor={mapFloor}
                   checkedBooths={checkedBooths}
@@ -1212,7 +1255,7 @@ export default function App() {
                   </div>
                   {GAMES.filter(g => checkedIds.has(g.id)).map(g => (
                     <div key={g.id}
-                      onClick={() => setSelectedGame(g)}
+                      onClick={() => { setSelectedGame(g); setModalSource("checklist"); }}
                       style={{
                         background: "#fff8ee",
                         border: "1px solid #ff9e00",
@@ -1323,6 +1366,31 @@ export default function App() {
               }}>
               {checkedIds.has(selectedGame.id) ? "✓ チェックを外す" : "+ チェックリストに追加"}
             </button>
+            {selectedGame.floor !== "未定" && modalSource === "checklist" && (
+              <button
+                onClick={() => {
+                  setActiveTab("map");
+                  setMapFloor(selectedGame.floor);
+                  setMapZoomTarget({ boothId: selectedGame.booth, floor: selectedGame.floor });
+                  setSelectedGame(null);
+                }}
+                style={{
+                  width: "100%",
+                  marginTop: 10,
+                  padding: "14px 0",
+                  background: "#ffffff",
+                  border: "2px solid #ff9e00",
+                  borderRadius: 8,
+                  color: "#ff9e00",
+                  fontFamily: "monospace",
+                  fontSize: 13,
+                  fontWeight: "bold",
+                  cursor: "pointer",
+                  letterSpacing: 1,
+                }}>
+                🗺 マップでブースを見る
+              </button>
+            )}
           </div>
         </div>
       )}

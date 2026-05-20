@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useRef, useEffect, useCallback } from "react";
+import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 
 const GENRES = ["アクション", "アドベンチャー", "RPG", "シューティング", "パズル", "シミュレーション", "ローグライク", "その他"];
 
@@ -511,78 +511,134 @@ function extractBooths(grid) {
 
 function MapZoomContainer({ children }) {
   const [scale, setScale] = useState(1);
-  const lastDist = useRef(null);
+  const [translate, setTranslate] = useState({ x: 0, y: 0 });
+  const gestureRef = useRef(null);
   const containerRef = useRef(null);
 
-  const getDist = (touches) => {
-    const dx = touches[0].clientX - touches[1].clientX;
-    const dy = touches[0].clientY - touches[1].clientY;
-    return Math.sqrt(dx * dx + dy * dy);
-  };
+  const getDist = (t1, t2) =>
+    Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
 
+  // ===== タッチ操作（スマホ）=====
+  // 2本指のみ操作可能、1本指は何もしない
   const onTouchStart = (e) => {
-    if (e.touches.length === 2) {
-      e.preventDefault();
-      lastDist.current = getDist(e.touches);
-    }
+    if (e.touches.length !== 2) return; // 1本指は無視
+    e.preventDefault();
+    const rect = containerRef.current.getBoundingClientRect();
+    gestureRef.current = {
+      type: "pinch",
+      dist: getDist(e.touches[0], e.touches[1]),
+      mid: {
+        x: (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left,
+        y: (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top,
+      },
+      startScale: scale,
+      startTranslate: { ...translate },
+    };
   };
 
   const onTouchMove = (e) => {
-    if (e.touches.length === 2 && lastDist.current) {
-      e.preventDefault();
-      const dist = getDist(e.touches);
-      const ratio = dist / lastDist.current;
-      setScale(prev => Math.min(4, Math.max(0.5, prev * ratio)));
-      lastDist.current = dist;
-    }
+    if (!gestureRef.current || e.touches.length !== 2) return;
+    e.preventDefault();
+    const newDist = getDist(e.touches[0], e.touches[1]);
+    const ratio = newDist / gestureRef.current.dist;
+    const newScale = Math.min(4, Math.max(0.5, gestureRef.current.startScale * ratio));
+    const { mid, startTranslate, startScale } = gestureRef.current;
+    const scaleChange = newScale / startScale;
+    setScale(newScale);
+    setTranslate({
+      x: mid.x - scaleChange * (mid.x - startTranslate.x),
+      y: mid.y - scaleChange * (mid.y - startTranslate.y),
+    });
   };
 
-  const onTouchEnd = () => { lastDist.current = null; };
+  const onTouchEnd = () => { gestureRef.current = null; };
 
-  const resetZoom = () => setScale(1);
+  // ===== PC操作 =====
+  // Ctrl+ホイール：ズーム、左クリックドラッグ：移動
+  const onWheel = (e) => {
+    if (!e.ctrlKey) return; // Ctrlなしは無視
+    e.preventDefault();
+    const rect = containerRef.current.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+    const delta = e.deltaY > 0 ? 0.9 : 1.1;
+    const newScale = Math.min(4, Math.max(0.5, scale * delta));
+    const scaleChange = newScale / scale;
+    setScale(newScale);
+    setTranslate(prev => ({
+      x: mouseX - scaleChange * (mouseX - prev.x),
+      y: mouseY - scaleChange * (mouseY - prev.y),
+    }));
+  };
+
+  const onMouseDown = (e) => {
+    if (e.button !== 0) return; // 左クリックのみ
+    e.preventDefault();
+    gestureRef.current = {
+      type: "mousepan",
+      startX: e.clientX,
+      startY: e.clientY,
+      startTranslate: { ...translate },
+    };
+  };
+
+  const onMouseMove = (e) => {
+    if (!gestureRef.current || gestureRef.current.type !== "mousepan") return;
+    setTranslate({
+      x: gestureRef.current.startTranslate.x + (e.clientX - gestureRef.current.startX),
+      y: gestureRef.current.startTranslate.y + (e.clientY - gestureRef.current.startY),
+    });
+  };
+
+  const onMouseUp = () => { gestureRef.current = null; };
+
+  const resetZoom = () => { setScale(1); setTranslate({ x: 0, y: 0 }); };
 
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative", overflow: "hidden" }}>
       <div
         ref={containerRef}
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
+        onWheel={onWheel}
+        onMouseDown={onMouseDown}
+        onMouseMove={onMouseMove}
+        onMouseUp={onMouseUp}
+        onMouseLeave={onMouseUp}
         style={{
-          overflowX: "auto",
-          overflowY: "auto",
+          overflow: "auto",
           WebkitOverflowScrolling: "touch",
-          touchAction: scale === 1 ? "pan-x pan-y" : "none",
+          touchAction: "none",
+          cursor: gestureRef.current?.type === "mousepan" ? "grabbing" : scale > 1 ? "grab" : "default",
+          userSelect: "none",
         }}
       >
         <div style={{
-          transform: `scale(${scale})`,
+          transform: `translate(${translate.x}px, ${translate.y}px) scale(${scale})`,
           transformOrigin: "0 0",
-          transition: "transform 0.05s ease-out",
           display: "inline-block",
+          willChange: "transform",
         }}>
           {children}
         </div>
       </div>
       {scale !== 1 && (
-        <button
-          onClick={resetZoom}
-          style={{
-            position: "absolute",
-            top: 8, right: 8,
-            background: "#ffffff",
-            border: "1px solid #ff9e00",
-            borderRadius: 6,
-            padding: "6px 10px",
-            color: "#ff9e00",
-            fontFamily: "monospace",
-            fontSize: 11,
-            fontWeight: "bold",
-            cursor: "pointer",
-            boxShadow: "0 1px 4px rgba(0,0,0,0.15)",
-          }}>
-          ⟲ リセット
-        </button>
+        <button onClick={resetZoom} style={{
+          position: "absolute",
+          top: 8, right: 8,
+          background: "#ffffff",
+          border: "1px solid #ff9e00",
+          borderRadius: 6,
+          padding: "6px 10px",
+          color: "#ff9e00",
+          fontFamily: "monospace",
+          fontSize: 11,
+          fontWeight: "bold",
+          cursor: "pointer",
+          boxShadow: "0 1px 4px rgba(0,0,0,0.15)",
+          zIndex: 10,
+        }}>⟲ リセット</button>
       )}
     </div>
   );
@@ -1020,7 +1076,6 @@ export default function App() {
             height: "calc(100vh - 48px - 58px)",
             WebkitOverflowScrolling: "touch",
           }}>
-            {/* Zoomable map */}
             <MapZoomContainer>
               <FloorMap
                 floor={mapFloor}

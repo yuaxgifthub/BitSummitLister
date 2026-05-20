@@ -916,12 +916,25 @@ export default function App() {
   const [searchText, setSearchText] = useState("");
   const [selectedGenre, setSelectedGenre] = useState("すべて");
   const [selectedFloor, setSelectedFloor] = useState("すべて");
-  const [checkedIds, setCheckedIds] = useState(new Set());
+  const [checkedIds, setCheckedIds] = useState(() => {
+    try {
+      const saved = localStorage.getItem("bitsummit-checked");
+      return saved ? new Set(JSON.parse(saved)) : new Set();
+    } catch { return new Set(); }
+  });
   const [activeTab, setActiveTab] = useState("list"); // 'list' | 'map'
   const [mapFloor, setMapFloor] = useState("1F"); // "1F" | "3F" | "checklist"
   const [mapZoomTarget, setMapZoomTarget] = useState(null);
   const [selectedGame, setSelectedGame] = useState(null);
   const [modalSource, setModalSource] = useState("list"); // "list" | "checklist"
+
+  // 各絞り込みの件数を計算
+  const counts = useMemo(() => ({
+    "すべて": GAMES.length,
+    "選択中": checkedIds.size,
+    "1F": GAMES.filter(g => g.floor === "1F").length,
+    "3F": GAMES.filter(g => g.floor === "3F").length,
+  }), [checkedIds]);
 
   const filtered = useMemo(() => {
     return GAMES.filter(g => {
@@ -943,6 +956,7 @@ export default function App() {
     setCheckedIds(prev => {
       const next = new Set(prev);
       next.has(id) ? next.delete(id) : next.add(id);
+      try { localStorage.setItem("bitsummit-checked", JSON.stringify([...next])); } catch {}
       return next;
     });
   };
@@ -955,7 +969,7 @@ export default function App() {
 
   const handleBoothClick = (boothId) => {
     const games = GAMES.filter(g => g.booth === boothId);
-    if (games.length > 0) { setSelectedGame(games[0]); setModalSource("checklist"); }
+    if (games.length > 0) { setSelectedGame(games[0]); setModalSource("map"); }
   };
 
   return (
@@ -1040,7 +1054,7 @@ export default function App() {
           <div style={{
             background: "#ffffff",
             borderBottom: "1px solid #eeeeee",
-            padding: "0 16px 8px",
+            padding: "0 16px 4px",
           }}>
           {/* Search */}
           <input
@@ -1065,12 +1079,13 @@ export default function App() {
           />
 
           {/* Filters */}
-          <div style={{ display: "flex", gap: 8, marginBottom: 14, flexWrap: "wrap" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 4 }}>
             {/* Genre filter */}
             <select
               value={selectedGenre}
               onChange={e => setSelectedGenre(e.target.value)}
               style={{
+                width: "100%",
                 padding: "6px 10px",
                 background: "#ffffff",
                 border: "1px solid #dddddd",
@@ -1079,45 +1094,48 @@ export default function App() {
                 fontFamily: "monospace",
                 fontSize: 11,
                 cursor: "pointer",
+                boxSizing: "border-box",
               }}>
               <option>すべて</option>
               {GENRES.map(g => <option key={g}>{g}</option>)}
             </select>
 
             {/* Floor filter */}
-            {["すべて", "選択中", "1F", "3F"].map(f => (
-              <button key={f} onClick={() => setSelectedFloor(f)}
-                style={{
-                  padding: "6px 14px",
-                  background: selectedFloor === f ? "#ff9e00" : "#ffffff",
-                  border: `1px solid ${selectedFloor === f ? "#ff9e00" : "#dddddd"}`,
-                  borderRadius: 5,
-                  color: selectedFloor === f ? "#fff" : "#888888",
-                  fontFamily: "monospace",
-                  fontSize: 11,
-                  cursor: "pointer",
-                }}>
-                {f}
-              </button>
-            ))}
-          </div>
-
-          {/* Count */}
-          <div style={{ fontSize: 10, color: "#aaaaaa", marginBottom: 0, letterSpacing: 1 }}>
-            {filtered.length} タイトル表示中
+            <div style={{ display: "flex", gap: 6 }}>
+              {["すべて", "選択中", "1F", "3F"].map(f => (
+                <button key={f} onClick={() => setSelectedFloor(f)}
+                  style={{
+                    flex: 1,
+                    padding: "6px 0",
+                    background: selectedFloor === f ? "#ff9e00" : "#ffffff",
+                    border: `1px solid ${selectedFloor === f ? "#ff9e00" : "#dddddd"}`,
+                    borderRadius: 5,
+                    color: selectedFloor === f ? "#fff" : "#888888",
+                    fontFamily: "monospace",
+                    fontSize: 10,
+                    cursor: "pointer",
+                    lineHeight: 1.4,
+                  }}>
+                  <div>{f}</div>
+                  <div style={{ fontSize: 10, opacity: 0.85 }}>({counts[f]})</div>
+                </button>
+              ))}
+            </div>
           </div>
           </div>{/* /sticky header */}
 
-          {/* Game list (仮想スクロール: 表示件数を制限) */}
-          <div style={{
-            padding: "12px 16px",
-            display: "flex",
-            flexDirection: "column",
-            gap: 8,
-            overflowY: "auto",
-            height: "calc(100vh - 48px - 120px)",
-            WebkitOverflowScrolling: "touch",
-          }}>
+          {/* Game list */}
+          <div
+            id="game-list-scroll"
+            style={{
+              padding: "4px 16px 12px",
+              display: "flex",
+              flexDirection: "column",
+              gap: 8,
+              overflowY: "auto",
+              height: "calc(100vh - 48px - 120px)",
+              WebkitOverflowScrolling: "touch",
+            }}>
             {filtered.map(game => (
               <div key={game.id}
                 onClick={() => { setSelectedGame(game); setModalSource("list"); }}
@@ -1173,6 +1191,35 @@ export default function App() {
         </div>
       )}
 
+      {/* トップへ戻るボタン（タイトル一覧タブのみ） */}
+      {activeTab === "list" && (
+        <button
+          onClick={() => {
+            const el = document.getElementById("game-list-scroll");
+            if (el) el.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+          style={{
+            position: "fixed",
+            bottom: 24,
+            right: 20,
+            width: 48,
+            height: 48,
+            borderRadius: "50%",
+            background: "#ff9e00",
+            border: "none",
+            color: "#ffffff",
+            fontSize: 20,
+            cursor: "pointer",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 80,
+          }}>
+          ↑
+        </button>
+      )}
+
       {/* MAP TAB */}
       {activeTab === "map" && (
         <div style={{ display: "flex", flexDirection: "column", overflow: "hidden" }}>
@@ -1187,7 +1234,7 @@ export default function App() {
             {[
               { key: "1F", label: "1F" },
               { key: "3F", label: "3F" },
-              { key: "checklist", label: `✓ リスト${checkedIds.size > 0 ? ` (${checkedIds.size})` : ""}` },
+              { key: "checklist", label: checkedIds.size > 0 ? "✓ リスト (" + checkedIds.size + ")" : "✓ リスト" },
             ].map(tab => (
               <button key={tab.key} onClick={() => setMapFloor(tab.key)}
                 style={{

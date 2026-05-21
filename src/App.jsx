@@ -1,4 +1,5 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
+import GAMES from "./data/games.json";
 
 const GENRES = ["アクション", "アドベンチャー", "RPG", "シューティング", "パズル", "シミュレーション", "ローグライク", "その他"];
 

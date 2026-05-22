@@ -1019,7 +1019,10 @@ export default function App() {
           game={selectedGame}
           source={modalSource}
           isChecked={checkedIds.has(selectedGame.id)}
-          onToggleCheck={() => toggleCheck(selectedGame.id)}
+          onToggleCheck={() => {
+            toggleCheck(selectedGame.id);
+            setSelectedGame(null);
+          }}
           onClose={() => setSelectedGame(null)}
           onShowOnMap={() => {
             setActiveTab("map");
@@ -1043,9 +1046,11 @@ export default function App() {
 // - チェックボタン / 会場マップで見るボタン(タイトル一覧から開いた場合は非表示) / バツボタン
 
 function GameDetailDialog({ game, source, isChecked, onToggleCheck, onClose, onShowOnMap }) {
-  // 「タイトル一覧」タブからリスト押下で開いた場合は「会場マップで見る」非表示
-  // それ以外(マップ上のブース押下 / チェックリスト)では表示
-  const showMapButton = source !== "list" && game.floor !== "未定";
+  // 「会場マップで見る」ボタンの表示条件:
+  // - タイトル一覧から開いた場合(source==="list"): 非表示(マップ画面に居ない)
+  // - マップ上のブース押下から開いた場合(source==="map"): 非表示(同じ画面に戻るだけなので不要)
+  // - チェックリスト「リスト」タブから開いた場合(source==="checklist"): 表示
+  const showMapButton = source === "checklist" && game.floor !== "未定";
 
   // 出展内容の全文ポップアップ開閉
   const [fullDescOpen, setFullDescOpen] = useState(false);
@@ -1116,12 +1121,15 @@ function GameDetailDialog({ game, source, isChecked, onToggleCheck, onClose, onS
             <span style={{
               fontSize: 11,
               padding: "3px 10px",
+              minWidth: 60,
               background: "#E09706",
               border: "1px solid #E09706",
               borderRadius: 3,
               color: "#ffffff",
               fontWeight: "bold",
               letterSpacing: 1,
+              textAlign: "center",
+              display: "inline-block",
             }}>{game.booth}</span>
             <span style={{
               fontSize: 11,
@@ -1199,7 +1207,7 @@ function GameDetailDialog({ game, source, isChecked, onToggleCheck, onClose, onS
 
           {/* チェックボタン */}
           <button
-            onClick={onToggleCheck}
+            onClick={() => { onToggleCheck(); onClose(); }}
             style={{
               width: "100%",
               padding: "14px 0",

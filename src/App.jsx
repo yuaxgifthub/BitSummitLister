@@ -1366,13 +1366,18 @@ function GameDetailDialog({ game, source, isChecked, onToggleCheck, onClose, onS
 // - ページャー: 現在#E09706 / その他#868686
 function ImageCarousel({ images }) {
   const [index, setIndex] = useState(0);
-  const [loadErrors, setLoadErrors] = useState({}); // path -> true
+  const [loadErrors, setLoadErrors] = useState({});
+  const [loadSuccess, setLoadSuccess] = useState({});
   const touchStartX = useRef(null);
   const touchEndX = useRef(null);
 
+  const allImages = useMemo(() => images || [], [images]);
+  const settledCount = Object.keys(loadErrors).length + Object.keys(loadSuccess).length;
+  const allSettled = allImages.length === 0 || settledCount >= allImages.length;
+
   const validImages = useMemo(
-    () => (images || []).filter((p) => !loadErrors[p]),
-    [images, loadErrors]
+    () => allImages.filter((p) => !loadErrors[p] && loadSuccess[p]),
+    [allImages, loadErrors, loadSuccess]
   );
 
   // index安全化
@@ -1420,6 +1425,9 @@ function ImageCarousel({ images }) {
     touchEndX.current = null;
   };
 
+  // 全画像の読み込み結果が出るまで何も表示しない（グレーのチラつき防止）
+  if (!allSettled) return null;
+
   // 画像が1枚も無い場合: 仕様「画像が設定されていない場合、「」を表示」
   if (validImages.length === 0) {
     return (
@@ -1450,7 +1458,7 @@ function ImageCarousel({ images }) {
           position: "relative",
           width: "100%",
           aspectRatio: "16 / 9",
-          background: "#cccccc",
+          background: "transparent",
           overflow: "hidden",
           borderRadius: 2,
           userSelect: "none",
@@ -1461,7 +1469,8 @@ function ImageCarousel({ images }) {
             key={src}
             src={src}
             alt=""
-            onError={() => setLoadErrors((prev) => ({ ...prev, [src]: true }))}
+            onLoad={() => setLoadSuccess((prev) => ({ ...prev, [src]: true }))}
+            onError={() => { setLoadErrors((prev) => ({ ...prev, [src]: true })); setLoadSuccess((prev) => ({ ...prev, [src]: false })); }}
             style={{
               position: "absolute",
               inset: 0,

@@ -6,7 +6,8 @@
     "floor": "1F",
     "exhibitor": "Extremely OK Games",
     "genre": "アクション",
-    "description": "アクション×アドベンチャー×プラットフォーマー。"
+    "description": "アクション×アドベンチャー×プラットフォーマー。",
+    "storeUrl": "https://store.steampowered.com/app/3189450/City_of_None/"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "floor": "1F",
     "exhibitor": "Wonderfy Inc.",
     "genre": "アクション",
-    "description": "アクション×プラットフォーマー×パズル。Switch/PC対応。"
+    "description": "アクション×プラットフォーマー×パズル。Switch/PC対応。",
+    "storeUrl": "https://store.steampowered.com/app/3949920/CYCLIA_JOURNEY/"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "floor": "1F",
     "exhibitor": "iDiOSLAB",
     "genre": "ローグライク",
-    "description": "サバイバー系ローグライト。"
+    "description": "サバイバー系ローグライト。",
+    "storeUrl": "https://store.steampowered.com/app/3319680/Delve_Survivors/"
   },
   {
     "id": 4,
@@ -105,7 +108,8 @@
     "floor": "1F",
     "exhibitor": "Searching Interactive",
     "genre": "アクション",
-    "description": "カニをテーマにしたアクション。"
+    "description": "カニをテーマにしたアクション。",
+    "storeUrl": "https://store.steampowered.com/app/3671850/Crabmeat/"
   },
   {
     "id": 13,
@@ -123,7 +127,8 @@
     "floor": "1F",
     "exhibitor": "asaha",
     "genre": "アドベンチャー",
-    "description": "宇宙旅行をテーマにしたアドベンチャー。"
+    "description": "宇宙旅行をテーマにしたアドベンチャー。",
+    "storeUrl": "https://store.steampowered.com/app/3530160/Heartreasure_Stellar_Journey/"
   },
   {
     "id": 15,
@@ -141,7 +146,8 @@
     "floor": "1F",
     "exhibitor": "Rusty Lake",
     "genre": "パズル",
-    "description": "Rusty Lakeシリーズの新作。"
+    "description": "Rusty Lakeシリーズの新作。",
+    "storeUrl": "https://store.steampowered.com/app/3636770/Servant_of_the_Lake/"
   },
   {
     "id": 17,
@@ -150,7 +156,8 @@
     "floor": "1F",
     "exhibitor": "Dream Dock",
     "genre": "シミュレーション",
-    "description": "アドベンチャー×シミュレーション。PC/PS5/Xbox対応。"
+    "description": "アドベンチャー×シミュレーション。PC/PS5/Xbox対応。",
+    "storeUrl": "https://store.steampowered.com/app/3629430/DREADMOOR/"
   },
   {
     "id": 18,
@@ -195,7 +202,8 @@
     "floor": "1F",
     "exhibitor": "Rubel Games",
     "genre": "アクション",
-    "description": "Rubel Gamesによる新作。"
+    "description": "Rubel Gamesによる新作。",
+    "storeUrl": "https://store.steampowered.com/app/3688130/Moldwasher/"
   },
   {
     "id": 23,
@@ -258,7 +266,8 @@
     "floor": "1F",
     "exhibitor": "Stray Fawn Studio",
     "genre": "ローグライク",
-    "description": "ダンジョンクロウラー：幸運ウサギと魔法の爪。"
+    "description": "ダンジョンクロウラー：幸運ウサギと魔法の爪。",
+    "storeUrl": "https://store.steampowered.com/app/2356780/Dungeon_Clawler/"
   },
   {
     "id": 30,
@@ -267,7 +276,8 @@
     "floor": "1F",
     "exhibitor": "Blukulélé",
     "genre": "その他",
-    "description": "『Gambonanza』は、小さな盤面でハイリスクな戦いを繰り広げる、ターン制のチェスローグライク。戦術を極め、賞金を投資し、ルールを覆す新たな「ギャンビット」、タイル、駒の組み合わせを発見しよう。手強いボスに挑み、従来のチェスの常識を打ち破る無限の戦略に没頭せよ！"
+    "description": "『Gambonanza』は、小さな盤面でハイリスクな戦いを繰り広げる、ターン制のチェスローグライク。戦術を極め、賞金を投資し、ルールを覆す新たな「ギャンビット」、タイル、駒の組み合わせを発見しよう。手強いボスに挑み、従来のチェスの常識を打ち破る無限の戦略に没頭せよ！",
+    "storeUrl": "https://store.steampowered.com/app/3509230/Gambonanza/"
   },
   {
     "id": 31,
@@ -276,7 +286,8 @@
     "floor": "1F",
     "exhibitor": "O.P. Neon Games",
     "genre": "シミュレーション",
-    "description": "TCGカードショップシミュレーター。"
+    "description": "TCGカードショップシミュレーター。",
+    "storeUrl": "https://store.steampowered.com/app/3070070/TCG_Card_Shop_Simulator/"
   },
   {
     "id": 32,
@@ -303,7 +314,8 @@
     "floor": "1F",
     "exhibitor": "Nao Games",
     "genre": "アクション",
-    "description": "Ninja or Dieシリーズの続編。"
+    "description": "Ninja or Dieシリーズの続編。",
+    "storeUrl": "https://store.steampowered.com/app/4165860/"
   },
   {
     "id": 35,
@@ -357,7 +369,8 @@
     "floor": "1F",
     "exhibitor": "SOMETIMES LIMITED",
     "genre": "パズル",
-    "description": "ポイント＆クリックパズル。Steam対応。"
+    "description": "ポイント＆クリックパズル。Steam対応。",
+    "storeUrl": "https://store.steampowered.com/app/3311670/Bento_Blocks/"
   },
   {
     "id": 41,
@@ -465,7 +478,8 @@
     "floor": "1F",
     "exhibitor": "Powerbomb Games",
     "genre": "スポーツ",
-    "description": "ジャンクサッカー。"
+    "description": "ジャンクサッカー。",
+    "storeUrl": "https://store.steampowered.com/app/3621330/Pro_Jank_Footy/"
   },
   {
     "id": 53,
@@ -1203,7 +1217,8 @@
     "floor": "3F",
     "exhibitor": "terry-do GAMES",
     "genre": "アクション",
-    "description": "武術の技でダンジョンに挑め！ 攻防一体の「構え」でモンスターの群れを切り抜けろ！ 深淵を生き抜く術はカラテあるのみ――ローグライク・格闘・ダンジョンクローラーRPG。"
+    "description": "武術の技でダンジョンに挑め！ 攻防一体の「構え」でモンスターの群れを切り抜けろ！ 深淵を生き抜く術はカラテあるのみ――ローグライク・格闘・ダンジョンクローラーRPG。",
+    "storeUrl": "https://store.steampowered.com/app/3671740/KARATE_ROGUE/"
   },
   {
     "id": 135,
@@ -1212,7 +1227,8 @@
     "floor": "3F",
     "exhibitor": "Kitten Cup Studio",
     "genre": "アドベンチャー",
-    "description": "『Capy Castaway』は、カピバラの赤ちゃんと賢いカラスがパズルを解き、迷子の動物たちを助け、壊滅的な洪水に見舞われた謎の島を探検する、心温まる冒険ゲームです。好奇心、友情、そして故郷への帰り道を探る物語を通して、一人でも友達とでも楽しめる、リラックスできるストーリーアドベンチャーです。"
+    "description": "『Capy Castaway』は、カピバラの赤ちゃんと賢いカラスがパズルを解き、迷子の動物たちを助け、壊滅的な洪水に見舞われた謎の島を探検する、心温まる冒険ゲームです。好奇心、友情、そして故郷への帰り道を探る物語を通して、一人でも友達とでも楽しめる、リラックスできるストーリーアドベンチャーです。",
+    "storeUrl": "https://store.steampowered.com/app/2890240/Capy_Castaway/"
   },
   {
     "id": 136,
@@ -1221,7 +1237,8 @@
     "floor": "3F",
     "exhibitor": "D-Pad Studio",
     "genre": "アクション",
-    "description": "トランポリンがすべてを決める！ トランポリンに乗り続け、敵を押し出して勝利を目指そう。友達との大乱闘も、力を合わせて王国を救う冒険も楽しめる！ 巨大なボスに巨大なミニゲーム、それとイジワルな風船も…？ 1人で遊ぶだけじゃなく、4人でローカルマルチプレイにも対応！ 操作は片手だけでできるシンプル仕様。"
+    "description": "トランポリンがすべてを決める！ トランポリンに乗り続け、敵を押し出して勝利を目指そう。友達との大乱闘も、力を合わせて王国を救う冒険も楽しめる！ 巨大なボスに巨大なミニゲーム、それとイジワルな風船も…？ 1人で遊ぶだけじゃなく、4人でローカルマルチプレイにも対応！ 操作は片手だけでできるシンプル仕様。",
+    "storeUrl": "https://store.steampowered.com/app/748810/Vikings_On_Trampolines/"
   },
   {
     "id": 137,
@@ -1275,7 +1292,8 @@
     "floor": "3F",
     "exhibitor": "Chazak Games",
     "genre": "アクション",
-    "description": "『High Fructose』は、一人称視点のサバイバー系ローグライト。 ダッシュや壁走りで駆け回りながら、武器は自動で発動。 スピード感あふれる近接アクションで、悪魔化したフルーツを斬り刻め。 ウェーブの合間には、武器・アイテム・レシピを組み合わせ、強力なビルドを構築しよう。"
+    "description": "『High Fructose』は、一人称視点のサバイバー系ローグライト。 ダッシュや壁走りで駆け回りながら、武器は自動で発動。 スピード感あふれる近接アクションで、悪魔化したフルーツを斬り刻め。 ウェーブの合間には、武器・アイテム・レシピを組み合わせ、強力なビルドを構築しよう。",
+    "storeUrl": "https://store.steampowered.com/app/2506550/High_Fructose/"
   },
   {
     "id": 143,
@@ -1284,7 +1302,8 @@
     "floor": "3F",
     "exhibitor": "Going Places Studio",
     "genre": "アクション",
-    "description": "仕事の​成功、​恋愛成就を​期待される​上に​「幸せ」を​願っているブルーの​苦難な​生活を​描いた、​ビジュアル・インタラクティブ・ストーリーです。​"
+    "description": "仕事の​成功、​恋愛成就を​期待される​上に​「幸せ」を​願っているブルーの​苦難な​生活を​描いた、​ビジュアル・インタラクティブ・ストーリーです。​",
+    "storeUrl": "https://store.steampowered.com/app/3508430/BlueLine/"
   },
   {
     "id": 144,
@@ -1311,7 +1330,8 @@
     "floor": "3F",
     "exhibitor": "Double Stallion",
     "genre": "アクション",
-    "description": "『Surfpunk（サーフパンク）』は、ラディカルなサーファーパイレーツたちが、モンスターの群れに立ち向かう1〜4人協力プレイの**「サーフ＆スラッシュ」**アクション。プロシージャル生成される島々、クールな戦利品、そして無限に押し寄せる敵たち！"
+    "description": "『Surfpunk（サーフパンク）』は、ラディカルなサーファーパイレーツたちが、モンスターの群れに立ち向かう1〜4人協力プレイの**「サーフ＆スラッシュ」**アクション。プロシージャル生成される島々、クールな戦利品、そして無限に押し寄せる敵たち！",
+    "storeUrl": "https://store.steampowered.com/app/2434830/Surfpunk/"
   },
   {
     "id": 147,
@@ -1329,7 +1349,8 @@
     "floor": "3F",
     "exhibitor": "Alcuria Games",
     "genre": "アドベンチャー",
-    "description": "スターレス・アンブラは、過去から現在までのJRPGの魅力にインスピレーションを得た、ストーリー重視のアクションRPGです。リアルタイムバトルとパズル満載のダンジョンを探索しながら、友情と信頼が試される危険な霧の世界を冒険しましょう。ローカル協力プレイにも対応しています。"
+    "description": "スターレス・アンブラは、過去から現在までのJRPGの魅力にインスピレーションを得た、ストーリー重視のアクションRPGです。リアルタイムバトルとパズル満載のダンジョンを探索しながら、友情と信頼が試される危険な霧の世界を冒険しましょう。ローカル協力プレイにも対応しています。",
+    "storeUrl": "https://store.steampowered.com/app/3101780/Starless_Umbra/"
   },
   {
     "id": 149,
@@ -1482,7 +1503,8 @@
     "floor": "3F",
     "exhibitor": "Montblanc Hatch",
     "genre": "アクション",
-    "description": "一太刀の緊張感。和風パリィローグライト。 ターン制の奥深さとアクションの爽快感が交錯する戦闘システム。 受けて、返す。パリィを軸にした濃密な戦闘体験。"
+    "description": "一太刀の緊張感。和風パリィローグライト。 ターン制の奥深さとアクションの爽快感が交錯する戦闘システム。 受けて、返す。パリィを軸にした濃密な戦闘体験。",
+    "storeUrl": "https://store.steampowered.com/app/2263450/Endless_Samurai/"
   },
   {
     "id": 166,
@@ -1491,7 +1513,8 @@
     "floor": "3F",
     "exhibitor": "Playful Systems",
     "genre": "その他",
-    "description": "Sloppy Forgeriesは、テンポの速い対戦型ペイントゲームです。ピクセル単位でリアルタイムに正確さを測定する数少ないお絵描きゲームの一つで、名作を塗りつぶすことでスキルを磨きましょう。"
+    "description": "Sloppy Forgeriesは、テンポの速い対戦型ペイントゲームです。ピクセル単位でリアルタイムに正確さを測定する数少ないお絵描きゲームの一つで、名作を塗りつぶすことでスキルを磨きましょう。",
+    "storeUrl": "https://store.steampowered.com/app/3030560/Sloppy_Forgeries/"
   },
   {
     "id": 167,
@@ -1527,7 +1550,8 @@
     "floor": "3F",
     "exhibitor": "BattleBrew Productions",
     "genre": "アクション",
-    "description": "デートしたモンスターガールは新たな力を与えてくれるが、デートしなかった女の子は…戦うべきボスだ！このダンジョン探索型ローグライトでは、あなたは冥界の最底に閉じ込められ、そこから脱出するために戦わなければならない。恋と戦争にルールはないというなら、あなたはどうするだろうか？"
+    "description": "デートしたモンスターガールは新たな力を与えてくれるが、デートしなかった女の子は…戦うべきボスだ！このダンジョン探索型ローグライトでは、あなたは冥界の最底に閉じ込められ、そこから脱出するために戦わなければならない。恋と戦争にルールはないというなら、あなたはどうするだろうか？",
+    "storeUrl": "https://store.steampowered.com/app/3439410/HellHeart_Breaker/"
   },
   {
     "id": 171,
@@ -1653,7 +1677,7 @@
     "floor": "3F",
     "exhibitor": "KansyaGames",
     "genre": "シミュレーション",
-    "description": "個性豊かな冒険者たちが「行列」を作る武器鍛冶屋。 お客様の「得意武器」を記憶力とミニゲームで素早く特定し、タイミングアクションで武器を鍛造しましょう。 "
+    "description": "個性豊かな冒険者たちが「行列」を作る武器鍛冶屋。 お客様の「得意武器」を記憶力とミニゲームで素早く特定し、タイミングアクションで武器を鍛造しましょう。"
   },
   {
     "id": 185,
@@ -1689,7 +1713,8 @@
     "floor": "3F",
     "exhibitor": "HumaNature Studios",
     "genre": "アクション",
-    "description": "心温まる物語。主人公の少女は、自分にしか見えない幽霊と友達になる。両親の死に打ちひしがれていた少女は、友情、ダンス、そして他者を助けることを通して癒しを見出す。人生という贈り物への喜びと感謝のメッセージを伝えるために作られた作品。"
+    "description": "心温まる物語。主人公の少女は、自分にしか見えない幽霊と友達になる。両親の死に打ちひしがれていた少女は、友情、ダンス、そして他者を助けることを通して癒しを見出す。人生という贈り物への喜びと感謝のメッセージを伝えるために作られた作品。",
+    "storeUrl": "https://store.steampowered.com/app/1352700/Dancing_with_Ghosts/"
   },
   {
     "id": 189,
@@ -1797,7 +1822,8 @@
     "floor": "3F",
     "exhibitor": "Beep Japan Inc",
     "genre": "アドベンチャー",
-    "description": "コンビニ店員シミュレーター。"
+    "description": "コンビニ店員シミュレーター。",
+    "storeUrl": "https://store.steampowered.com/app/2723430/inKONBINI_One_Store_Many_Stories/"
   },
   {
     "id": 201,
@@ -1806,7 +1832,8 @@
     "floor": "3F",
     "exhibitor": "Summitsphere",
     "genre": "アクション",
-    "description": "アントンブラーストは破壊をテーマにしたハイスピード横スクロールアクションです。"
+    "description": "アントンブラーストは破壊をテーマにしたハイスピード横スクロールアクションです。",
+    "storeUrl": "https://store.steampowered.com/app/1887400/ANTONBLAST/"
   },
   {
     "id": 202,
@@ -1815,7 +1842,8 @@
     "floor": "3F",
     "exhibitor": "Pengonauts",
     "genre": "シューティング",
-    "description": "強力なメカを操縦し、エイリアンの侵略を撃退せよ！デッキ構築とグリッドベースの戦術が融合した究極のゲーム体験がここに。"
+    "description": "強力なメカを操縦し、エイリアンの侵略を撃退せよ！デッキ構築とグリッドベースの戦術が融合した究極のゲーム体験がここに。",
+    "storeUrl": "https://store.steampowered.com/app/2097570/StarVaders/"
   },
   {
     "id": 203,
@@ -1824,7 +1852,8 @@
     "floor": "3F",
     "exhibitor": "Effort Star",
     "genre": "アクション",
-    "description": "『Enter the Chronosphere』は、あなたが動くと世界も動くターン制弾幕ローグライク。"
+    "description": "『Enter the Chronosphere』は、あなたが動くと世界も動くターン制弾幕ローグライク。",
+    "storeUrl": "https://store.steampowered.com/app/1969810/Enter_the_Chronosphere/"
   },
   {
     "id": 204,

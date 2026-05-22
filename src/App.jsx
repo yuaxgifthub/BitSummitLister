@@ -1389,7 +1389,7 @@ function ImageCarousel({ images }) {
     if (validImages.length <= 1) return;
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % validImages.length);
-    }, 3000);
+    }, 4000);
     return () => clearInterval(timer);
   }, [validImages.length, index]);
 

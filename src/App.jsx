@@ -618,13 +618,21 @@ export default function App() {
         || g.floor === selectedFloor;
       return matchText && matchGenre && matchFloor;
     });
-  }, [searchText, selectedGenre, selectedFloor]);
+  }, [searchText, selectedGenre, selectedFloor, checkedIds]);
 
   const toggleCheck = (id) => {
     setCheckedIds(prev => {
       const next = new Set(prev);
-      next.has(id) ? next.delete(id) : next.add(id);
+      const willRemove = next.has(id);
+      willRemove ? next.delete(id) : next.add(id);
       try { localStorage.setItem("bitsummit-checked", JSON.stringify([...next])); } catch {}
+      // チェック解除したブースが現在のズームターゲットなら解除する
+      if (willRemove) {
+        const game = GAMES.find(g => g.id === id);
+        if (game && mapZoomTarget && mapZoomTarget.boothId === game.booth) {
+          setMapZoomTarget(null);
+        }
+      }
       return next;
     });
   };
@@ -1447,34 +1455,26 @@ function ImageCarousel({ images }) {
           borderRadius: 2,
           userSelect: "none",
         }}>
-        {/* スライドトラック */}
-        <div style={{
-          display: "flex",
-          width: `${validImages.length * 100}%`,
-          height: "100%",
-          transform: `translateX(-${index * (100 / validImages.length)}%)`,
-          transition: "transform 0.4s ease",
-        }}>
-          {validImages.map((src) => (
-            <div key={src} style={{
-              width: `${100 / validImages.length}%`,
+        {/* 画像レイヤー: 全画像を重ねてopacityでフェード */}
+        {validImages.map((src, i) => (
+          <img
+            key={src}
+            src={src}
+            alt=""
+            onError={() => setLoadErrors((prev) => ({ ...prev, [src]: true }))}
+            style={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
               height: "100%",
-              flexShrink: 0,
-            }}>
-              <img
-                src={src}
-                alt=""
-                onError={() => setLoadErrors((prev) => ({ ...prev, [src]: true }))}
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                  display: "block",
-                }}
-              />
-            </div>
-          ))}
-        </div>
+              objectFit: "cover",
+              display: "block",
+              opacity: i === index ? 1 : 0,
+              transition: "opacity 0.5s ease",
+              pointerEvents: i === index ? "auto" : "none",
+            }}
+          />
+        ))}
       </div>
 
       {/* ページャー */}

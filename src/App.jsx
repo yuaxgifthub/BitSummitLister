@@ -1435,7 +1435,7 @@ function ImageCarousel({ images }) {
         color: "#888888",
         fontSize: 14,
       }}>
-        「」
+        No Image...
       </div>
     );
   }

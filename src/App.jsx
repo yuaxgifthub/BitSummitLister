@@ -806,7 +806,11 @@ export default function App() {
             }}>
             {filtered.map(game => (
               <div key={game.id}
-                onClick={() => { setSelectedGame(game); setModalSource("list"); }}
+                onClick={() => {
+                  setSelectedGame(game);
+                  // 「選択中」フィルタからの押下は会場マップで見るボタンを出すため別sourceとする
+                  setModalSource(selectedFloor === "選択中" ? "selected-list" : "list");
+                }}
                 style={{
                   background: checkedIds.has(game.id) ? "#fff8ee" : "#fafafa",
                   border: `1px solid ${checkedIds.has(game.id) ? "#ff9e00" : "#eeeeee"}`,
@@ -900,9 +904,9 @@ export default function App() {
             borderBottom: "1px solid #eeeeee",
           }}>
             {[
+              { key: "checklist", label: checkedIds.size > 0 ? "✓ リスト (" + checkedIds.size + ")" : "✓ リスト" },
               { key: "1F", label: "1F" },
               { key: "3F", label: "3F" },
-              { key: "checklist", label: checkedIds.size > 0 ? "✓ リスト (" + checkedIds.size + ")" : "✓ リスト" },
             ].map(tab => (
               <button key={tab.key} onClick={() => setMapFloor(tab.key)}
                 style={{
@@ -1050,7 +1054,14 @@ function GameDetailDialog({ game, source, isChecked, onToggleCheck, onClose, onS
   // - タイトル一覧から開いた場合(source==="list"): 非表示(マップ画面に居ない)
   // - マップ上のブース押下から開いた場合(source==="map"): 非表示(同じ画面に戻るだけなので不要)
   // - チェックリスト「リスト」タブから開いた場合(source==="checklist"): 表示
-  const showMapButton = source === "checklist" && game.floor !== "未定";
+  // 「会場マップで見る」ボタンの表示条件:
+  // - "list": タイトル一覧の通常表示 → 非表示
+  // - "selected-list": タイトル一覧の「選択中」フィルタ時 → 表示
+  // - "checklist": 会場マップ画面の「リスト」モード → 表示
+  // - "map": マップ上のブース押下 → 非表示(既に同じ画面)
+  const showMapButton =
+    (source === "checklist" || source === "selected-list") &&
+    game.floor !== "未定";
 
   // 出展内容の全文ポップアップ開閉
   const [fullDescOpen, setFullDescOpen] = useState(false);
@@ -1120,7 +1131,7 @@ function GameDetailDialog({ game, source, isChecked, onToggleCheck, onClose, onS
           <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 12 }}>
             <span style={{
               fontSize: 11,
-              padding: "3px 10px",
+              padding: "4px 10px",
               minWidth: 60,
               background: "#E09706",
               border: "1px solid #E09706",
@@ -1130,15 +1141,18 @@ function GameDetailDialog({ game, source, isChecked, onToggleCheck, onClose, onS
               letterSpacing: 1,
               textAlign: "center",
               display: "inline-block",
+              lineHeight: 1,
             }}>{game.booth}</span>
             <span style={{
               fontSize: 11,
-              padding: "3px 10px",
+              padding: "4px 10px",
               background: "#3aa6a6",
               border: "1px solid #3aa6a6",
               borderRadius: 3,
               color: "#ffffff",
               fontWeight: "bold",
+              display: "inline-block",
+              lineHeight: 1,
             }}>{game.genre}</span>
           </div>
 

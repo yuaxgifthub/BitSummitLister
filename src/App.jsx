@@ -1366,7 +1366,7 @@ function GameDetailDialog({ game, source, isChecked, onToggleCheck, onClose, onS
 // - ページャー: 現在#E09706 / その他#868686
 function ImageCarousel({ images }) {
   const [index, setIndex] = useState(0);
-  const [loadErrors, setLoadErrors] = useState({}); // path -> true
+  const [loadErrors, setLoadErrors] = useState({});
   const touchStartX = useRef(null);
   const touchEndX = useRef(null);
 
@@ -1450,7 +1450,7 @@ function ImageCarousel({ images }) {
           position: "relative",
           width: "100%",
           aspectRatio: "16 / 9",
-          background: "#cccccc",
+          background: "transparent",
           overflow: "hidden",
           borderRadius: 2,
           userSelect: "none",

@@ -704,7 +704,14 @@
     "floor": "1F",
     "exhibitor": "Devolver Digital",
     "genre": "その他",
-    "description": "Devolver Digital出展ブース。"
+    "description": "Devolver Digital出展ブース。",
+    "images": [
+      "/images/1F-A01/1.png",
+      "/images/1F-A01/2.png",
+      "/images/1F-A01/3.png",
+      "/images/1F-A01/4.png",
+      "/images/1F-A01/5.png"
+    ]
   },
   {
     "id": 78,

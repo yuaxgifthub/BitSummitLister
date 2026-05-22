@@ -5539,5 +5539,22 @@
       "/images/1F-E11/4.png",
       "/images/1F-E11/5.png"
     ]
+  },
+  {
+    "id": 331,
+    "booth": "1F-E11",
+    "floor": "1F",
+    "title": "『無双∞』公式物販ブース",
+    "exhibitor": "株式会社クラウドイリュージョン",
+    "genre": "その他",
+    "description": "『無双∞』に関連する公式グッズを販売する物販ブース。",
+    "storeUrl": "",
+    "images": [
+      "/images/1F-E11/1.png",
+      "/images/1F-E11/2.png",
+      "/images/1F-E11/3.png",
+      "/images/1F-E11/4.png",
+      "/images/1F-E11/5.png"
+    ]
   }
 ]

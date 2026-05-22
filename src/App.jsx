@@ -1013,100 +1013,472 @@ export default function App() {
         </div>
       )}
 
-      {/* Game detail modal */}
+      {/* Game detail dialog */}
       {selectedGame && (
+        <GameDetailDialog
+          game={selectedGame}
+          source={modalSource}
+          isChecked={checkedIds.has(selectedGame.id)}
+          onToggleCheck={() => toggleCheck(selectedGame.id)}
+          onClose={() => setSelectedGame(null)}
+          onShowOnMap={() => {
+            setActiveTab("map");
+            setMapFloor(selectedGame.floor);
+            setMapZoomTarget({ boothId: selectedGame.booth, floor: selectedGame.floor });
+            setSelectedGame(null);
+          }}
+        />
+      )}
+    </div>
+  );
+}
+
+// ====================== ダイアログ実装 ======================
+// 仕様書「ダイアログ仕様.md」「タイトル画像実装仕様書.md」準拠
+// - 中央表示・マスク #000000 alpha40%
+// - ベース色 #000000
+// - 表示中は背後スクロール禁止
+// - タイトル画像: 1〜5枚, 5秒自動切替, スワイプ操作可, ページャー(現#E09706 / 他#868686)
+// - 出展内容: 1行34文字 × 4行までクランプ、「詳しくはこちら」で全文ポップアップ
+// - チェックボタン / 会場マップで見るボタン(タイトル一覧から開いた場合は非表示) / バツボタン
+
+function GameDetailDialog({ game, source, isChecked, onToggleCheck, onClose, onShowOnMap }) {
+  // 「タイトル一覧」タブからリスト押下で開いた場合は「会場マップで見る」非表示
+  // それ以外(マップ上のブース押下 / チェックリスト)では表示
+  const showMapButton = source !== "list" && game.floor !== "未定";
+
+  // 出展内容の全文ポップアップ開閉
+  const [fullDescOpen, setFullDescOpen] = useState(false);
+
+  // 背後スクロール禁止（表示中のみ）
+  useEffect(() => {
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = prev; };
+  }, []);
+
+  // ESCで閉じる
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  const images = Array.isArray(game.images) ? game.images : [];
+  const description = game.description || "";
+  // 1行34文字×4行=最大136文字を超える場合に「詳しくはこちら」を出す
+  const MAX_CHARS = 34 * 4;
+  const needsExpand = description.length > MAX_CHARS;
+
+  return (
+    <>
+      {/* マスク + ダイアログ */}
+      <div
+        onClick={onClose}
+        style={{
+          position: "fixed",
+          inset: 0,
+          background: "rgba(0,0,0,0.4)", // #000000 alpha 40%
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          zIndex: 200,
+          padding: "20px 12px",
+          overflowY: "auto",
+        }}>
         <div
-          onClick={() => setSelectedGame(null)}
+          onClick={(e) => e.stopPropagation()}
           style={{
-            position: "fixed", inset: 0,
-            background: "rgba(0,0,0,0.5)",
-            display: "flex", alignItems: "flex-end",
-            zIndex: 200,
+            width: "100%",
+            maxWidth: 360,
+            background: "#000000",
+            border: "1px solid #2a2a2a",
+            borderRadius: 12,
+            padding: "20px 18px 24px",
+            color: "#ffffff",
+            position: "relative",
+            boxShadow: "0 8px 32px rgba(0,0,0,0.6)",
           }}>
-          <div
-            onClick={e => e.stopPropagation()}
-            style={{
-              width: "100%",
-              background: "#0a1414",
-              border: "1px solid #0a4a4a",
-              borderTopLeftRadius: 16,
-              borderTopRightRadius: 16,
-              padding: "24px 20px 32px",
-            }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 12 }}>
-              <div style={{ flex: 1 }}>
-                <div style={{ fontSize: 16, fontWeight: "bold", color: "#ffffff", marginBottom: 8, lineHeight: 1.4 }}>
-                  {selectedGame.title}
-                </div>
-                <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-                  <span style={{
-                    fontSize: 10, padding: "3px 9px",
-                    background: "#fff8ee", border: "1px solid #ff9e00",
-                    borderRadius: 3, color: "#cc6600", letterSpacing: 1,
-                  }}>{selectedGame.booth}</span>
-                  <span style={{
-                    fontSize: 10, padding: "3px 9px",
-                    background: "#f5f0ff", border: "1px solid #bb88dd",
-                    borderRadius: 3, color: "#8844aa",
-                  }}>{selectedGame.genre}</span>
-                </div>
-              </div>
-              <button onClick={() => setSelectedGame(null)}
-                style={{ background: "none", border: "none", color: "#aaaaaa", fontSize: 20, cursor: "pointer", padding: 4 }}>
-                ✕
+          {/* タイトル */}
+          <div style={{
+            fontSize: 18,
+            fontWeight: "bold",
+            color: "#ffffff",
+            marginBottom: 10,
+            lineHeight: 1.3,
+            wordBreak: "break-word",
+          }}>
+            {game.title}
+          </div>
+
+          {/* ブース番号 + ジャンル */}
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 12 }}>
+            <span style={{
+              fontSize: 11,
+              padding: "3px 10px",
+              background: "#E09706",
+              border: "1px solid #E09706",
+              borderRadius: 3,
+              color: "#ffffff",
+              fontWeight: "bold",
+              letterSpacing: 1,
+            }}>{game.booth}</span>
+            <span style={{
+              fontSize: 11,
+              padding: "3px 10px",
+              background: "#3aa6a6",
+              border: "1px solid #3aa6a6",
+              borderRadius: 3,
+              color: "#ffffff",
+              fontWeight: "bold",
+            }}>{game.genre}</span>
+          </div>
+
+          {/* 出展者 */}
+          <div style={{ fontSize: 11, color: "#aaaaaa", marginBottom: 8 }}>
+            出展者
+          </div>
+          <div style={{ fontSize: 13, color: "#ffffff", marginBottom: 14 }}>
+            {game.exhibitor || "「」"}
+          </div>
+
+          {/* タイトル画像カルーセル */}
+          <ImageCarousel images={images} />
+
+          {/* 出展内容 */}
+          <div style={{ fontSize: 12, color: "#aaaaaa", marginTop: 18, marginBottom: 6 }}>
+            出展内容
+          </div>
+          <div style={{
+            fontSize: 12,
+            color: "#ffffff",
+            lineHeight: 1.7,
+            display: "-webkit-box",
+            WebkitLineClamp: 4,
+            WebkitBoxOrient: "vertical",
+            overflow: "hidden",
+            wordBreak: "break-word",
+          }}>
+            {description}
+          </div>
+          {needsExpand && (
+            <div style={{ textAlign: "right", marginTop: 4 }}>
+              <button
+                onClick={() => setFullDescOpen(true)}
+                style={{
+                  background: "none",
+                  border: "none",
+                  color: "#ffffff",
+                  fontSize: 12,
+                  textDecoration: "underline",
+                  cursor: "pointer",
+                  padding: 0,
+                }}>
+                詳しくはこちら
               </button>
             </div>
+          )}
 
-            <div style={{ fontSize: 11, color: "#888888", marginBottom: 12 }}>
-              出展社：{selectedGame.exhibitor}
-            </div>
-            <div style={{ fontSize: 13, color: "#ffffff", lineHeight: 1.7, marginBottom: 20 }}>
-              {selectedGame.description}
-            </div>
+          {/* ストアリンクURL */}
+          <div style={{ fontSize: 12, color: "#aaaaaa", marginTop: 16, marginBottom: 6 }}>
+            ストアリンクURL
+          </div>
+          <div style={{ fontSize: 12, marginBottom: 20, wordBreak: "break-all" }}>
+            {game.storeUrl ? (
+              <a
+                href={game.storeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#9bd1ff", textDecoration: "underline" }}>
+                {game.storeUrl}
+              </a>
+            ) : (
+              <span style={{ color: "#888888" }}>None</span>
+            )}
+          </div>
 
+          {/* チェックボタン */}
+          <button
+            onClick={onToggleCheck}
+            style={{
+              width: "100%",
+              padding: "14px 0",
+              background: isChecked ? "transparent" : "#E09706",
+              border: `2px solid #E09706`,
+              borderRadius: 6,
+              color: isChecked ? "#E09706" : "#ffffff",
+              fontSize: 15,
+              fontWeight: "bold",
+              cursor: "pointer",
+              letterSpacing: 1,
+            }}>
+            {isChecked ? "チェック済み" : "チェックする"}
+          </button>
+
+          {/* 会場マップで見るボタン (会場マップ画面表示のみ) */}
+          {showMapButton && (
             <button
-              onClick={() => { toggleCheck(selectedGame.id); setSelectedGame(null); }}
+              onClick={onShowOnMap}
               style={{
                 width: "100%",
+                marginTop: 10,
                 padding: "14px 0",
-                background: checkedIds.has(selectedGame.id) ? "#fff8ee" : "#ff9e00",
-                border: `2px solid ${checkedIds.has(selectedGame.id) ? "#ff9e00" : "#ff9e00"}`,
-                borderRadius: 8,
-                color: checkedIds.has(selectedGame.id) ? "#ff9e00" : "#fff",
-                fontFamily: "monospace",
-                fontSize: 13,
+                background: "#E09706",
+                border: "2px solid #E09706",
+                borderRadius: 6,
+                color: "#ffffff",
+                fontSize: 15,
                 fontWeight: "bold",
                 cursor: "pointer",
                 letterSpacing: 1,
               }}>
-              {checkedIds.has(selectedGame.id) ? "✓ チェックを外す" : "+ チェックリストに追加"}
+              会場マップで見る
             </button>
-            {selectedGame.floor !== "未定" && modalSource === "checklist" && (
+          )}
+
+          {/* バツボタン (中央下部) */}
+          <div style={{ display: "flex", justifyContent: "center", marginTop: 18 }}>
+            <button
+              onClick={onClose}
+              aria-label="閉じる"
+              style={{
+                width: 40,
+                height: 40,
+                borderRadius: "50%",
+                background: "#f4eedb",
+                border: "none",
+                color: "#000000",
+                fontSize: 18,
+                fontWeight: "bold",
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                lineHeight: 1,
+              }}>
+              ✕
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* 出展内容 全文ポップアップ */}
+      {fullDescOpen && (
+        <div
+          onClick={() => setFullDescOpen(false)}
+          style={{
+            position: "fixed",
+            inset: 0,
+            background: "rgba(0,0,0,0.4)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 300,
+            padding: "20px 16px",
+          }}>
+          <div
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              width: "100%",
+              maxWidth: 340,
+              maxHeight: "80vh",
+              overflowY: "auto",
+              background: "#000000",
+              border: "1px solid #2a2a2a",
+              borderRadius: 12,
+              padding: "20px 18px",
+              color: "#ffffff",
+            }}>
+            <div style={{ fontSize: 13, fontWeight: "bold", marginBottom: 12, color: "#E09706" }}>
+              出展内容
+            </div>
+            <div style={{
+              fontSize: 13,
+              lineHeight: 1.8,
+              whiteSpace: "pre-wrap",
+              wordBreak: "break-word",
+              marginBottom: 18,
+            }}>
+              {description}
+            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
               <button
-                onClick={() => {
-                  setActiveTab("map");
-                  setMapFloor(selectedGame.floor);
-                  setMapZoomTarget({ boothId: selectedGame.booth, floor: selectedGame.floor });
-                  setSelectedGame(null);
-                }}
+                onClick={() => setFullDescOpen(false)}
                 style={{
-                  width: "100%",
-                  marginTop: 10,
-                  padding: "14px 0",
-                  background: "#ffffff",
-                  border: "2px solid #ff9e00",
-                  borderRadius: 8,
-                  color: "#ff9e00",
-                  fontFamily: "monospace",
-                  fontSize: 13,
+                  width: 40,
+                  height: 40,
+                  borderRadius: "50%",
+                  background: "#f4eedb",
+                  border: "none",
+                  color: "#000000",
+                  fontSize: 18,
                   fontWeight: "bold",
                   cursor: "pointer",
-                  letterSpacing: 1,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  lineHeight: 1,
                 }}>
-                🗺 マップでブースを見る
+                ✕
               </button>
-            )}
+            </div>
           </div>
+        </div>
+      )}
+    </>
+  );
+}
+
+// 画像カルーセル
+// - 1〜5枚対応、0枚は画像エリア非表示
+// - 5秒で自動切替(右→左へスワイプアニメ)
+// - 左右スワイプで手動切替
+// - ページャー: 現在#E09706 / その他#868686
+function ImageCarousel({ images }) {
+  const [index, setIndex] = useState(0);
+  const [loadErrors, setLoadErrors] = useState({}); // path -> true
+  const touchStartX = useRef(null);
+  const touchEndX = useRef(null);
+
+  const validImages = useMemo(
+    () => (images || []).filter((p) => !loadErrors[p]),
+    [images, loadErrors]
+  );
+
+  // index安全化
+  useEffect(() => {
+    if (validImages.length === 0) {
+      if (index !== 0) setIndex(0);
+    } else if (index >= validImages.length) {
+      setIndex(0);
+    }
+  }, [validImages.length, index]);
+
+  // 5秒で自動切替
+  useEffect(() => {
+    if (validImages.length <= 1) return;
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % validImages.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [validImages.length, index]);
+
+  const goNext = useCallback(() => {
+    if (validImages.length === 0) return;
+    setIndex((prev) => (prev + 1) % validImages.length);
+  }, [validImages.length]);
+
+  const goPrev = useCallback(() => {
+    if (validImages.length === 0) return;
+    setIndex((prev) => (prev - 1 + validImages.length) % validImages.length);
+  }, [validImages.length]);
+
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+    touchEndX.current = null;
+  };
+  const handleTouchMove = (e) => {
+    touchEndX.current = e.touches[0].clientX;
+  };
+  const handleTouchEnd = () => {
+    if (touchStartX.current == null || touchEndX.current == null) return;
+    const dx = touchEndX.current - touchStartX.current;
+    const THRESHOLD = 40;
+    if (dx < -THRESHOLD) goNext();      // 右→左フリックで次へ
+    else if (dx > THRESHOLD) goPrev();  // 左→右フリックで前へ
+    touchStartX.current = null;
+    touchEndX.current = null;
+  };
+
+  // 画像が1枚も無い場合: 仕様「画像が設定されていない場合、「」を表示」
+  if (validImages.length === 0) {
+    return (
+      <div style={{
+        width: "100%",
+        aspectRatio: "16 / 9",
+        background: "#1a1a1a",
+        border: "1px solid #2a2a2a",
+        borderRadius: 4,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        color: "#888888",
+        fontSize: 14,
+      }}>
+        「」
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <div
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        style={{
+          position: "relative",
+          width: "100%",
+          aspectRatio: "16 / 9",
+          background: "#cccccc",
+          overflow: "hidden",
+          borderRadius: 2,
+          userSelect: "none",
+        }}>
+        {/* スライドトラック */}
+        <div style={{
+          display: "flex",
+          width: `${validImages.length * 100}%`,
+          height: "100%",
+          transform: `translateX(-${index * (100 / validImages.length)}%)`,
+          transition: "transform 0.4s ease",
+        }}>
+          {validImages.map((src) => (
+            <div key={src} style={{
+              width: `${100 / validImages.length}%`,
+              height: "100%",
+              flexShrink: 0,
+            }}>
+              <img
+                src={src}
+                alt=""
+                onError={() => setLoadErrors((prev) => ({ ...prev, [src]: true }))}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  display: "block",
+                }}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* ページャー */}
+      {validImages.length > 1 && (
+        <div style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: 6,
+          marginTop: 8,
+        }}>
+          {validImages.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setIndex(i)}
+              aria-label={`画像 ${i + 1} を表示`}
+              style={{
+                width: 8,
+                height: 8,
+                borderRadius: "50%",
+                background: i === index ? "#E09706" : "#868686",
+                border: "none",
+                padding: 0,
+                cursor: "pointer",
+              }}
+            />
+          ))}
         </div>
       )}
     </div>

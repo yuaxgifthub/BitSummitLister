@@ -1270,14 +1270,11 @@
     "booth": "1F-A01",
     "floor": "1F",
     "exhibitor": "Devolver Digital",
-    "genre": "その他",
-    "description": "Devolver Digital出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: Heave Ho 2、Dark Scrolls。",
     "images": [
-      "/images/1F-A01/1.png",
-      "/images/1F-A01/2.png",
-      "/images/1F-A01/3.png",
-      "/images/1F-A01/4.png",
-      "/images/1F-A01/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Heave-Ho-2-Key-Art.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/DarkScrolls_KeyArt_Horizontal-copy.jpg"
     ]
   },
   {
@@ -1287,13 +1284,12 @@
     "floor": "1F",
     "exhibitor": "インティ・クリエイツ",
     "genre": "アクション",
-    "description": "白き鋼鉄のX 1+2 デュアルコレクション、魔女ガミ、ぼくらのキングダム、蒼き雷霆 ガンヴォルトを試遊出展。",
+    "description": "出展タイトル: <big id=\"GVFSP\"><ruby>蒼き雷霆<rt>アームドブルー</rt></ruby>ガンヴォルト トライアングル エディション Nintendo Switch 2 Edition</big>、<big id=\"ADC\">白き鋼鉄の<ruby>X<rt>イクス</rt></ruby> 1+2 デュアルコレクション</big>、<big id=\"BKR\">ぼくらのキングダム 時食む果実といにしえの魔物</big>、<big id=\"MJG\">魔女ガミ－The Witch of Luludidea－</big>。",
     "images": [
-      "/images/1F-A02/1.png",
-      "/images/1F-A02/2.png",
-      "/images/1F-A02/3.png",
-      "/images/1F-A02/4.png",
-      "/images/1F-A02/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/b38bd8e5ccb20686e2536aeb8331a6a1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/09266c85976da66632050c740b5c712f.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/be9dca7d4c22de8087e1d8c21cbfbc9f.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/e46a3089200fc0240d96d92d9bfda4af.png"
     ]
   },
   {
@@ -1302,14 +1298,14 @@
     "booth": "1F-A03",
     "floor": "1F",
     "exhibitor": "KOCCA",
-    "genre": "その他",
-    "description": "韓国コンテンツ振興院（KOCCA）のブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: Archetype Blue(アーキタイプ・ブルー）、BLACKOUT: Zero Point、Lone Chef、MODULE:BERSERK(モジュール・バーサーク)、MONOWAVE、Project Revenant(プロジェクト・レヴェナント)、Staffer Retro: 超能力推理クエスト、THANKS, LIGHT.(サンクス、ライト。)、There is NO PLAN B(ゼア・イズ・ノー・プラン・ビー)、VELASTER(ベラスター)。",
     "images": [
-      "/images/1F-A03/1.png",
-      "/images/1F-A03/2.png",
-      "/images/1F-A03/3.png",
-      "/images/1F-A03/4.png",
-      "/images/1F-A03/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/ArchetypeBlue1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Main_c.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/LoneChef_InstagramImage_EN.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/3a953d851d046c4d7791cc1f524e8305.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/3.-MONOWAVE_keyart_1x1.jpg"
     ]
   },
   {
@@ -1318,14 +1314,14 @@
     "booth": "1F-A04",
     "floor": "1F",
     "exhibitor": "株式会社ハピネット",
-    "genre": "アドベンチャー",
-    "description": "Tokyo Stories、Stray (Switch 2版)、Apopia、モノノケの国、アーティスインパクトなどを出展。",
+    "genre": "アクション",
+    "description": "出展タイトル: モノノケの国、アーティス インパクト、Apopia: スイート・ナイトメア、Stray、Tokyo Stories。",
     "images": [
-      "/images/1F-A04/1.png",
-      "/images/1F-A04/2.png",
-      "/images/1F-A04/3.png",
-      "/images/1F-A04/4.png",
-      "/images/1F-A04/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/6c4a783bee5f58bdbc7215e1f2216191.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/221c5426e1c5c96cd7cab5a7250141be.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/89449d5303e6f7473092b73ca7dd9d0d.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Stray_Sponserpage.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/TokyoStories_Sponser.jpg"
     ]
   },
   {
@@ -1334,14 +1330,14 @@
     "booth": "1F-A05",
     "floor": "1F",
     "exhibitor": "NZ CODE",
-    "genre": "その他",
-    "description": "ニュージーランドのゲーム企業ブース。",
+    "genre": "RPG",
+    "description": "出展タイトル: Canvas City、How Was Your Day?、Ten Thousand Coins: The Golden Merchant、Teeto、Mech Support、Star Catcher、The Florist、Toroa: Skycall。",
     "images": [
-      "/images/1F-A05/1.png",
-      "/images/1F-A05/2.png",
-      "/images/1F-A05/3.png",
-      "/images/1F-A05/4.png",
-      "/images/1F-A05/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/CanvasCity_KeyArt_16x9_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/HowWasYourDay_Key-Art-Title_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/tenthousandcoins_key_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Teeto-keyart_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/MechSupport_LandscapeKeyArt_420w.jpg"
     ]
   },
   {
@@ -1351,13 +1347,13 @@
     "floor": "1F",
     "exhibitor": "ポケットペア",
     "genre": "アクション",
-    "description": "Palworldの開発元。最新タイトル等の試遊出展予定。",
+    "description": "出展タイトル: Palworld / パルワールド、Windrose / ウィンドローズ、Truckful / トラックフル、CASSETTE BOY / カセットボーイ、Normal Fishing / ノーマルフィッシング、Never Grave: The Witch and The Curse。",
     "images": [
-      "/images/1F-A06/1.png",
-      "/images/1F-A06/2.png",
-      "/images/1F-A06/3.png",
-      "/images/1F-A06/4.png",
-      "/images/1F-A06/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Palworld_KeyArt.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Windrose__KeyArt_JP.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/KeyArt_truckful_1920x1080_EN_ps.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/CassetteBoy_Key-Art.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/NormalFishing_ppp.png"
     ]
   },
   {
@@ -1366,14 +1362,14 @@
     "booth": "1F-A07",
     "floor": "1F",
     "exhibitor": "Screen Australia",
-    "genre": "その他",
-    "description": "オーストラリアのスクリーン産業政府機関のブース。",
+    "genre": "RPG",
+    "description": "出展タイトル: Management In Space、Ascent of the Last Colossus、Jupiter Junkworks、Dungeons and Dining Tables、Slumbering Woods、Nullstar: Solus、Potions, Please!。",
     "images": [
-      "/images/1F-A07/1.png",
-      "/images/1F-A07/2.png",
-      "/images/1F-A07/3.png",
-      "/images/1F-A07/4.png",
-      "/images/1F-A07/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/MIS-KEY-ART-LANDSCAPE_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/AOTLC_logo_420w.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Pixel-Drake-Jupiter-Junkworks-Key-Art_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/DNDT_PageBackground_2_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Slumbering-Woods-Banner_420w.jpg"
     ]
   },
   {
@@ -1382,14 +1378,14 @@
     "booth": "1F-A08",
     "floor": "1F",
     "exhibitor": "Kakehashi Games",
-    "genre": "その他",
-    "description": "Kakehashi Gamesの出展ブース。",
+    "genre": "RPG",
+    "description": "出展タイトル: ムーミントロール:冬のぬくもり、Algolemeth、Serial World / シリアルワールド、Deep Dish Dungeon、Vikings on Trampolines。",
     "images": [
-      "/images/1F-A08/1.png",
-      "/images/1F-A08/2.png",
-      "/images/1F-A08/3.png",
-      "/images/1F-A08/4.png",
-      "/images/1F-A08/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Moomintroll_keyart_JPlogo_CR_16-9.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Algolemeth_KeyVisual_1920x1080.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/SerialWorld_KeyArt_WithLogo_1920x1080-BS.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/DDD_Keyart01_BS.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/VoT-capsule.jpg"
     ]
   },
   {
@@ -1399,13 +1395,13 @@
     "floor": "1F",
     "exhibitor": "GAME SOURCE ENTERTAINMENT",
     "genre": "アクション",
-    "description": "ラタタン (Switch 2版)、電車アタック、THANKS, LIGHT.などを出展。",
+    "description": "出展タイトル: ラタタン、スターシップ・トゥルーパーズ：アルティメット・バグ・ウォー、キャッスル・オブ・アルケミスト、電車アタック、THANKS, LIGHT.。",
     "images": [
-      "/images/1F-A09/1.png",
-      "/images/1F-A09/2.png",
-      "/images/1F-A09/3.png",
-      "/images/1F-A09/4.png",
-      "/images/1F-A09/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/JWlogoV2a_color.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/STUBW_LogoJP.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/jp-logo2-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Denshattack_logo_final_Yellow.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/THANKS-LIGHT._Black.png"
     ]
   },
   {
@@ -1414,14 +1410,14 @@
     "booth": "1F-A10",
     "floor": "1F",
     "exhibitor": "電ファミニコゲーマー",
-    "genre": "その他",
-    "description": "ゲームメディアのブース。",
+    "genre": "RPG",
+    "description": "出展タイトル: UGOMEKU NOTE、Under A Groove、コロコロフレンズ、Re:Connect、クトゥルフ神話カードゲームADV Erase-missing link-、ヴェリタステイルズ：暗黒城の魔女、勇者パーティはぜんめつしました。、Saga &amp; Seeker、事故物件だよ！うらみちゃん、Pain Pain Go Away! ほか1本。",
     "images": [
-      "/images/1F-A10/1.png",
-      "/images/1F-A10/2.png",
-      "/images/1F-A10/3.png",
-      "/images/1F-A10/4.png",
-      "/images/1F-A10/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/ugomeku.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/groove_new.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/corocoro.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/recconect.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/erase.jpg"
     ]
   },
   {
@@ -1446,14 +1442,14 @@
     "booth": "1F-A12",
     "floor": "1F",
     "exhibitor": "Critical Reflex",
-    "genre": "シミュレーション",
-    "description": "Graveyard Keeper 2など。棺桶に寝そべりながら体験プレイできるユニークな展示あり。",
+    "genre": "RPG",
+    "description": "出展タイトル: TANUKI: Pon's Summer、No, I'm not a Human、Militsioner、Being and Becoming、Altered Alma、Inkblood、GIMMIKO、Drowned Lake、Burden Street Station、Cucina Stellata ✦ Starred Cuisine。",
     "images": [
-      "/images/1F-A12/1.png",
-      "/images/1F-A12/2.png",
-      "/images/1F-A12/3.png",
-      "/images/1F-A12/4.png",
-      "/images/1F-A12/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/TANUKI-Keyart_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Keyart-420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Promo16x9BlackHatLogo_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/BeingBecoming-title_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/New-AA-Keyart_420w.jpg"
     ]
   },
   {
@@ -1463,13 +1459,13 @@
     "floor": "1F",
     "exhibitor": "Ukiyo Studios",
     "genre": "アドベンチャー",
-    "description": "Tanuki: Pon's Summer、No, I'm not a Human、Inkblood、Cucina Stellata、Altered Alma、Being & Becomingなど。",
+    "description": "出展タイトル: We Took That Trip、CRYMELIGHT、HYPERyuki: Snowboard Syndicate、Kidbash: Super Legend、Mina the Hollower、Shovel Knight: Treasure Trove、Rain98、Sledding Game、Box Knight、VOID DIVER: Escape from the Abyss。",
     "images": [
-      "/images/1F-A13/1.png",
-      "/images/1F-A13/2.png",
-      "/images/1F-A13/3.png",
-      "/images/1F-A13/4.png",
-      "/images/1F-A13/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/WETO-keyart_logo_16-9_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/CRYMELIGHT_Key-Art_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/HyperYuki_snowboard_syndicate_Keyart-1_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/MAINKV_PLATFORMING_HOR_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Hero-Banner-Key-Art_420.jpg"
     ]
   },
   {
@@ -1478,14 +1474,13 @@
     "booth": "1F-A14",
     "floor": "1F",
     "exhibitor": "PARCO GAMES",
-    "genre": "その他",
-    "description": "試遊可能タイトルはこちら\nFinding Polka』『Constance』『南極計画』『The Berlin Apartment』",
+    "genre": "アドベンチャー",
+    "description": "出展タイトル: 南極計画、Constance、the Berlin Apartment、Finding Polka。",
     "images": [
-      "/images/1F-A14/1.png",
-      "/images/1F-A14/2.png",
-      "/images/1F-A14/3.png",
-      "/images/1F-A14/4.png",
-      "/images/1F-A14/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/850c7612116999490846136e772ab7fd.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/9ff084b0c9cb04d20934b8d3bf94e1a3.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/6dee720f7498bb43c796216be1b36592.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/49869f429542dad03d0f864f1d6c63aa.png"
     ]
   },
   {
@@ -1558,14 +1553,13 @@
     "booth": "1F-A19",
     "floor": "1F",
     "exhibitor": "株式会社ドリコム",
-    "genre": "その他",
-    "description": "ドリコムの出展ブース。",
+    "genre": "パズル",
+    "description": "出展タイトル: TIMEMOON、Quiet Express: Cabin 909、Beautiful Life Show、Chill Planet。",
     "images": [
-      "/images/1F-A19/1.png",
-      "/images/1F-A19/2.png",
-      "/images/1F-A19/3.png",
-      "/images/1F-A19/4.png",
-      "/images/1F-A19/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/headerjp.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/KeyVisual_JP-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/BLSbanner16_9.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Chill-Planet_thum.png"
     ]
   },
   {
@@ -1575,13 +1569,13 @@
     "floor": "1F",
     "exhibitor": "tinyBuild",
     "genre": "その他",
-    "description": "tinyBuildの出展ブース。",
+    "description": "出展タイトル: ReStory: Chill Electronics Repairs、SpeedRunners 2: King of Speed、Hull Rupture、The King is Watching、Hozy、Potion Craft: Alchemist Simulator、Graveyard Keeper 2、Drill Core、Silent Road。",
     "images": [
-      "/images/1F-A20/1.png",
-      "/images/1F-A20/2.png",
-      "/images/1F-A20/3.png",
-      "/images/1F-A20/4.png",
-      "/images/1F-A20/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/ReStory-Key-Art_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/SpeedRunners2_KeyArt_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Hull-Rupture-4k-Keyart_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/TKIW_key-art_420w.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/hozy_keyart_420w.jpg"
     ]
   },
   {
@@ -1590,14 +1584,11 @@
     "booth": "1F-A21",
     "floor": "1F",
     "exhibitor": "New Blood Interactive",
-    "genre": "ホラー",
-    "description": "Dungeons of Dusk、Tenebris Somniaなどを出展。",
+    "genre": "RPG",
+    "description": "出展タイトル: Dungeons of DUSK、Tenebris Somnia。",
     "images": [
-      "/images/1F-A21/1.png",
-      "/images/1F-A21/2.png",
-      "/images/1F-A21/3.png",
-      "/images/1F-A21/4.png",
-      "/images/1F-A21/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Copy-of-141125_DungeonsOfDUSK_NewBlood_KeyArt_420.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/TenebrisSomniaLayeredKeyArt_420w.jpg"
     ]
   },
   {
@@ -1607,13 +1598,10 @@
     "floor": "1F",
     "exhibitor": "株式会社CRI・ミドルウェア",
     "genre": "その他",
-    "description": "ゲーム開発ミドルウェアのブース。",
+    "description": "出展タイトル: CRI ADX LE、OPTPiX SpriteStudio。",
     "images": [
-      "/images/1F-A22/1.png",
-      "/images/1F-A22/2.png",
-      "/images/1F-A22/3.png",
-      "/images/1F-A22/4.png",
-      "/images/1F-A22/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/CRI_ADX-LE.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/CRI_SS.png"
     ]
   },
   {
@@ -1622,14 +1610,14 @@
     "booth": "1F-A23",
     "floor": "1F",
     "exhibitor": "CiGA（China indie Game Alliance）",
-    "genre": "その他",
-    "description": "中国インディーゲーム連盟のブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: ルナリウム星の旅、異星開拓日記、スターサンド・アイランド、Ashes of Pantheon、Muse Dash 2、Sleepover、審判官シェパード、超アロイクラッシュ、No Such Place。",
     "images": [
-      "/images/1F-A23/1.png",
-      "/images/1F-A23/2.png",
-      "/images/1F-A23/3.png",
-      "/images/1F-A23/4.png",
-      "/images/1F-A23/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/b3590215cb8b978a7f0d2aeec713ca87.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/3c7f1c5312902c12601061f35c94ce47.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/83b38d1156d3d9f1793bd8685d1cea51-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/98fab4d0212bf51baafec69be450c1b6-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/90ea436a6f8753f5957235f15f70e3f3.jpg"
     ]
   },
   {
@@ -1638,14 +1626,10 @@
     "booth": "1F-A24",
     "floor": "1F",
     "exhibitor": "アニプレックス",
-    "genre": "その他",
-    "description": "アニプレックスの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: OCTOPinbs。",
     "images": [
-      "/images/1F-A24/1.png",
-      "/images/1F-A24/2.png",
-      "/images/1F-A24/3.png",
-      "/images/1F-A24/4.png",
-      "/images/1F-A24/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/903d2563f8f7607cda40cdf47f83bfa3.png"
     ]
   },
   {
@@ -1655,13 +1639,11 @@
     "floor": "1F",
     "exhibitor": "東映ゲームズ",
     "genre": "アクション",
-    "description": "KILLA、HINO、DEBUG NEPHEMEEを出展。試遊でオリジナルクリアカードプレゼント。",
+    "description": "出展タイトル: KILLA、HINO、DEBUG NEPHEMEE -デバッグネフェミー-。",
     "images": [
-      "/images/1F-A25/1.png",
-      "/images/1F-A25/2.png",
-      "/images/1F-A25/3.png",
-      "/images/1F-A25/4.png",
-      "/images/1F-A25/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/KILLA_MAIN-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/HINO_MAIN-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/DEBUG_MAIN-1.png"
     ]
   },
   {
@@ -1686,14 +1668,14 @@
     "booth": "1F-A27",
     "floor": "1F",
     "exhibitor": "iGi indie Game incubator",
-    "genre": "その他",
-    "description": "iGiインキュベーション参加スタジオの紹介。",
+    "genre": "アドベンチャー",
+    "description": "出展タイトル: ディストピア VS ディストーション、レプリカクラブ ルートD、ナカノ人格移植研究所、Voyage Router、Cross the C。",
     "images": [
-      "/images/1F-A27/1.png",
-      "/images/1F-A27/2.png",
-      "/images/1F-A27/3.png",
-      "/images/1F-A27/4.png",
-      "/images/1F-A27/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/iGi_Dystopia-VS-Distortion.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/0300cd2f01724fc8c37470f8779decb7.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/iGi_The-Nakano-Laboratory_JP-2.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/iGi_Voyage-Router.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/iGi_Cross_the_C.png"
     ]
   },
   {
@@ -1702,14 +1684,12 @@
     "booth": "1F-B01",
     "floor": "1F",
     "exhibitor": "INDIENOVA",
-    "genre": "その他",
-    "description": "INDIENOVAの出展ブース。",
+    "genre": "パズル",
+    "description": "出展タイトル: 小さな生活：上海編、メジャーマン、存在/しないあなた、と私。",
     "images": [
-      "/images/1F-B01/1.png",
-      "/images/1F-B01/2.png",
-      "/images/1F-B01/3.png",
-      "/images/1F-B01/4.png",
-      "/images/1F-B01/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Small-Life-Shanghai-JPv3.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Tape-Man-JP.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/The-NOexistenceN-of-you-AND-me-JP.jpg"
     ]
   },
   {
@@ -1718,14 +1698,11 @@
     "booth": "1F-B02",
     "floor": "1F",
     "exhibitor": "株式会社スピード",
-    "genre": "その他",
-    "description": "スピードの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: モーションマッチャー、宇宙銀河ウォーズ。",
     "images": [
-      "/images/1F-B02/1.png",
-      "/images/1F-B02/2.png",
-      "/images/1F-B02/3.png",
-      "/images/1F-B02/4.png",
-      "/images/1F-B02/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/motionmatcher_logo.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/7399b4bc2b6eddef7603370d9d0bbb0d.png"
     ]
   },
   {
@@ -1783,13 +1760,11 @@
     "floor": "1F",
     "exhibitor": "Black Lantern Collective",
     "genre": "ホラー",
-    "description": "KOPERNICUS、Sucker for Love: Crush Landingを出展。",
+    "description": "出展タイトル: Sucker for Love: Crush Landing、HR: Human Remains、Horripilant。",
     "images": [
-      "/images/1F-B06/1.png",
-      "/images/1F-B06/2.png",
-      "/images/1F-B06/3.png",
-      "/images/1F-B06/4.png",
-      "/images/1F-B06/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/sfl_key_420w-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/HR_Key_420w-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/horripilant_key_420w-1.jpg"
     ]
   },
   {
@@ -1799,13 +1774,10 @@
     "floor": "1F",
     "exhibitor": "SKOOTA GAMES",
     "genre": "その他",
-    "description": "SKOOTA GAMESの出展ブース。",
+    "description": "出展タイトル: ももっとクラッシュ、太ももうさぎの大撃腿。",
     "images": [
-      "/images/1F-B07/1.png",
-      "/images/1F-B07/2.png",
-      "/images/1F-B07/3.png",
-      "/images/1F-B07/4.png",
-      "/images/1F-B07/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2025/06/momo_KV.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/edb6d71f84f11b799843369cf98a2fce.png"
     ]
   },
   {
@@ -1815,13 +1787,10 @@
     "floor": "1F",
     "exhibitor": "SUNSOFT（サン電子）",
     "genre": "ストラテジー",
-    "description": "HARD EDGE TACTICS、GAME 鑑定士などを出展。来場者プレゼント企画あり。",
+    "description": "出展タイトル: Hard Edge - War Zone、ROUTE16R。",
     "images": [
-      "/images/1F-B08/1.png",
-      "/images/1F-B08/2.png",
-      "/images/1F-B08/3.png",
-      "/images/1F-B08/4.png",
-      "/images/1F-B08/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/UI_Logo_A.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/b1a65b95ebf2f84ba0b130de050e5fa6.png"
     ]
   },
   {
@@ -1830,14 +1799,10 @@
     "booth": "1F-B09",
     "floor": "1F",
     "exhibitor": "Pikii",
-    "genre": "その他",
-    "description": "Pikiiの出展ブース。",
+    "genre": "ローグライク",
+    "description": "出展タイトル: Ira。",
     "images": [
-      "/images/1F-B09/1.png",
-      "/images/1F-B09/2.png",
-      "/images/1F-B09/3.png",
-      "/images/1F-B09/4.png",
-      "/images/1F-B09/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/260407_IRA_mainart1920x1080_001.jpg"
     ]
   },
   {
@@ -1894,14 +1859,10 @@
     "booth": "1F-B13",
     "floor": "1F",
     "exhibitor": "ホビージャパン",
-    "genre": "その他",
-    "description": "ホビージャパンの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: Queen's Blade Re:Build。",
     "images": [
-      "/images/1F-B13/1.png",
-      "/images/1F-B13/2.png",
-      "/images/1F-B13/3.png",
-      "/images/1F-B13/4.png",
-      "/images/1F-B13/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/library_logo_transparent.png"
     ]
   },
   {
@@ -1927,13 +1888,11 @@
     "floor": "1F",
     "exhibitor": "room6 / ヨカゼ",
     "genre": "アドベンチャー",
-    "description": "Thunder of the DemonKing、UNDERGROUNDED、アンリアルライフ、ドーナツの穴、ヨカゼレーベル作品など。",
+    "description": "出展タイトル: UNDERGROUNDED、Thunder of the DemonKing、ショートショートフィクションズ。",
     "images": [
-      "/images/1F-B15/1.png",
-      "/images/1F-B15/2.png",
-      "/images/1F-B15/3.png",
-      "/images/1F-B15/4.png",
-      "/images/1F-B15/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/UNDERGROUNDED_1920px-2.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/3a1e123bebe07d42e19e11374d65fa1f.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/SSF_KeyVisual_JP.png"
     ]
   },
   {
@@ -1959,13 +1918,9 @@
     "floor": "1F",
     "exhibitor": "ラディアスリー株式会社",
     "genre": "その他",
-    "description": "ラディアスリーの出展ブース。",
+    "description": "出展タイトル: Thousands of Heroes。",
     "images": [
-      "/images/1F-B17/1.png",
-      "/images/1F-B17/2.png",
-      "/images/1F-B17/3.png",
-      "/images/1F-B17/4.png",
-      "/images/1F-B17/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Tousands_of_Heroes_main_420x236_index.png"
     ]
   },
   {
@@ -1974,14 +1929,11 @@
     "booth": "1F-B18",
     "floor": "1F",
     "exhibitor": "株式会社CRAFTS&MEISTER",
-    "genre": "その他",
-    "description": "CRAFTS&MEISTERの出展ブース。",
+    "genre": "パズル",
+    "description": "出展タイトル: BLOKES on BLOCKS!、SLAPPY。",
     "images": [
-      "/images/1F-B18/1.png",
-      "/images/1F-B18/2.png",
-      "/images/1F-B18/3.png",
-      "/images/1F-B18/4.png",
-      "/images/1F-B18/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/bob_titile.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/slappy_titile.png"
     ]
   },
   {
@@ -2023,13 +1975,9 @@
     "floor": "1F",
     "exhibitor": "イースニッド",
     "genre": "その他",
-    "description": "イースニッドの出展ブース。",
+    "description": "出展タイトル: アイリス・オデッセイ。",
     "images": [
-      "/images/1F-B21/1.png",
-      "/images/1F-B21/2.png",
-      "/images/1F-B21/3.png",
-      "/images/1F-B21/4.png",
-      "/images/1F-B21/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/9ff6ce02a030d4aed97d5b1b36e88769.png"
     ]
   },
   {
@@ -3995,15 +3943,14 @@
     "floor": "3F",
     "title": "Gamirror Games",
     "exhibitor": "Gamirror Games",
-    "genre": "その他",
-    "description": "詳細情報はこちらから\nhttps://bitsummit.org/sponsors/powered-by-gameconnection-by-gamirror-games-x-chinajoy-2/",
+    "genre": "アクション",
+    "description": "出展タイトル: shapez 2、Alchemy Factory、ペンポン、退勤！パンデミック特急。",
     "storeUrl": "",
     "images": [
-      "/images/3F-C05/1.png",
-      "/images/3F-C05/2.png",
-      "/images/3F-C05/3.png",
-      "/images/3F-C05/4.png",
-      "/images/3F-C05/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/20260422-152620.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/AlchemyFactoryLogo_EN.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/20260508-164847.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/header.jpg"
     ]
   },
   {
@@ -4267,15 +4214,14 @@
     "floor": "3F",
     "title": "G-EIGHT",
     "exhibitor": "G-EIGHT",
-    "genre": "その他",
-    "description": "メディアブース。",
+    "genre": "RPG",
+    "description": "出展タイトル: ルビナイト、生贄のアパート、Ringash、仿品一號 | イミテーション No.1。",
     "storeUrl": "",
     "images": [
-      "/images/3F-E02/1.png",
-      "/images/3F-E02/2.png",
-      "/images/3F-E02/3.png",
-      "/images/3F-E02/4.png",
-      "/images/3F-E02/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/7edf6e9e218c2e0a1d0a23ceeb785a41.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/TIA_Banner_420-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Ringash_MiniPic-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/9b751ac49f8f4385300eb5d75bed1dbe-1.jpg"
     ]
   },
   {
@@ -4318,15 +4264,15 @@
     "floor": "3F",
     "title": "Catalan Institute for Cultural Companies",
     "exhibitor": "Catalan Institute for Cultural Companies - Catalan Arts",
-    "genre": "その他",
-    "description": "詳細情報はこちらから\nhttps://bitsummit.org/sponsors/catalan-arts-catalan-institute-for-cultural-companies-government-of-catalonia-2/",
+    "genre": "パズル",
+    "description": "出展タイトル: Underling Uprising、Is This Seat Taken?、Never/Together、Zaya: Rise to the Gods、Murder by Death、Kumari Samsara: The Living Goddess、Angie Magica、Denshattack!、Jordi &amp; Oslo: The Last Tail、Duskfade。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A01/1.png",
-      "/images/3F-A01/2.png",
-      "/images/3F-A01/3.png",
-      "/images/3F-A01/4.png",
-      "/images/3F-A01/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Art-Underling-Uprising.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/PotiPoti_IsThisSeatTaken-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/NonameStudios_NeverTogether.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/KanedaGames_ZayaRiseToTheGods.jpeg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Background_JP.png"
     ]
   },
   {
@@ -4386,15 +4332,15 @@
     "floor": "3F",
     "title": "集英社ゲームズ ブース",
     "exhibitor": "集英社ゲームズ",
-    "genre": "アドベンチャー",
-    "description": "試遊可能タイトルはこちら\nシュレディンガーズ・コール、Chronoscript、BAKUDOなどを出展。",
+    "genre": "アクション",
+    "description": "出展タイトル: シュレディンガーズ・コール、Chronoscript: The Endless End、BAKUDO、UN:Me、こちら葛飾区亀有公園前派出所～両さんの商店街物語～、YAKOH SHINOBI OPS、OPUS: Prism Peak、都市伝説解体センター。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A05/1.png",
-      "/images/3F-A05/2.png",
-      "/images/3F-A05/3.png",
-      "/images/3F-A05/4.png",
-      "/images/3F-A05/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/76071a5bdde8d659245f5f655ae73f1d.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/14_Chronoscript_KV-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/13_BAKUDO_KV-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/dfa570e84cacb01465da79457b729ad0-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/fifty_16x9_rogoE_1920_1080.png"
     ]
   },
   {
@@ -4403,15 +4349,15 @@
     "floor": "3F",
     "title": "ジーン ブース",
     "exhibitor": "ジーン",
-    "genre": "その他",
-    "description": "試遊可能タイトルはこちら\nTIGS プログラミングバトル スーパータンクウォーズ\nBESTACK（べスタック）\nぶちトイ◒リフレクト\nダイスアウト\n買い物（かいもん）マスターとみえ\nCyber Rush Override\nボムボムドカン\nハイローウエスタン",
+    "genre": "アクション",
+    "description": "出展タイトル: 買い物（かいもん）マスターとみえ、BITSUMMIT プログラミングバトル ～スーパータンクウォーズ～、CyberRush override、ボムボムドカン、ダイスアウト、ハイローウエスタン、BESTACK、ぷちトイ◒リフレクト、、BITSUMMIT プログラミングバトル ～スーパータンクウォーズ～ ほか6本。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A06/1.png",
-      "/images/3F-A06/2.png",
-      "/images/3F-A06/3.png",
-      "/images/3F-A06/4.png",
-      "/images/3F-A06/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/tomie.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/BITSUMMIT_logoBG-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/0bfaa723c70a54b7c2fcb39bf9529b7b-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/BitSummit2026_webimage_01-1-2.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/BitSummit2026_webimage_02-1-1.png"
     ]
   },
   {
@@ -4437,15 +4383,11 @@
     "floor": "3F",
     "title": "ゲラッパ ブース",
     "exhibitor": "株式会社ゲラッパ",
-    "genre": "その他",
-    "description": "試遊可能タイトル\n三国志 BOND",
+    "genre": "シミュレーション",
+    "description": "出展タイトル: 三国志BOND。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A08/1.png",
-      "/images/3F-A08/2.png",
-      "/images/3F-A08/3.png",
-      "/images/3F-A08/4.png",
-      "/images/3F-A08/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Screenshot01_Title.png"
     ]
   },
   {
@@ -4488,15 +4430,15 @@
     "floor": "3F",
     "title": "SEGA ブース",
     "exhibitor": "セガ",
-    "genre": "シミュレーション",
-    "description": "Outbound、盛世天下：女帝への道、リトルキティ・ビッグシティを出展。",
+    "genre": "アドベンチャー",
+    "description": "出展タイトル: リトルキティ・ビッグシティ ～まいごの子猫の街さんぽ～、Outbound（アウトバウンド）、リトルキティ・ビッグシティ ～まいごの子猫の街さんぽ～、Outbound（アウトバウンド）、盛世天下：女帝への道。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A11/1.png",
-      "/images/3F-A11/2.png",
-      "/images/3F-A11/3.png",
-      "/images/3F-A11/4.png",
-      "/images/3F-A11/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/LKBC.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Main-Art-4k-no-logo-1_R.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/LKBC-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Main-Art-4k-no-logo-1_R-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/0f49ac31d1c3b6bfa40a4be0d5777c40-1.jpg"
     ]
   },
   {
@@ -4505,15 +4447,13 @@
     "floor": "3F",
     "title": "東急不動産 ブース",
     "exhibitor": "東急不動産株式会社",
-    "genre": "その他",
-    "description": "試遊可能タイトルはこちら\nGiLGuL\nTwinSoul\nFantasketch",
+    "genre": "アクション",
+    "description": "出展タイトル: Twin Soul、Fantasketch / ファンタスケッチ、シブヤスクランブルストーリーズ。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A12/1.png",
-      "/images/3F-A12/2.png",
-      "/images/3F-A12/3.png",
-      "/images/3F-A12/4.png",
-      "/images/3F-A12/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/booth_6_twinsoul_a_H_w420.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/booth_6_fantasketch_w420.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/fd5f7f4879f2bc7bb9a88ccc96c1e98b.jpg"
     ]
   },
   {
@@ -4539,15 +4479,15 @@
     "floor": "3F",
     "title": "Indie Games Pass ブース",
     "exhibitor": "Indie Games Pass (IGP)",
-    "genre": "その他",
-    "description": "複数インディータイトルを展示。",
+    "genre": "アクション",
+    "description": "出展タイトル: LoopStructor 2: SkySpine、Deck of Harvest、Cat Squeeze、PlatVerse: Abya's Adventure、Shrink Rooms、Ashes of Pantheon、LoopStructor。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A14/1.png",
-      "/images/3F-A14/2.png",
-      "/images/3F-A14/3.png",
-      "/images/3F-A14/4.png",
-      "/images/3F-A14/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/EN-Capsule-Main-Art.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/20260429-214157.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/capsule_main_EN_1080p-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/7642b9757cd77be091d4985dd5f814c3.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/ShrinkRooms_TGS.png"
     ]
   },
   {
@@ -4556,15 +4496,12 @@
     "floor": "3F",
     "title": "エヌビーゲームズ ブース",
     "exhibitor": "エヌビーゲームズ",
-    "genre": "その他",
-    "description": "エヌビーゲームズの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: STEP THEATER - ステップシアター、都市伝説.exe。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A15/1.png",
-      "/images/3F-A15/2.png",
-      "/images/3F-A15/3.png",
-      "/images/3F-A15/4.png",
-      "/images/3F-A15/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/75c140d3601436d9bf49d9f8aa3af58a.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/15f7672b9b926de795e50b36d3538423-1.png"
     ]
   },
   {
@@ -4607,15 +4544,13 @@
     "floor": "3F",
     "title": "フリースタイル ブース",
     "exhibitor": "株式会社フリースタイル",
-    "genre": "その他",
-    "description": "フリースタイルの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: オバケイドロ２、オバケイドロ！、うんこ探偵。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A18/1.png",
-      "/images/3F-A18/2.png",
-      "/images/3F-A18/3.png",
-      "/images/3F-A18/4.png",
-      "/images/3F-A18/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/65eeda921bb77ee384697c4edd78dc85.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/ce485662d4f5180737aae0197edfaf72.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/250432c0fc0184ea25b5b3e076872aef.png"
     ]
   },
   {
@@ -4624,15 +4559,12 @@
     "floor": "3F",
     "title": "Rice Games ブース",
     "exhibitor": "Rice Games Inc.",
-    "genre": "その他",
-    "description": "Rice Gamesの出展ブース。",
+    "genre": "RPG",
+    "description": "出展タイトル: Shujinkou / 主人公、Shujinkou Manga Reader / 主人公マンガリーダー。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A19/1.png",
-      "/images/3F-A19/2.png",
-      "/images/3F-A19/3.png",
-      "/images/3F-A19/4.png",
-      "/images/3F-A19/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Hero-Art-1-Shujinkou.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Shujinkou-Manga-Reader-Thumbnail-1.jpg"
     ]
   },
   {
@@ -4709,15 +4641,13 @@
     "floor": "3F",
     "title": "AREA 35 ブース",
     "exhibitor": "AREA 35",
-    "genre": "その他",
-    "description": "AREA 35の出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: タイニーメタル2、PROJECT BLITZ、フェリシティーズ・ドア。",
     "storeUrl": "",
     "images": [
-      "/images/3F-A24/1.png",
-      "/images/3F-A24/2.png",
-      "/images/3F-A24/3.png",
-      "/images/3F-A24/4.png",
-      "/images/3F-A24/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/tm2_keyart_landscape_logo_screens-2.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/TMX_TGSbuild_KeyArt_20250901_03-3.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/FD.jpg"
     ]
   },
   {
@@ -4760,15 +4690,11 @@
     "floor": "3F",
     "title": "Indie-us Games ブース",
     "exhibitor": "Indie-us Games",
-    "genre": "その他",
-    "description": "Indie-us Gamesの出展ブース。",
+    "genre": "RPG",
+    "description": "出展タイトル: UNDEFEATED: Genesis。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B01/1.png",
-      "/images/3F-B01/2.png",
-      "/images/3F-B01/3.png",
-      "/images/3F-B01/4.png",
-      "/images/3F-B01/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/SPS_BitSummit_Thumbnail.png"
     ]
   },
   {
@@ -4777,15 +4703,15 @@
     "floor": "3F",
     "title": "コーラス・ワールドワイド ブース",
     "exhibitor": "コーラス・ワールドワイド",
-    "genre": "その他",
-    "description": "コーラス・ワールドワイドの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: コーヒートーク トーキョー、UNDEFEATED: Genesis、あなたに花束を、モーゼス＆プレイトー：クロービル行き最終列車、カーネル・ハーツ。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B02/1.png",
-      "/images/3F-B02/2.png",
-      "/images/3F-B02/3.png",
-      "/images/3F-B02/4.png",
-      "/images/3F-B02/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/CTT_BitSummit_16x9_420x236.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/SPS_BitSummit_Thumbnail-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/FlowersForYou_BitSummit_Thumbnail-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/MP_BitSummit_Thumbnail-1.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/KH_BitSummit_Thumbnail-1.jpg"
     ]
   },
   {
@@ -4811,15 +4737,11 @@
     "floor": "3F",
     "title": "Black Tower Studios ブース",
     "exhibitor": "Black Tower Studios",
-    "genre": "その他",
-    "description": "Black Tower Studiosの出展ブース。",
+    "genre": "アドベンチャー",
+    "description": "出展タイトル: Dr. Oops!。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B04/1.png",
-      "/images/3F-B04/2.png",
-      "/images/3F-B04/3.png",
-      "/images/3F-B04/4.png",
-      "/images/3F-B04/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/300426_Dr.-Oops_BlackTowerStudios_KeyArt_4K-1.png"
     ]
   },
   {
@@ -4828,15 +4750,15 @@
     "floor": "3F",
     "title": "Graph ブース",
     "exhibitor": "Graph",
-    "genre": "RPG",
-    "description": "Aether & Iron、Be My Horde、Descent Of Lunaris、LOVE ETERNAL、Surfpunkを出展。",
+    "genre": "アクション",
+    "description": "出展タイトル: Aether &amp; Iron、Be My Horde（ビー・マイ・ホード）、Descent Of Lunaris、LOVE ETERNAL（ラブエターナル）、Surfpunk（サーフパンク）。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B05/1.png",
-      "/images/3F-B05/2.png",
-      "/images/3F-B05/3.png",
-      "/images/3F-B05/4.png",
-      "/images/3F-B05/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/AetherAndIron_KeyArt.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/JPBeMyHorde_KeyArt.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Descent-of-Lunaris-KeyArt.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/300dpi_horizontal_Keyart.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/SP_KeyArt_820461.png"
     ]
   },
   {
@@ -4845,15 +4767,15 @@
     "floor": "3F",
     "title": "CANARY ISLANDS GAMES",
     "exhibitor": "CANARY ISLANDS GAMES",
-    "genre": "その他",
-    "description": "CANARY ISLANDS GAMESの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: Archangel: Demon Rush、Arico: Tales From the Abyss、Auditum、Master of Cladia、Microbian、OVER SAND、PlayCan、Project Node、Unicorn Wars。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B06/1.png",
-      "/images/3F-B06/2.png",
-      "/images/3F-B06/3.png",
-      "/images/3F-B06/4.png",
-      "/images/3F-B06/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Archangel-Demon-Rush.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/AricoTalesFromTheAbyss_PROMO_KeyArtLogo.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Auditum-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/1-9.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Microbian.png"
     ]
   },
   {
@@ -4896,15 +4818,12 @@
     "floor": "3F",
     "title": "あまた ブース",
     "exhibitor": "あまた株式会社",
-    "genre": "その他",
-    "description": "試遊可能タイトル\n『超翼戦騎エスティーク』\n『Save My Scrap -セイブ・マイ・スクラップ-』",
+    "genre": "アクション",
+    "description": "出展タイトル: 超翼戦騎エスティーク、Save My Scrap -セイブ・マイ・スクラップ-。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B09/1.png",
-      "/images/3F-B09/2.png",
-      "/images/3F-B09/3.png",
-      "/images/3F-B09/4.png",
-      "/images/3F-B09/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/store_capsule_main_E-960x540-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/store_capsule_main-960x540-1.png"
     ]
   },
   {
@@ -4964,15 +4883,13 @@
     "floor": "3F",
     "title": "HYPER REAL ブース",
     "exhibitor": "HYPER REAL",
-    "genre": "その他",
-    "description": "HYPER REALの出展ブース。",
+    "genre": "アドベンチャー",
+    "description": "出展タイトル: SAEKO: Giantess Dating Sim、DIGITAL EXORCIST（デジタルエクソシスト）、Dome-King Cabbage（ドームキング・キャベツ）。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B13/1.png",
-      "/images/3F-B13/2.png",
-      "/images/3F-B13/3.png",
-      "/images/3F-B13/4.png",
-      "/images/3F-B13/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/saeko_keyart.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Digital-Exorcist-Keyart-3.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/dome-king_keyart.png"
     ]
   },
   {
@@ -5032,15 +4949,13 @@
     "floor": "3F",
     "title": "グラビティゲームアライズ ブース",
     "exhibitor": "グラビティゲームアライズ",
-    "genre": "その他",
-    "description": "グラビティゲームアライズの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: はしれへべれけEX、みんなで空気読み。ワールド 韓国Ver.、ガルバテイン：冒険者ギルド事務所。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B17/1.png",
-      "/images/3F-B17/2.png",
-      "/images/3F-B17/3.png",
-      "/images/3F-B17/4.png",
-      "/images/3F-B17/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/c30b2ebaba1afee6ec8ee659a99317a7.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/1688f315d88707ffa8a6e60f3cab0a35.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/061c20eeb6edeadc3fd9b0dab7df7497.png"
     ]
   },
   {
@@ -5049,15 +4964,14 @@
     "floor": "3F",
     "title": "BeXide ブース",
     "exhibitor": "BeXide",
-    "genre": "その他",
-    "description": "BeXideの出展ブース。",
+    "genre": "パズル",
+    "description": "出展タイトル: 東方ゆっくりマウンテン、Memory of Memorie : A Chill Story、NAMCO LEGENDARY Mountains、Digital Pinball: Last Gladiators。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B18/1.png",
-      "/images/3F-B18/2.png",
-      "/images/3F-B18/3.png",
-      "/images/3F-B18/4.png",
-      "/images/3F-B18/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/152c580323c1f6f3e87e9497d2ab4545.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/fbc168da2ccd1dc78a0f20bea0219dea.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/namco_MainVisual_1920_1080_JP.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/52a0c12ba6ed8fc4fb5ea9df890975f5-1.png"
     ]
   },
   {
@@ -5100,15 +5014,12 @@
     "floor": "3F",
     "title": "Phoenixx ブース",
     "exhibitor": "Phoenixx",
-    "genre": "その他",
-    "description": "Phoenixxの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: MONOWAVE、GooNECT√2。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B21/1.png",
-      "/images/3F-B21/2.png",
-      "/images/3F-B21/3.png",
-      "/images/3F-B21/4.png",
-      "/images/3F-B21/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/KV_420x236.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/d443d83b58405e11d00436fbebf6043a-1.jpg"
     ]
   },
   {
@@ -5134,15 +5045,12 @@
     "floor": "3F",
     "title": "lowiro ブース",
     "exhibitor": "lowiro",
-    "genre": "音楽",
-    "description": "Arcaeaシリーズで知られるlowiroのブース。",
+    "genre": "アドベンチャー",
+    "description": "出展タイトル: In Falsus、Arcaea。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B23/1.png",
-      "/images/3F-B23/2.png",
-      "/images/3F-B23/3.png",
-      "/images/3F-B23/4.png",
-      "/images/3F-B23/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/KV.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/kv_arcaea.png"
     ]
   },
   {
@@ -5237,14 +5145,11 @@
     "title": "Gocha Gocha Games ブース",
     "exhibitor": "Gocha Gocha Games",
     "genre": "その他",
-    "description": "Gocha Gocha Gamesの出展ブース。",
+    "description": "出展タイトル: RPGツクール新プロジェクト（仮）、ACTION GAME MAKER。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B29/1.png",
-      "/images/3F-B29/2.png",
-      "/images/3F-B29/3.png",
-      "/images/3F-B29/4.png",
-      "/images/3F-B29/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/7f95f02146082913eddee9a2b6a4325b.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/02_ACTG_MV_1920x1080.png"
     ]
   },
   {
@@ -5305,14 +5210,10 @@
     "title": "灯白社 ブース",
     "exhibitor": "株式会社 灯白社",
     "genre": "アドベンチャー",
-    "description": "灯白社の出展ブース。",
+    "description": "出展タイトル: つみみじかん 狂オシイホド愛シテル。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B33/1.png",
-      "/images/3F-B33/2.png",
-      "/images/3F-B33/3.png",
-      "/images/3F-B33/4.png",
-      "/images/3F-B33/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/b71d510a3a8c5b37bb8ff662b5c6dcf8-1.png"
     ]
   },
   {
@@ -5321,15 +5222,13 @@
     "floor": "3F",
     "title": "ワンダーランドカザキリ ブース",
     "exhibitor": "ワンダーランドカザキリ",
-    "genre": "その他",
-    "description": "ワンダーランドカザキリの出展ブース。",
+    "genre": "RPG",
+    "description": "出展タイトル: CASSETTE BOY、BQM BlockQuest Maker Remastered、ダンジョンに捧ぐ墓標。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B34/1.png",
-      "/images/3F-B34/2.png",
-      "/images/3F-B34/3.png",
-      "/images/3F-B34/4.png",
-      "/images/3F-B34/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/cb-1.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/BQM_main.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/d.png"
     ]
   },
   {
@@ -5338,15 +5237,13 @@
     "floor": "3F",
     "title": "KIC Games ブース",
     "exhibitor": "KIC Games",
-    "genre": "その他",
-    "description": "KIC Gamesの出展ブース。",
+    "genre": "アクション",
+    "description": "出展タイトル: 蒐命のラスティル - とこしえの迷宮城 -、超増税都市、GrimmKitchen。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B35/1.png",
-      "/images/3F-B35/2.png",
-      "/images/3F-B35/3.png",
-      "/images/3F-B35/4.png",
-      "/images/3F-B35/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/Rustil_KeyVisual_v10_420pxBitSummit.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/31837d44cd0379ece04dfbc13bea1d65.jpg",
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/capsule_616x353.jpg"
     ]
   },
   {
@@ -5356,14 +5253,10 @@
     "title": "ザクザクゲーム ブース",
     "exhibitor": "ザクザクゲーム",
     "genre": "その他",
-    "description": "ザクザクゲームの出展ブース。",
+    "description": "出展タイトル: RDの遠隔推理。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B36/1.png",
-      "/images/3F-B36/2.png",
-      "/images/3F-B36/3.png",
-      "/images/3F-B36/4.png",
-      "/images/3F-B36/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/RD.jpg"
     ]
   },
   {
@@ -5373,14 +5266,10 @@
     "title": "THIRD ブース",
     "exhibitor": "THIRD",
     "genre": "その他",
-    "description": "THIRDの出展ブース。",
+    "description": "出展タイトル: RAID OF TITAN。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B37/1.png",
-      "/images/3F-B37/2.png",
-      "/images/3F-B37/3.png",
-      "/images/3F-B37/4.png",
-      "/images/3F-B37/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/SS_01.jpg"
     ]
   },
   {
@@ -5390,14 +5279,11 @@
     "title": "アコードセブン ブース",
     "exhibitor": "株式会社アコードセブン",
     "genre": "その他",
-    "description": "アコードセブンの出展ブース。",
+    "description": "出展タイトル: Marobi～ まろび ～、Itsuki。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B38/1.png",
-      "/images/3F-B38/2.png",
-      "/images/3F-B38/3.png",
-      "/images/3F-B38/4.png",
-      "/images/3F-B38/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Marobi_KeyVisual.png",
+      "https://bitsummit.org/main/wp-content/uploads/2026/04/Key_Visual_2025.png"
     ]
   },
   {
@@ -5406,15 +5292,11 @@
     "floor": "3F",
     "title": "Nestopi ブース",
     "exhibitor": "株式会社Nestopi",
-    "genre": "その他",
-    "description": "Nestopiの出展ブース。",
+    "genre": "アドベンチャー",
+    "description": "出展タイトル: Chill with You：Lo-Fi Story。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B39/1.png",
-      "/images/3F-B39/2.png",
-      "/images/3F-B39/3.png",
-      "/images/3F-B39/4.png",
-      "/images/3F-B39/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/header-4.jpg"
     ]
   },
   {
@@ -5440,15 +5322,11 @@
     "floor": "3F",
     "title": "総合地球環境学研究所 Sustai-N-ableプロジェクト",
     "exhibitor": "総合地球環境学研究所 Sustai-N-ableプロジェクト",
-    "genre": "その他",
-    "description": "Sustai-N-ableプロジェクトの出展ブース。",
+    "genre": "アドベンチャー",
+    "description": "出展タイトル: ゆらぐテラリウム — Nとわたしたちの世界。",
     "storeUrl": "",
     "images": [
-      "/images/3F-B41/1.png",
-      "/images/3F-B41/2.png",
-      "/images/3F-B41/3.png",
-      "/images/3F-B41/4.png",
-      "/images/3F-B41/5.png"
+      "https://bitsummit.org/main/wp-content/uploads/2026/05/title-ja.png"
     ]
   },
   {

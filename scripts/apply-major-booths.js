@@ -45,11 +45,16 @@ const DATA = {
       "inKONBINI: One Store. Many Stories、Gecko Gods、にほんの田舎ぐらし、Öoo。" +
       "ゲームを体験した方限定で、会場限定の特製アクリルポーチのプレゼントあり（数量限定）。",
     images: [
+      // 記事のメインビジュアル
       "https://assets.topics.apps-jp.nintendo.com/image/2026/04/14032033071750/0/abd8c3ae63864872858684aa91efb057.jpg",
+      // 任天堂ブースの案内画像
       "https://assets.topics.apps-jp.nintendo.com/image/2026/04/27070556434194/0/1ca514e265344fdcb186405f3ec96b7e.jpg",
-      "https://assets.topics.apps-jp.nintendo.com/image/2026/04/07071052125689/0/4fcee72dbeb4461dad1db7972c9ad51e.jpg",
-      "https://assets.topics.apps-jp.nintendo.com/image/2026/04/07071101858037/0/6926fa8c542d4fdd920da49615fa9ce1.jpg",
-      "https://assets.topics.apps-jp.nintendo.com/image/2026/04/07071130557000/0/4b4cb7d894d84ebdb79b1cdd02302267.jpg",
+      // Heave Ho 2 のゲーム画面
+      "https://assets.topics.apps-jp.nintendo.com/image/2026/04/27030230738040/400/c99b1fe7571841adb69506dcfcc46daa.jpg",
+      // Unrailed 2 のゲーム画面
+      "https://assets.topics.apps-jp.nintendo.com/image/2026/04/27030255735043/400/608789a6ec934597abb1a0fb8dfb73ba.jpg",
+      // Moonlighter 2 のゲーム画面
+      "https://assets.topics.apps-jp.nintendo.com/image/2026/04/27030405898355/400/c678e53f6de649b1b0e585bee2d1e995.jpg",
     ],
   },
 

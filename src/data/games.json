@@ -73,14 +73,15 @@
     "floor": "1F",
     "exhibitor": "代償プロジェクト",
     "genre": "アドベンチャー",
-    "description": "代償少女。日本のインディー作品。",
+    "description": "『代償少女』はデッキ構築型ローグライクの要素を持つ、カードバトルADVゲームです。カードバトルで魔物を倒し悪夢の世界から脱出を目指します。ただし、使用するデッキは“少女自身”。カードを消費すると彼女自身に影響を及ぼし、それはUI、ストーリーなど、様々な要素が変化していきます。",
     "images": [
-      "/images/1F-D05/1.png",
-      "/images/1F-D05/2.png",
-      "/images/1F-D05/3.png",
-      "/images/1F-D05/4.png",
-      "/images/1F-D05/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839720/a8b997f7e6621b19dc1b2f8106f7aa8f856f86a5/ss_a8b997f7e6621b19dc1b2f8106f7aa8f856f86a5.1920x1080.jpg?t=1754134346",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839720/c02336a20005a9e4fec96933c81279d76a2eeb6a/ss_c02336a20005a9e4fec96933c81279d76a2eeb6a.1920x1080.jpg?t=1754134346",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839720/79a7c69ac7b8a306ff2a6e254e193b3e92e14461/ss_79a7c69ac7b8a306ff2a6e254e193b3e92e14461.1920x1080.jpg?t=1754134346",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839720/b08625c9b1f4d3cf3d57f203adce5e1aaf44765f/ss_b08625c9b1f4d3cf3d57f203adce5e1aaf44765f.1920x1080.jpg?t=1754134346",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839720/5d8d763a035104db79a81453cde5f04378c2b544/ss_5d8d763a035104db79a81453cde5f04378c2b544.1920x1080.jpg?t=1754134346"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3839720/"
   },
   {
     "id": 6,
@@ -89,14 +90,15 @@
     "floor": "1F",
     "exhibitor": "Ashiya",
     "genre": "アクション",
-    "description": "ウルトラジェットガール。",
+    "description": "壊れかけのジェットパックを拾った主人公のルーが、母親を捜しに遥か空の空島へ向かう、ジェットパックアクションゲーム。ジェットパックは壊れかけで燃料を多く貯めておけないので、敵を倒して燃料を都度補充しながら空島を目指そう！",
     "images": [
-      "/images/1F-D06/1.png",
-      "/images/1F-D06/2.png",
-      "/images/1F-D06/3.png",
-      "/images/1F-D06/4.png",
-      "/images/1F-D06/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3170270/ss_1c15deccd16891cc4385dffaa2ab4d18f0a45840.1920x1080.jpg?t=1772890474",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3170270/ss_5e4a3f20159351717da7ab44b67819e070e43233.1920x1080.jpg?t=1772890474",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3170270/ss_86449b4150179cdeae71421f0b7dc8badc4f231a.1920x1080.jpg?t=1772890474",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3170270/ss_bc93a0cdf274321fcc54e7bfb012faa78926dc1f.1920x1080.jpg?t=1772890474",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3170270/ss_8de61641787ea35858cd47f5fab0c8f297b8b602.1920x1080.jpg?t=1772890474"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3170270/"
   },
   {
     "id": 7,
@@ -105,14 +107,15 @@
     "floor": "1F",
     "exhibitor": "Kishiro",
     "genre": "アクション",
-    "description": "ローグライクアクション。Steam対応。",
+    "description": "『4DEAD』は4秒以内に捕食しないと死んでしまう最強無敵生物「42号」を操作し、侵略者を喰って喰って生き残るハイスピードローグライクアクションです。4秒以内に敵を捕食し続け、滅亡の危機にある人類をあなたの手で救い出そう！",
     "images": [
-      "/images/1F-D07/1.png",
-      "/images/1F-D07/2.png",
-      "/images/1F-D07/3.png",
-      "/images/1F-D07/4.png",
-      "/images/1F-D07/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4172750/f89e69de190607dc90e7de6bd8c700306821377f/ss_f89e69de190607dc90e7de6bd8c700306821377f.1920x1080.jpg?t=1764383528",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4172750/cbf8ffb65fe0d0c43ca134e0dd70ced7c7538d21/ss_cbf8ffb65fe0d0c43ca134e0dd70ced7c7538d21.1920x1080.jpg?t=1764383528",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4172750/6b3d6ba849607a24c7be3fdbea579c1e62626289/ss_6b3d6ba849607a24c7be3fdbea579c1e62626289.1920x1080.jpg?t=1764383528",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4172750/5257c593b362933955ca717adf28d072598b6674/ss_5257c593b362933955ca717adf28d072598b6674.1920x1080.jpg?t=1764383528",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4172750/b7de164b2741fc4e5b16a1667f15998a0908b39a/ss_b7de164b2741fc4e5b16a1667f15998a0908b39a.1920x1080.jpg?t=1764383528"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/4172750/"
   },
   {
     "id": 8,
@@ -121,14 +124,15 @@
     "floor": "1F",
     "exhibitor": "futurala",
     "genre": "アドベンチャー",
-    "description": "カルチャーハウス。",
+    "description": "CultureHouseは不穏でありながらも心地よい空間と物語へ没入していく、１人称視点のアドベンチャーゲームです。あなたは、失踪した科学者の住宅兼研究施設『カルチャーハウス』を管理する財団に雇われた研究員として、謎めいた生命体の培養実験に挑みます。",
     "images": [
-      "/images/1F-D08/1.png",
-      "/images/1F-D08/2.png",
-      "/images/1F-D08/3.png",
-      "/images/1F-D08/4.png",
-      "/images/1F-D08/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2314460/276bc738a8a4842f13cb9ff8755daca2493e7435/ss_276bc738a8a4842f13cb9ff8755daca2493e7435.1920x1080.jpg?t=1783188159",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2314460/b0aedc18f65ee407ff086daf522bc269e7a60bad/ss_b0aedc18f65ee407ff086daf522bc269e7a60bad.1920x1080.jpg?t=1783188159",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2314460/47945ee0a699197b6daa2e9d68d622b5b59684fa/ss_47945ee0a699197b6daa2e9d68d622b5b59684fa.1920x1080.jpg?t=1783188159",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2314460/fb71c7bf7e4a702a6f32eda28a4db9d7c01fb7b0/ss_fb71c7bf7e4a702a6f32eda28a4db9d7c01fb7b0.1920x1080.jpg?t=1783188159",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2314460/61d58197270c3c6f16e0ecbf20946c7f80e25ef6/ss_61d58197270c3c6f16e0ecbf20946c7f80e25ef6.1920x1080.jpg?t=1783188159"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2314460/"
   },
   {
     "id": 9,
@@ -137,14 +141,15 @@
     "floor": "1F",
     "exhibitor": "Alientrap",
     "genre": "アクション",
-    "description": "アクションアドベンチャー。",
+    "description": "Astromine is a survival mining game about scavenging fully destructible planets. Designed for 1 to 4 players. Land on planets and gather enough materials to fight off alien creatures, fight robot factions, build structures and spaceships, and conquer the solar system",
     "images": [
-      "/images/1F-D09/1.png",
-      "/images/1F-D09/2.png",
-      "/images/1F-D09/3.png",
-      "/images/1F-D09/4.png",
-      "/images/1F-D09/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833210/9469f3b8908dff6366646850028cac80f6444983/ss_9469f3b8908dff6366646850028cac80f6444983.1920x1080.jpg?t=1781200575",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833210/08de037a0f35d27155dfc8df6216a824f2a0b927/ss_08de037a0f35d27155dfc8df6216a824f2a0b927.1920x1080.jpg?t=1781200575",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833210/40761fb815f9373d9a3039110203c9de1b82755b/ss_40761fb815f9373d9a3039110203c9de1b82755b.1920x1080.jpg?t=1781200575",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833210/154cc7839cbf7c28eaf3b240272d11f47a8d98f4/ss_154cc7839cbf7c28eaf3b240272d11f47a8d98f4.1920x1080.jpg?t=1781200575",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833210/014bb0a7ed977ff7d6a566ae9fbc3c08328dc2eb/ss_014bb0a7ed977ff7d6a566ae9fbc3c08328dc2eb.1920x1080.jpg?t=1781200575"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/1833210/"
   },
   {
     "id": 10,
@@ -152,15 +157,16 @@
     "booth": "1F-D10",
     "floor": "1F",
     "exhibitor": "Pico Games",
-    "genre": "シミュレーション",
-    "description": "奈落のキッチン。クッキングシミュレーション。",
+    "genre": "アクション",
+    "description": "「奈落のキッチン」は冒険者パーティーに同行する料理人「ロップ」となり、飯の力でパーティーを導くサバイバルアクションゲームです。ダンジョン内で自給自足し、飢えて倒れないよう何でも食べて前に進みましょう。 立ちふさがるモノはバラして食い尽くせ！",
     "images": [
-      "/images/1F-D10/1.png",
-      "/images/1F-D10/2.png",
-      "/images/1F-D10/3.png",
-      "/images/1F-D10/4.png",
-      "/images/1F-D10/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3508910/1a75b6454c11269e2c03c5f0935096d960bfb060/ss_1a75b6454c11269e2c03c5f0935096d960bfb060.1920x1080.jpg?t=1783523659",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3508910/0d6034300190bbfa41cea18c551650952dd01309/ss_0d6034300190bbfa41cea18c551650952dd01309.1920x1080.jpg?t=1783523659",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3508910/54ce06204cff23a799162f32df8c1dcd695c9286/ss_54ce06204cff23a799162f32df8c1dcd695c9286.1920x1080.jpg?t=1783523659",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3508910/416988e1a6491ebd6b5b3fcbd04db907d41e019e/ss_416988e1a6491ebd6b5b3fcbd04db907d41e019e.1920x1080.jpg?t=1783523659",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3508910/5a1d6895835533275f82d418059a06b9dbd6883b/ss_5a1d6895835533275f82d418059a06b9dbd6883b.1920x1080.jpg?t=1783523659"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3508910/"
   },
   {
     "id": 11,
@@ -168,15 +174,16 @@
     "booth": "1F-D11",
     "floor": "1F",
     "exhibitor": "The Men Who Wear Many Hats",
-    "genre": "パズル",
-    "description": "脱出パズルアドベンチャー。",
+    "genre": "アドベンチャー",
+    "description": "Join nine absurd Victorian characters invited to a mysterious and remote mansion. Solve devious puzzles, explore the mansion and try to keep everyone alive. Friends or Foes: it's up to all of you to discover Professor Moriarty's secrets and defy his murderous game.",
     "images": [
-      "/images/1F-D11/1.png",
-      "/images/1F-D11/2.png",
-      "/images/1F-D11/3.png",
-      "/images/1F-D11/4.png",
-      "/images/1F-D11/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047590/601cfbac03e53c623cbe2a5a09de52ac7237551d/ss_601cfbac03e53c623cbe2a5a09de52ac7237551d.1920x1080.jpg?t=1777525439",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047590/1d3a66c9a961c6cff23603a3372867d17b6c24e9/ss_1d3a66c9a961c6cff23603a3372867d17b6c24e9.1920x1080.jpg?t=1777525439",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047590/00e3268f3e3d1efcd5c0ab7c3da31d678f54caa1/ss_00e3268f3e3d1efcd5c0ab7c3da31d678f54caa1.1920x1080.jpg?t=1777525439",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047590/cbc5f3fd0c30cf627b58e93a96bec84e2480d1c4/ss_cbc5f3fd0c30cf627b58e93a96bec84e2480d1c4.1920x1080.jpg?t=1777525439",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047590/de002b52ab7dfc40c550cb7212149cd9d45bb8b7/ss_de002b52ab7dfc40c550cb7212149cd9d45bb8b7.1920x1080.jpg?t=1777525439"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3047590/"
   },
   {
     "id": 12,
@@ -202,14 +209,15 @@
     "floor": "1F",
     "exhibitor": "Urban Oasis Corp.",
     "genre": "アクション",
-    "description": "ダークな雰囲気のアクション作品。",
+    "description": "HellPunk: Purgatoriumは、スタイリッシュなアクションとインベントリ管理を融合させたローグライトゲームです。 ギアを装備し、グリッドを整えながら、塔を攻略していこう。",
     "images": [
-      "/images/1F-D13/1.png",
-      "/images/1F-D13/2.png",
-      "/images/1F-D13/3.png",
-      "/images/1F-D13/4.png",
-      "/images/1F-D13/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199080/404eb98e15b8053a1bfc2114fdaff5f6f8ad6bce/ss_404eb98e15b8053a1bfc2114fdaff5f6f8ad6bce.1920x1080.jpg?t=1780904077",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199080/12335f1296afc23e69e117b48e7561e3e991e3f0/ss_12335f1296afc23e69e117b48e7561e3e991e3f0.1920x1080.jpg?t=1780904077",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199080/16d94caa75b34208c8339bb043f2c14e17b7e87c/ss_16d94caa75b34208c8339bb043f2c14e17b7e87c.1920x1080.jpg?t=1780904077",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199080/34468afefb60c8a1da517b3e25f6fd335155d3fb/ss_34468afefb60c8a1da517b3e25f6fd335155d3fb.1920x1080.jpg?t=1780904077",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199080/4db41501c6cf22421005ee8d5002b613d5fbc7b5/ss_4db41501c6cf22421005ee8d5002b613d5fbc7b5.1920x1080.jpg?t=1780904077"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3199080/"
   },
   {
     "id": 14,
@@ -235,14 +243,15 @@
     "floor": "1F",
     "exhibitor": "lidlocks",
     "genre": "アドベンチャー",
-    "description": "ポルカを探す物語。",
+    "description": "ポルカを探す小さな冒険。旅のなかで出会う困っている人を助け、ともだちになろう。ともだちは、きっとあなたを助けてくれる。",
     "images": [
-      "/images/1F-D15/1.png",
-      "/images/1F-D15/2.png",
-      "/images/1F-D15/3.png",
-      "/images/1F-D15/4.png",
-      "/images/1F-D15/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161140/86a66669acbf6385771e7430e4ae1f1d08e74ff0/ss_86a66669acbf6385771e7430e4ae1f1d08e74ff0.1920x1080.jpg?t=1783592859",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161140/be2d956287ec10c9f261c8338899f322b8999014/ss_be2d956287ec10c9f261c8338899f322b8999014.1920x1080.jpg?t=1783592859",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161140/2b38311c7e9c124d8a2dba4f1aa92a785f2343f8/ss_2b38311c7e9c124d8a2dba4f1aa92a785f2343f8.1920x1080.jpg?t=1783592859",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161140/c21ac52417ac3a1933d75d3eb33e2b118fc195d5/ss_c21ac52417ac3a1933d75d3eb33e2b118fc195d5.1920x1080.jpg?t=1783592859",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4161140/9534a13f8b148716fd568063d74b2d9726cd5aad/ss_9534a13f8b148716fd568063d74b2d9726cd5aad.1920x1080.jpg?t=1783592859"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/4161140/"
   },
   {
     "id": 16,
@@ -285,14 +294,15 @@
     "floor": "1F",
     "exhibitor": "Key Compass",
     "genre": "アドベンチャー",
-    "description": "ザ・ヴォイド・ビトウィーン。",
+    "description": "The Void Between is a psychological horror-puzzle game about a man’s dream holiday that turns into a nightmare. Point & Click around a mysterious mansion filled with tricksy puzzles, creepy clues and otherworldly challenges. Unravel the mystery of the mansion or become part of it...",
     "images": [
-      "/images/1F-D18/1.png",
-      "/images/1F-D18/2.png",
-      "/images/1F-D18/3.png",
-      "/images/1F-D18/4.png",
-      "/images/1F-D18/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678440/7588ceb80969d0f006d674a7df1285d60b323efb/ss_7588ceb80969d0f006d674a7df1285d60b323efb.1920x1080.jpg?t=1782742529",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678440/9b5ba84dec91d5ba899a7ec9a3d5852667a6cd95/ss_9b5ba84dec91d5ba899a7ec9a3d5852667a6cd95.1920x1080.jpg?t=1782742529",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678440/f9b08fff34b38bc468357cd05f0cb511d514fa78/ss_f9b08fff34b38bc468357cd05f0cb511d514fa78.1920x1080.jpg?t=1782742529",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678440/b0f71a1e63a10a1d5568dd4262e059e2d1bbaee0/ss_b0f71a1e63a10a1d5568dd4262e059e2d1bbaee0.1920x1080.jpg?t=1782742529",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678440/5b957b96040661f5dbdbd92bb82b0b0affacc0b5/ss_5b957b96040661f5dbdbd92bb82b0b0affacc0b5.1920x1080.jpg?t=1782742529"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2678440/"
   },
   {
     "id": 19,
@@ -301,14 +311,15 @@
     "floor": "1F",
     "exhibitor": "Satoyama Note",
     "genre": "アドベンチャー",
-    "description": "里山のおと-春さんぽ。",
+    "description": "『里山のおと 春さんぽ』は、春の里山を探索するポイント&クリックゲームです。動物たちと話したり、植物を観察しながら森を進み、桜の木の下でお弁当を食べよう！",
     "images": [
-      "/images/1F-D19/1.png",
-      "/images/1F-D19/2.png",
-      "/images/1F-D19/3.png",
-      "/images/1F-D19/4.png",
-      "/images/1F-D19/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3430090/be36bb07ad7b3ae779edecf63f66916f9cab0dde/ss_be36bb07ad7b3ae779edecf63f66916f9cab0dde.1920x1080.jpg?t=1780290458",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3430090/e525fc83a68616dddd00e21e214d24b8f798644c/ss_e525fc83a68616dddd00e21e214d24b8f798644c.1920x1080.jpg?t=1780290458",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3430090/5068bf8ecd7c017340b9d3efc624d607941cedb4/ss_5068bf8ecd7c017340b9d3efc624d607941cedb4.1920x1080.jpg?t=1780290458",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3430090/200c7c11363a307e7912efadd4a5e46660f4e3b0/ss_200c7c11363a307e7912efadd4a5e46660f4e3b0.1920x1080.jpg?t=1780290458",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3430090/de2d2bc4c4519111a6da35510aad3ac6e044906b/ss_de2d2bc4c4519111a6da35510aad3ac6e044906b.1920x1080.jpg?t=1780290458"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3430090/"
   },
   {
     "id": 20,
@@ -316,15 +327,16 @@
     "booth": "1F-D20",
     "floor": "1F",
     "exhibitor": "softoko",
-    "genre": "パズル",
-    "description": "航路パズルゲーム。",
+    "genre": "RPG",
+    "description": "進むたびに、宇宙は裏切る。『ヴォエッジ・ルーター』は、次元の海を探索し、漁を重ねてより大きな漁果を狙うルート探索型ローグライク・ストラテジー。地図を読み解きリスクをとらえ、ベストルートを探し続けろ。",
     "images": [
-      "/images/1F-D20/1.png",
-      "/images/1F-D20/2.png",
-      "/images/1F-D20/3.png",
-      "/images/1F-D20/4.png",
-      "/images/1F-D20/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3632020/2aa4162045450c962298d040d60af1460b555e17/ss_2aa4162045450c962298d040d60af1460b555e17.1920x1080.jpg?t=1781013620",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3632020/c6005304583a6bb43e951720d4d9d48ae209f858/ss_c6005304583a6bb43e951720d4d9d48ae209f858.1920x1080.jpg?t=1781013620",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3632020/b9ba3e1cec976c9c25c68256e6c8f96833860aac/ss_b9ba3e1cec976c9c25c68256e6c8f96833860aac.1920x1080.jpg?t=1781013620",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3632020/095a2ac578114c9a504149747e6cc34e71ec8845/ss_095a2ac578114c9a504149747e6cc34e71ec8845.1920x1080.jpg?t=1781013620",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3632020/b1c7ada5e03ccfa86f4319f88df7233a484b32e9/ss_b1c7ada5e03ccfa86f4319f88df7233a484b32e9.1920x1080.jpg?t=1781013620"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3632020/"
   },
   {
     "id": 21,
@@ -332,15 +344,16 @@
     "booth": "1F-D21",
     "floor": "1F",
     "exhibitor": "Matrix Corporation",
-    "genre": "アドベンチャー",
-    "description": "60病。",
+    "genre": "その他",
+    "description": "あなたは60秒後に死ぬ。 本作は、わずか60秒のタイムループに閉じ込められた男が密室から脱出するシングルプレーのホラー脱出ゲームです。 閉ざされた部屋で、死ぬたびに時はリセットされる。繰り返される現象を観察し、変化を記憶し、ループから抜け出せ。",
     "images": [
-      "/images/1F-D21/1.png",
-      "/images/1F-D21/2.png",
-      "/images/1F-D21/3.png",
-      "/images/1F-D21/4.png",
-      "/images/1F-D21/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4608750/ba3f0a727366787fe4f034b530d952067106abaa/ss_ba3f0a727366787fe4f034b530d952067106abaa.1920x1080.jpg?t=1779954145",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4608750/a3e27a14814c53eab4774594e42e993009ab2f69/ss_a3e27a14814c53eab4774594e42e993009ab2f69.1920x1080.jpg?t=1779954145",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4608750/d41fd7264f8945f15103f17240fbd624b5b9ce2a/ss_d41fd7264f8945f15103f17240fbd624b5b9ce2a.1920x1080.jpg?t=1779954145",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4608750/70b6e7c9aaf1da2c7ec3ec440e7e0b310a28865b/ss_70b6e7c9aaf1da2c7ec3ec440e7e0b310a28865b.1920x1080.jpg?t=1779954145",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4608750/37d9c5a3262b5d94feab0db037b63284758f034e/ss_37d9c5a3262b5d94feab0db037b63284758f034e.1920x1080.jpg?t=1779954145"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/4608750/"
   },
   {
     "id": 22,
@@ -365,15 +378,16 @@
     "booth": "1F-D23",
     "floor": "1F",
     "exhibitor": "YawarakaSoft",
-    "genre": "アクション",
-    "description": "ピンボールガーデン。",
+    "genre": "パズル",
+    "description": "小さな精霊や虫たちが集う「ガーデン」が舞台のピンボールゲームです。シングルプレイでハイスコアをめざす「CLASSIC」モードと、マルチプレイで相手より先にハチミツゲージ（スコアゲージ）をいっぱいにするまでのスピードを競う「VERSUS」モードがあります。",
     "images": [
-      "/images/1F-D23/1.png",
-      "/images/1F-D23/2.png",
-      "/images/1F-D23/3.png",
-      "/images/1F-D23/4.png",
-      "/images/1F-D23/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281640/6cbbea942404343b6350364303e55b54d7480450/ss_6cbbea942404343b6350364303e55b54d7480450.1920x1080.jpg?t=1774591290",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281640/40203655aabe6ad79e2b23c34e100fb0a6c30399/ss_40203655aabe6ad79e2b23c34e100fb0a6c30399.1920x1080.jpg?t=1774591290",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281640/a5195d6cfb551c071eb18c0acf015ab49cf6110f/ss_a5195d6cfb551c071eb18c0acf015ab49cf6110f.1920x1080.jpg?t=1774591290",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281640/85330756adf4abca8621c548073348a68af0226f/ss_85330756adf4abca8621c548073348a68af0226f.1920x1080.jpg?t=1774591290",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281640/b82e89ecc7a9b129fcdddf87ec8cef6441d58e90/ss_b82e89ecc7a9b129fcdddf87ec8cef6441d58e90.1920x1080.jpg?t=1774591290"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/4281640/"
   },
   {
     "id": 24,
@@ -381,15 +395,16 @@
     "booth": "1F-D24",
     "floor": "1F",
     "exhibitor": "Joe Yu Studio",
-    "genre": "アドベンチャー",
-    "description": "Katubaの密猟者。",
+    "genre": "アクション",
+    "description": "すべての戦いがショーになる。 愛らしいモンスター「シャプ」には莫大な賞金が…そしてあなたにも。",
     "images": [
-      "/images/1F-D24/1.png",
-      "/images/1F-D24/2.png",
-      "/images/1F-D24/3.png",
-      "/images/1F-D24/4.png",
-      "/images/1F-D24/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488500/ss_7f9faa4d50dd11b9705a69e7c66245931f44df66.1920x1080.jpg?t=1781700499",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488500/14890074e8a5583ca819ea7c06e162c2c59a2997/ss_14890074e8a5583ca819ea7c06e162c2c59a2997.1920x1080.jpg?t=1781700499",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488500/ss_45e5414fbae89bfb834056edb910378742a57333.1920x1080.jpg?t=1781700499",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488500/ea27fa1958f452e753c84a2da0725339bf21829b/ss_ea27fa1958f452e753c84a2da0725339bf21829b.1920x1080.jpg?t=1781700499",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488500/6035dba0dc98edd467ffc7012ddd36c8e6e1e0c1/ss_6035dba0dc98edd467ffc7012ddd36c8e6e1e0c1.1920x1080.jpg?t=1781700499"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2488500/"
   },
   {
     "id": 25,
@@ -398,14 +413,15 @@
     "floor": "1F",
     "exhibitor": "Authentic Remixes & Fat Raccoon",
     "genre": "アクション",
-    "description": "キッドバッシュ：スーパーレジェンド。",
+    "description": "懐かしさあふれる、ローグライクなアクション・プラットフォーマー――キミは忘れ去られたゲームキャラたちの住む世界で目覚めた、記憶喪失のヒーロー。とある村を守り切れなかった絶望から立ち直り、村を再建しながら、ヒーローになることの真の意味を再度見いだす。",
     "images": [
-      "/images/1F-D25/1.png",
-      "/images/1F-D25/2.png",
-      "/images/1F-D25/3.png",
-      "/images/1F-D25/4.png",
-      "/images/1F-D25/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2681870/ss_17df9ab21965e2d0ee4c57479ab8766c4c10cd66.1920x1080.jpg?t=1781236674",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2681870/ss_fcda0704e208f0d16735a095e9587ebb0b3bce55.1920x1080.jpg?t=1781236674",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2681870/ss_a2030cc93461ae25d69c11aef014a07f29e88133.1920x1080.jpg?t=1781236674",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2681870/83d2255df2d912be7e66ee7be068eddb701fb772/ss_83d2255df2d912be7e66ee7be068eddb701fb772.1920x1080.jpg?t=1781236674",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2681870/212d32afe859e1f883746aa5a3d87a9b4a78599c/ss_212d32afe859e1f883746aa5a3d87a9b4a78599c.1920x1080.jpg?t=1781236674"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2681870/"
   },
   {
     "id": 26,
@@ -430,14 +446,15 @@
     "floor": "1F",
     "exhibitor": "HO! Games",
     "genre": "アドベンチャー",
-    "description": "正体不明の主人公の物語。",
+    "description": "『Am I Nima』では自分が娘だと認めてもらうべく母親を説得しなければならない。脳内に浮かぶ単語を組み合わせたり会話に使用したりして、信じてもらえるよう説得を続けるのみ…",
     "images": [
-      "/images/1F-D27/1.png",
-      "/images/1F-D27/2.png",
-      "/images/1F-D27/3.png",
-      "/images/1F-D27/4.png",
-      "/images/1F-D27/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224600/971f43194e04bebfeefd72392ad7b29b8b912763/ss_971f43194e04bebfeefd72392ad7b29b8b912763.1920x1080.jpg?t=1781653061",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224600/5ff284189f28ba41e4bd810c37a36e617544cf15/ss_5ff284189f28ba41e4bd810c37a36e617544cf15.1920x1080.jpg?t=1781653061",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224600/ss_5eeeb5869e034f563c4d2fc717229e24ed2b2e99.1920x1080.jpg?t=1781653061",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224600/5819c4877e8b6f4b5750ad6f221757736e77cf9a/ss_5819c4877e8b6f4b5750ad6f221757736e77cf9a.1920x1080.jpg?t=1781653061",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3224600/d4461ad55f2931cd957962626e528ae18c996e3e/ss_d4461ad55f2931cd957962626e528ae18c996e3e.1920x1080.jpg?t=1781653061"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3224600/"
   },
   {
     "id": 28,
@@ -445,15 +462,16 @@
     "booth": "1F-D28",
     "floor": "1F",
     "exhibitor": "KUMAZASA",
-    "genre": "パズル",
-    "description": "表面迷宮くるまぶ。",
+    "genre": "アクション",
+    "description": "ネオ2Dアクションパスルゲーム！",
     "images": [
-      "/images/1F-D28/1.png",
-      "/images/1F-D28/2.png",
-      "/images/1F-D28/3.png",
-      "/images/1F-D28/4.png",
-      "/images/1F-D28/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3546020/9abef403d3aa1f5fc2bdbb467477e5bedfb35a0d/ss_9abef403d3aa1f5fc2bdbb467477e5bedfb35a0d.1920x1080.jpg?t=1761495698",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3546020/9d6ad9e3db168c522a5487e0dfdc792a1648e8e0/ss_9d6ad9e3db168c522a5487e0dfdc792a1648e8e0.1920x1080.jpg?t=1761495698",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3546020/f963ada0a32e678378c6e3995051b28cbd5aa345/ss_f963ada0a32e678378c6e3995051b28cbd5aa345.1920x1080.jpg?t=1761495698",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3546020/1da5d4d0abb1ecf8d783553dd2abddea45da1bc2/ss_1da5d4d0abb1ecf8d783553dd2abddea45da1bc2.1920x1080.jpg?t=1761495698",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3546020/afa3fd7796c8d33dca9385f39faae13a472abe1d/ss_afa3fd7796c8d33dca9385f39faae13a472abe1d.1920x1080.jpg?t=1761495698"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3546020/"
   },
   {
     "id": 29,
@@ -512,15 +530,16 @@
     "booth": "1F-D32",
     "floor": "1F",
     "exhibitor": "Lights Interactive",
-    "genre": "アドベンチャー",
-    "description": "モノノケの国。異世界アクションアドベンチャー。Steam 2026年発売予定。",
+    "genre": "アクション",
+    "description": "もう一度、君と帰るために。家族を失った少年は、ひとりぼっちの子犬ムサシと出会い、死後の異界「モノノケの国」へ迷い込む。怖くて可愛いモノノケたちを助けながら、悲しみと呪いを振りまく蛇神を封印し、元の世界への帰り道を探す和風アクションアドベンチャー。",
     "images": [
-      "/images/1F-D32/1.png",
-      "/images/1F-D32/2.png",
-      "/images/1F-D32/3.png",
-      "/images/1F-D32/4.png",
-      "/images/1F-D32/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2597610/2a90b96fd57e07fc612e0efa3f433a62723a8285/ss_2a90b96fd57e07fc612e0efa3f433a62723a8285.1920x1080.jpg?t=1783785041",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2597610/6f41c1db49b54a49184ae50bc4bd13a9bd069e63/ss_6f41c1db49b54a49184ae50bc4bd13a9bd069e63.1920x1080.jpg?t=1783785041",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2597610/fa83c59def28ea01d7ba5a0097a64391e0cde36e/ss_fa83c59def28ea01d7ba5a0097a64391e0cde36e.1920x1080.jpg?t=1783785041",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2597610/812b56d1fe80c63a00aed1b29922253f5028a796/ss_812b56d1fe80c63a00aed1b29922253f5028a796.1920x1080.jpg?t=1783785041",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2597610/e5ca7a99341c44cdabb4d8bf1b0d00510f103e56/ss_e5ca7a99341c44cdabb4d8bf1b0d00510f103e56.1920x1080.jpg?t=1783785041"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2597610/"
   },
   {
     "id": 33,
@@ -529,14 +548,15 @@
     "floor": "1F",
     "exhibitor": "PINIX Games",
     "genre": "アクション",
-    "description": "死深。アクションゲーム。Steam対応。",
+    "description": "『Die Deep』は、純粋に敵対勢力とのバトルに焦点を当てたアクションゲームです。 マップ探索やパズルなど余計な要素は一切なく、戦闘だけがゲームの核心です！ 一度の無謀な攻撃や欲張りが、致命的な敗北につながる可能性もあります。 全てが深淵に呑み込まれ、生きる意味を忘れた彷徨う魂として、 深淵の声なき呼び声に導かれ、深淵へと降り立て。忘れてしまった、かつての真の願いを探し求めるのだ。戦え、己の心臓がまだ動いていることを確かめるためだけに。",
     "images": [
-      "/images/1F-D33/1.png",
-      "/images/1F-D33/2.png",
-      "/images/1F-D33/3.png",
-      "/images/1F-D33/4.png",
-      "/images/1F-D33/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211560/3824d3338c97f82aa2c8ab02e42e88722597340b/ss_3824d3338c97f82aa2c8ab02e42e88722597340b.1920x1080.jpg?t=1781854822",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211560/39d74bcf18cf04b87ae1c5c47d112d891e11f578/ss_39d74bcf18cf04b87ae1c5c47d112d891e11f578.1920x1080.jpg?t=1781854822",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211560/033615df2ee0e2496ad91a332548add875f30837/ss_033615df2ee0e2496ad91a332548add875f30837.1920x1080.jpg?t=1781854822",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211560/a868facaa8124f0a6ab77015c4a37c2fe846a6c9/ss_a868facaa8124f0a6ab77015c4a37c2fe846a6c9.1920x1080.jpg?t=1781854822",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211560/2cb9931862dc3c6179457df7fd693ddf52e6b317/ss_2cb9931862dc3c6179457df7fd693ddf52e6b317.1920x1080.jpg?t=1781854822"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3211560/"
   },
   {
     "id": 34,
@@ -577,15 +597,16 @@
     "booth": "1F-D36",
     "floor": "1F",
     "exhibitor": "WarmingApp",
-    "genre": "シミュレーション",
-    "description": "ミニチュアの世界を楽しむ。",
+    "genre": "アドベンチャー",
+    "description": "手作りのミニチュアの世界に迷い込んでしまったような体験ができる脱出ゲーム。 あなたは、果たして元の世界に戻ることができるのでしょうか。",
     "images": [
-      "/images/1F-D36/1.png",
-      "/images/1F-D36/2.png",
-      "/images/1F-D36/3.png",
-      "/images/1F-D36/4.png",
-      "/images/1F-D36/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4460460/b0e983618ce8dc692defd7144bb3cc7664f25696/ss_b0e983618ce8dc692defd7144bb3cc7664f25696.1920x1080.jpg?t=1781321287",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4460460/653ed57f954aaa1201bb06e97a3aa2168f50a0a4/ss_653ed57f954aaa1201bb06e97a3aa2168f50a0a4.1920x1080.jpg?t=1781321287",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4460460/b566471673f4d98fe03e641a2f6698efc3c83ae6/ss_b566471673f4d98fe03e641a2f6698efc3c83ae6.1920x1080.jpg?t=1781321287",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4460460/25ea53804c6889480d99bb64c8479fe66ca5eb23/ss_25ea53804c6889480d99bb64c8479fe66ca5eb23.1920x1080.jpg?t=1781321287",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4460460/3fc201413d78bfecc1bbd666b9d37b45e6e04d56/ss_3fc201413d78bfecc1bbd666b9d37b45e6e04d56.1920x1080.jpg?t=1781321287"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/4460460/"
   },
   {
     "id": 37,
@@ -593,15 +614,16 @@
     "booth": "1F-D37",
     "floor": "1F",
     "exhibitor": "Neutral Software Inc.",
-    "genre": "アドベンチャー",
-    "description": "Fooを探す物語。",
+    "genre": "アクション",
+    "description": "サイバーパンクな世界観の２Dアクションゲームです。 少し前の自分のいた位置に移動できる能力「ロールバック」を使って、様々なギミックを盛り込んだステージを解いていきます。 過去の座標に瞬時に戻る能力は、アイデア次第でミスのリカバーにも、攻撃にも使えます。",
     "images": [
-      "/images/1F-D37/1.png",
-      "/images/1F-D37/2.png",
-      "/images/1F-D37/3.png",
-      "/images/1F-D37/4.png",
-      "/images/1F-D37/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282170/7b465c1d969d3e40526a963322dd8922316ea6be/ss_7b465c1d969d3e40526a963322dd8922316ea6be.1920x1080.jpg?t=1780018027",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282170/6e35947779a019fff8d979b547827375957c4d26/ss_6e35947779a019fff8d979b547827375957c4d26.1920x1080.jpg?t=1780018027",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282170/b4c9fbc0bc184e7cf99a86d0fdf0d3486018c973/ss_b4c9fbc0bc184e7cf99a86d0fdf0d3486018c973.1920x1080.jpg?t=1780018027",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282170/584031a6d70b00797f73c077d9c2dc58e2667611/ss_584031a6d70b00797f73c077d9c2dc58e2667611.1920x1080.jpg?t=1780018027",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282170/53877a2645eeb07654e18c770ac93459586fee48/ss_53877a2645eeb07654e18c770ac93459586fee48.1920x1080.jpg?t=1780018027"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/4282170/"
   },
   {
     "id": 38,
@@ -609,15 +631,16 @@
     "booth": "1F-D38",
     "floor": "1F",
     "exhibitor": "SyncArc-Studio",
-    "genre": "音楽",
-    "description": "リズムホテル。",
+    "genre": "パズル",
+    "description": "クレイジーでナンセンス、爆笑と中毒性のあるリズムゲーム🎵『リズムホテル』🎵が型破りな姿でオープン！ソクラテスは頑固なロバを蹴飛ばし、張飛は「桃園の誓い」でセリフを忘れ、アインシュタインは激しく自撮り！頭を悩ますパズルも指先が痺れる操作も不要！ユニークなテーマ、多様なゲームプレイ、シンプル操作、そして中毒性抜群のリズムで足が自然に動き出す！ホテル特製のリズム試練に今すぐ挑戦せよ！",
     "images": [
-      "/images/1F-D38/1.png",
-      "/images/1F-D38/2.png",
-      "/images/1F-D38/3.png",
-      "/images/1F-D38/4.png",
-      "/images/1F-D38/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253930/03838ff6db32e63a2f6fee51f87a87603b249c08/ss_03838ff6db32e63a2f6fee51f87a87603b249c08.1920x1080.jpg?t=1777459747",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253930/d24528c563205a3430173b3e6138626b5947a923/ss_d24528c563205a3430173b3e6138626b5947a923.1920x1080.jpg?t=1777459747",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253930/aabf15ec5c2bc65bb21b8fa463aef00e264340cb/ss_aabf15ec5c2bc65bb21b8fa463aef00e264340cb.1920x1080.jpg?t=1777459747",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253930/699d2f63eb218fba6977992f75959daecc48c845/ss_699d2f63eb218fba6977992f75959daecc48c845.1920x1080.jpg?t=1777459747",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253930/d3bac3d14074e737a663899b9ed17741ed7a5020/ss_d3bac3d14074e737a663899b9ed17741ed7a5020.1920x1080.jpg?t=1777459747"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3253930/"
   },
   {
     "id": 39,
@@ -626,14 +649,15 @@
     "floor": "1F",
     "exhibitor": "DOUKUTSU PENGUIN CLUB",
     "genre": "アドベンチャー",
-    "description": "アドベンチャー×パズル。Steam対応。",
+    "description": "世界観と物語そのものが謎解きになった、探索謎解きアドベンチャーゲーム。ランタン片手に夜を駆け、時にはコーヒー片手に一休み。探索と発見、そして人々との交流から知識を集め、閉ざされた森の深奥へ荷物を配達しよう。",
     "images": [
-      "/images/1F-D39/1.png",
-      "/images/1F-D39/2.png",
-      "/images/1F-D39/3.png",
-      "/images/1F-D39/4.png",
-      "/images/1F-D39/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3260830/9e7828ef42b43532c54d03eacef25e5d94f694c9/ss_9e7828ef42b43532c54d03eacef25e5d94f694c9.1920x1080.jpg?t=1783015309",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3260830/d1f4f9215e4b42f7b9d936696364404962eb1c96/ss_d1f4f9215e4b42f7b9d936696364404962eb1c96.1920x1080.jpg?t=1783015309",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3260830/938939afc272dcb10ceee87c3e4216890fdb9c60/ss_938939afc272dcb10ceee87c3e4216890fdb9c60.1920x1080.jpg?t=1783015309",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3260830/7ff62569618a705c0da2103a38ca0a07fbb96995/ss_7ff62569618a705c0da2103a38ca0a07fbb96995.1920x1080.jpg?t=1783015309",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3260830/a70251fe563f5661ab49c1adebc6a3537acc1ac8/ss_a70251fe563f5661ab49c1adebc6a3537acc1ac8.1920x1080.jpg?t=1783015309"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3260830/"
   },
   {
     "id": 40,
@@ -659,14 +683,15 @@
     "floor": "1F",
     "exhibitor": "Too Dark Studio",
     "genre": "アクション",
-    "description": "オニクラ。",
+    "description": "『オニクラ』は和の世界観と激しい戦闘が楽しめる、テンポの速いボスラッシュアクションゲームです。 ゲームの舞台は、悪鬼が横行する終末の世界。一匹狼の「桜の侍」は悪を成敗する旅に！刀を振るって、攻撃を防ぎ、鬼を斬って、封印――聖なる桜の力で運命の輪廻を断ち切りましょう。",
     "images": [
-      "/images/1F-D41/1.png",
-      "/images/1F-D41/2.png",
-      "/images/1F-D41/3.png",
-      "/images/1F-D41/4.png",
-      "/images/1F-D41/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008640/ss_2798db2ab37b3c9f64a0ccde05a737d9262ef061.1920x1080.jpg?t=1775068979",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008640/508d72bff5e489f6eb7acec21243fd46a6054879/ss_508d72bff5e489f6eb7acec21243fd46a6054879.1920x1080.jpg?t=1775068979",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008640/065c720d8775ea2527cc29baf1f467c45c97fe16/ss_065c720d8775ea2527cc29baf1f467c45c97fe16.1920x1080.jpg?t=1775068979",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008640/ss_6be99641c5e4da7d743b25912050820e5625e786.1920x1080.jpg?t=1775068979",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008640/adca61f3a6cd19ccc2b30107c77ba146ed2b729a/ss_adca61f3a6cd19ccc2b30107c77ba146ed2b729a.1920x1080.jpg?t=1775068979"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3008640/"
   },
   {
     "id": 42,
@@ -675,14 +700,15 @@
     "floor": "1F",
     "exhibitor": "Alkacer Game Studio",
     "genre": "アクション",
-    "description": "マジカル・ブラッシュ。",
+    "description": "『Magical Blush』は、テンポの速いエレメンタル戦闘とメトロイドヴァニア風アクションを融合させた、見下ろし型アドベンチャーゲーム。呪文コンボを連発、エレメンタルの弱点を利用し生存者を救出。ローカル協力プレイで味方と力を合わせ、エレメンタルロードと戦い、ウィンの幻想的な世界を探索しよう。",
     "images": [
-      "/images/1F-D42/1.png",
-      "/images/1F-D42/2.png",
-      "/images/1F-D42/3.png",
-      "/images/1F-D42/4.png",
-      "/images/1F-D42/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3488640/24c526ce66223b5fd8a37a1260079da2ccc1cb74/ss_24c526ce66223b5fd8a37a1260079da2ccc1cb74.1920x1080.jpg?t=1783399590",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3488640/e7d80bef18d9593ce63d006d639f28ac8a91bbfe/ss_e7d80bef18d9593ce63d006d639f28ac8a91bbfe.1920x1080.jpg?t=1783399590",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3488640/5da21ed2e9a8a4dfd763d6ba7e353b0180ed3b7d/ss_5da21ed2e9a8a4dfd763d6ba7e353b0180ed3b7d.1920x1080.jpg?t=1783399590",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3488640/8894f32ba940e9206af4074db6e110a79224277f/ss_8894f32ba940e9206af4074db6e110a79224277f.1920x1080.jpg?t=1783399590",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3488640/b63a2b6e367a0950f5f261ed6d5ea468384a1c0e/ss_b63a2b6e367a0950f5f261ed6d5ea468384a1c0e.1920x1080.jpg?t=1783399590"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3488640/"
   },
   {
     "id": 43,
@@ -690,15 +716,16 @@
     "booth": "1F-D43",
     "floor": "1F",
     "exhibitor": "Nonlinear",
-    "genre": "アドベンチャー",
-    "description": "太陽に近い物語。",
+    "genre": "アクション",
+    "description": "神の罰が地上を焼き尽くし、やがて地下すらも侵食していく。探索の仕方が運命を決定するスタイリッシュ2Dステルスアクション。少年は妹を背負い地下世界を駆ける。",
     "images": [
-      "/images/1F-D43/1.png",
-      "/images/1F-D43/2.png",
-      "/images/1F-D43/3.png",
-      "/images/1F-D43/4.png",
-      "/images/1F-D43/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3039960/2da22be1fa99fd99885938b50c47975564dd9498/ss_2da22be1fa99fd99885938b50c47975564dd9498.1920x1080.jpg?t=1780907006",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3039960/a8adade7d8b2ce3b02b73df8e8fa2663c4bac6ed/ss_a8adade7d8b2ce3b02b73df8e8fa2663c4bac6ed.1920x1080.jpg?t=1780907006",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3039960/0c2e36dc33e2bb4de69de32938658997d30f6991/ss_0c2e36dc33e2bb4de69de32938658997d30f6991.1920x1080.jpg?t=1780907006",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3039960/37767109d40ed1a17c5f8c5e19a3f1b9af9b0281/ss_37767109d40ed1a17c5f8c5e19a3f1b9af9b0281.1920x1080.jpg?t=1780907006",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3039960/3b6a819cb1ccc4cb15f1f17a907fecd95cae383d/ss_3b6a819cb1ccc4cb15f1f17a907fecd95cae383d.1920x1080.jpg?t=1780907006"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3039960/"
   },
   {
     "id": 44,
@@ -706,15 +733,16 @@
     "booth": "1F-D44",
     "floor": "1F",
     "exhibitor": "Flypot LLC",
-    "genre": "アドベンチャー",
-    "description": "赫夜（カグヤ）。",
+    "genre": "アクション",
+    "description": "『Princess Kaguya』は、和服を着た美少女が\"けん玉\"と\"弓矢\"を武器に化け物達と戦う、和風ベルトスクロール型アクションゲーム！ 妹の\"朔夜\"を助けるため、\"輝夜\"の戦いが始まる！",
     "images": [
-      "/images/1F-D44/1.png",
-      "/images/1F-D44/2.png",
-      "/images/1F-D44/3.png",
-      "/images/1F-D44/4.png",
-      "/images/1F-D44/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383710/ss_cc4560d8352bc7eb70fc007a70c3d7ae7488fe77.1920x1080.jpg?t=1770960855",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383710/ss_8351882ae121ad390f0c63a3dd8c921b47b53c2a.1920x1080.jpg?t=1770960855",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383710/ss_65a154dacc4f6da6d5313cfbb5cfa8af532bafa1.1920x1080.jpg?t=1770960855",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383710/ss_8a2aa83b06b0cb0602c20b0f2fdfd2875319e0fb.1920x1080.jpg?t=1770960855",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383710/ss_2d8807b96f7797276265f2933caa0b149ec93d61.1920x1080.jpg?t=1770960855"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/383710/"
   },
   {
     "id": 45,
@@ -722,15 +750,16 @@
     "booth": "1F-D45",
     "floor": "1F",
     "exhibitor": "uracon LLC.",
-    "genre": "パーティ",
-    "description": "人狼バーガー。",
+    "genre": "パズル",
+    "description": "人狼バーガーはハンバーガー作りを通して友情を育んだり、あるいは打ち砕かれたりする協力＆裏切りのソーシャル推理ゲームです。厨房に潜んだスパイの嘘と妨害を見抜き、お客様を満足させることができるでしょうか？",
     "images": [
-      "/images/1F-D45/1.png",
-      "/images/1F-D45/2.png",
-      "/images/1F-D45/3.png",
-      "/images/1F-D45/4.png",
-      "/images/1F-D45/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3975350/5c0f91a649b5b973e8953804564e88ff355801b2/ss_5c0f91a649b5b973e8953804564e88ff355801b2.1920x1080.jpg?t=1771481487",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3975350/cd78d72189130a9be803c20317ef553955088ad6/ss_cd78d72189130a9be803c20317ef553955088ad6.1920x1080.jpg?t=1771481487",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3975350/442019aceab6c1bae0200faaa2d3e5ac681cc7a6/ss_442019aceab6c1bae0200faaa2d3e5ac681cc7a6.1920x1080.jpg?t=1771481487",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3975350/6031e2fc50bfc9181342d0cc6fd2e40f8eb2d156/ss_6031e2fc50bfc9181342d0cc6fd2e40f8eb2d156.1920x1080.jpg?t=1771481487",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3975350/f5a306496f22666bbd03287f7476c2d84a47c123/ss_f5a306496f22666bbd03287f7476c2d84a47c123.1920x1080.jpg?t=1771481487"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3975350/"
   },
   {
     "id": 46,
@@ -754,15 +783,16 @@
     "booth": "1F-D47",
     "floor": "1F",
     "exhibitor": "Decoboco Games",
-    "genre": "RPG",
-    "description": "タイピング×マジック。",
+    "genre": "アドベンチャー",
+    "description": "タイピングで足場を作って廃墟の城を探索し、パズルを解いていくアクションADVゲームです。城の暗い歴史を明らかにし、外で待っている師匠に告げましょう。それとも、内緒にしておきますか。",
     "images": [
-      "/images/1F-D47/1.png",
-      "/images/1F-D47/2.png",
-      "/images/1F-D47/3.png",
-      "/images/1F-D47/4.png",
-      "/images/1F-D47/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3685040/a2510dd4da70458676f8e1a3504c9380166620da/ss_a2510dd4da70458676f8e1a3504c9380166620da.1920x1080.jpg?t=1770842839",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3685040/1d34cca08efea91c1e1c356d037d442505a50d26/ss_1d34cca08efea91c1e1c356d037d442505a50d26.1920x1080.jpg?t=1770842839",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3685040/85b3a0bf2de85e4761e99f5f4aabaf375575b6ec/ss_85b3a0bf2de85e4761e99f5f4aabaf375575b6ec.1920x1080.jpg?t=1770842839",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3685040/e368acde350746810b1a8bd473ce02f77dada8b6/ss_e368acde350746810b1a8bd473ce02f77dada8b6.1920x1080.jpg?t=1770842839",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3685040/958906f90fa634e49f5e00e1f1658a55f4777779/ss_958906f90fa634e49f5e00e1f1658a55f4777779.1920x1080.jpg?t=1770842839"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3685040/"
   },
   {
     "id": 48,
@@ -770,15 +800,16 @@
     "booth": "1F-D48",
     "floor": "1F",
     "exhibitor": "BUBBLE　GUM",
-    "genre": "シミュレーション",
-    "description": "リトルチーズワークス。",
+    "genre": "アクション",
+    "description": "【協力プレイ×ボイスチャット】 ネコに見つからないようにチーズをゴールまで運ぶ、協力型のアクションゲームです。 ボイスチャットで会話ができますが、少しの音でネコは目を覚ましてしまいます。ネコに見つからぬように静かに息を合わせて静かにチーズを運びましょう！ ブラックねずみ企業で働くあなたと仲間は行く手を阻む様々な障害物を乗り越え、平穏な生活を送ることができるか…？",
     "images": [
-      "/images/1F-D48/1.png",
-      "/images/1F-D48/2.png",
-      "/images/1F-D48/3.png",
-      "/images/1F-D48/4.png",
-      "/images/1F-D48/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527940/ss_13c5d36b64d6e5380e7519f2bffc8336ad519fc9.1920x1080.jpg?t=1781838882",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527940/5246ecef2663ee3a690f5a0098acb770f75da0dc/ss_5246ecef2663ee3a690f5a0098acb770f75da0dc.1920x1080.jpg?t=1781838882",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527940/ss_3029bb1a30cb4f60afa83fce406fc4527d348a7d.1920x1080.jpg?t=1781838882",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527940/faa97080cd4ba6cfdabb9f08eb344e7607e6485d/ss_faa97080cd4ba6cfdabb9f08eb344e7607e6485d.1920x1080.jpg?t=1781838882",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527940/ss_743ce82a6455b17317df7a5e20b4c9f099975ae8.1920x1080.jpg?t=1781838882"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/2527940/"
   },
   {
     "id": 49,
@@ -819,14 +850,15 @@
     "floor": "1F",
     "exhibitor": "YOKUNIKU",
     "genre": "アドベンチャー",
-    "description": "天使機構-執行部魂救済課。",
+    "description": "公安バディ×怪奇事件なミステリーアドベンチャー。人知を超えた”霊害事件”の真相を解き明かせ！",
     "images": [
-      "/images/1F-D51/1.png",
-      "/images/1F-D51/2.png",
-      "/images/1F-D51/3.png",
-      "/images/1F-D51/4.png",
-      "/images/1F-D51/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370180/1dce80b9f45442e9a4559e0af62a912c78edec96/ss_1dce80b9f45442e9a4559e0af62a912c78edec96.1920x1080.jpg?t=1772093888",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370180/3db8ab335c27b1240ca44e112747e0a5af61f7db/ss_3db8ab335c27b1240ca44e112747e0a5af61f7db.1920x1080.jpg?t=1772093888",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370180/5a8406a6407f5174b63d18b8143fce2fe05c68c0/ss_5a8406a6407f5174b63d18b8143fce2fe05c68c0.1920x1080.jpg?t=1772093888",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370180/fda71b85c6c41ee874128ab0f39042251fb7b4e8/ss_fda71b85c6c41ee874128ab0f39042251fb7b4e8.1920x1080.jpg?t=1772093888",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370180/90198b2e045b94c4eae0bb042996f3bd8f2c12f0/ss_90198b2e045b94c4eae0bb042996f3bd8f2c12f0.1920x1080.jpg?t=1772093888"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3370180/"
   },
   {
     "id": 52,
@@ -852,14 +884,15 @@
     "floor": "1F",
     "exhibitor": "やまむーゲームス",
     "genre": "アクション",
-    "description": "アクション×スポーツ。Switch/Steam対応。",
+    "description": "「BBアドベンチャー」は、現実のバランスボールに乗りながら、アスレチックステージをクリアしていく体感型アクションゲームです。 加速度センサー内蔵のコントローラーとともに、プレイヤーのバランスボールの動きやバウンドがそのままゲーム内キャラクターの動きに連動。まるで自分がゲームの世界に入り込んだような没入感を味わえます。",
     "images": [
-      "/images/1F-D53/1.png",
-      "/images/1F-D53/2.png",
-      "/images/1F-D53/3.png",
-      "/images/1F-D53/4.png",
-      "/images/1F-D53/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740460/9d9428f83dbe8b4c30e8206c3b2cfa8e5bc17ef7/ss_9d9428f83dbe8b4c30e8206c3b2cfa8e5bc17ef7.1920x1080.jpg?t=1781429001",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740460/3f3fbb9c855dcddd41096247749592f96b29d94a/ss_3f3fbb9c855dcddd41096247749592f96b29d94a.1920x1080.jpg?t=1781429001",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740460/282af20ec9655ba547eb6d4e240efcf534d1da39/ss_282af20ec9655ba547eb6d4e240efcf534d1da39.1920x1080.jpg?t=1781429001",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740460/06cf72d2c23f32c5a8c572eff60ce1a5ac394678/ss_06cf72d2c23f32c5a8c572eff60ce1a5ac394678.1920x1080.jpg?t=1781429001",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740460/f7f3c6ea06f58ffd827aebc3e30f594ff4145ee4/ss_f7f3c6ea06f58ffd827aebc3e30f594ff4145ee4.1920x1080.jpg?t=1781429001"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3740460/"
   },
   {
     "id": 54,
@@ -867,15 +900,16 @@
     "booth": "1F-D54",
     "floor": "1F",
     "exhibitor": "C-Route,inc.",
-    "genre": "ホラー",
-    "description": "ホラー脱出ゲーム。",
+    "genre": "アクション",
+    "description": "『THREAT -SCREAM AND ESCAPE-（スレット -スクリーム アンド エスケープ-）』は、プレイヤー自身がマイクにむかって「絶叫」することで、襲いくるクリーチャーを気絶させながら脱出を目指す新感覚のホラーゲームです。あなたの「声の大きさ」で敵を蹴散らしながら、謎の研究施設で目覚めた主人公を脱出に導きましょう。",
     "images": [
-      "/images/1F-D54/1.png",
-      "/images/1F-D54/2.png",
-      "/images/1F-D54/3.png",
-      "/images/1F-D54/4.png",
-      "/images/1F-D54/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493610/cf22561ba8e45948f6396f3f02d063b96c7c5c11/ss_cf22561ba8e45948f6396f3f02d063b96c7c5c11.1920x1080.jpg?t=1757572536",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493610/c665811fe985d756e3171186756c451ea4cb462d/ss_c665811fe985d756e3171186756c451ea4cb462d.1920x1080.jpg?t=1757572536",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493610/c8b97f70eabc51184ec16ffa19a243ebdd0f2cc9/ss_c8b97f70eabc51184ec16ffa19a243ebdd0f2cc9.1920x1080.jpg?t=1757572536",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493610/aac1d47f36164dd202f5f7332d7eb3b8eac20f11/ss_aac1d47f36164dd202f5f7332d7eb3b8eac20f11.1920x1080.jpg?t=1757572536",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493610/c80d8e72d9ad06dfd3cf2bc0f01cc50841d3cb3b/ss_c80d8e72d9ad06dfd3cf2bc0f01cc50841d3cb3b.1920x1080.jpg?t=1757572536"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/3493610/"
   },
   {
     "id": 55,
@@ -883,15 +917,16 @@
     "booth": "1F-D55",
     "floor": "1F",
     "exhibitor": "Bad Goat & CloverBite",
-    "genre": "アクション",
-    "description": "Tammuz: 血と砂。",
+    "genre": "アドベンチャー",
+    "description": "A mythic VR puzzle-box adventure where ancient mechanisms come alive beneath your hands. Solve over 20 unique trials inside a divine cube prison and uncover Mesopotamian secrets that blur the line between reality and legend.",
     "images": [
-      "/images/1F-D55/1.png",
-      "/images/1F-D55/2.png",
-      "/images/1F-D55/3.png",
-      "/images/1F-D55/4.png",
-      "/images/1F-D55/5.png"
-    ]
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164840/2aaab063afa32168a6d61ab753b4bae526712fa7/ss_2aaab063afa32168a6d61ab753b4bae526712fa7.1920x1080.jpg?t=1773921966",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164840/bf0ecce6654effe6770a1ea4cdc1d53baf3521dd/ss_bf0ecce6654effe6770a1ea4cdc1d53baf3521dd.1920x1080.jpg?t=1773921966",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164840/e33b7bcc3df659a605d18a97d70866811ce9b890/ss_e33b7bcc3df659a605d18a97d70866811ce9b890.1920x1080.jpg?t=1773921966",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164840/0bb0b5f5122cadbeac9bca2ee01609f62b894ec0/ss_0bb0b5f5122cadbeac9bca2ee01609f62b894ec0.1920x1080.jpg?t=1773921966",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164840/5fabdffd0a0ab2455ce714c5006faf98ae2d3c50/ss_5fabdffd0a0ab2455ce714c5006faf98ae2d3c50.1920x1080.jpg?t=1773921966"
+    ],
+    "storeUrl": "https://store.steampowered.com/app/4164840/"
   },
   {
     "id": 56,
@@ -2199,14 +2234,14 @@
     "title": "クワイエット急行909号室 (Quiet Express: Cabin 909)",
     "exhibitor": "STUDIO909 LLC",
     "genre": "アドベンチャー",
-    "description": "909号室を知っている――？あなたは大陸横断鉄道に乗って旅をする。存在しないはずの909号室を探して――",
-    "storeUrl": "",
+    "description": "――909号室を知っている？ 7日間かけて大陸を横断する鉄道「クワイエット急行」に乗り込み旅する、鉄道の旅アドベンチャーです。",
+    "storeUrl": "https://store.steampowered.com/app/3962240/",
     "images": [
-      "/images/3F-D04/1.png",
-      "/images/3F-D04/2.png",
-      "/images/3F-D04/3.png",
-      "/images/3F-D04/4.png",
-      "/images/3F-D04/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962240/ae2a9194d172f1af0be94f117d7ff49d62e3da9a/ss_ae2a9194d172f1af0be94f117d7ff49d62e3da9a.1920x1080.jpg?t=1783245469",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962240/9aebe0e3aa3b7831bb1a1598bfb5c3a22bfb0c6f/ss_9aebe0e3aa3b7831bb1a1598bfb5c3a22bfb0c6f.1920x1080.jpg?t=1783245469",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962240/8184320c8d4fb9294ebe4dabafa51f1c23df48cf/ss_8184320c8d4fb9294ebe4dabafa51f1c23df48cf.1920x1080.jpg?t=1783245469",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962240/9aaca62c6ab47624c7e115470543d0354ed0cbcb/ss_9aaca62c6ab47624c7e115470543d0354ed0cbcb.1920x1080.jpg?t=1783245469",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3962240/b7d870e4f635a4e4b2e1e07dd1ab8f6a41cb2db3/ss_b7d870e4f635a4e4b2e1e07dd1ab8f6a41cb2db3.1920x1080.jpg?t=1783245469"
     ]
   },
   {
@@ -2232,15 +2267,15 @@
     "floor": "3F",
     "title": "Let's Build a Dungeon",
     "exhibitor": "Springloaded",
-    "genre": "シミュレーション",
+    "genre": "RPG",
     "description": "世界最大級のMMORPGを作らんとするゲームスタジオを経営。 デザイナーやプログラマー、テスターを雇ってファンタジー世界を創り出し、無数のゲームプレイヤーたちをその世界へ迎えよう。 プレイヤーたちはゲームに飽きてしまったら、サブスクをキャンセルするだろう。",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/2365790/",
     "images": [
-      "/images/3F-D06/1.png",
-      "/images/3F-D06/2.png",
-      "/images/3F-D06/3.png",
-      "/images/3F-D06/4.png",
-      "/images/3F-D06/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2365790/ss_0aa2164fa2f54bd65a4a8bf73850a249cade4fe6.1920x1080.jpg?t=1771980246",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2365790/ss_896d42cd16e55b96f3dbdbf987624df3afbde6d9.1920x1080.jpg?t=1771980246",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2365790/ss_5c0b1840cc7bb42027d48f245a069140e1538207.1920x1080.jpg?t=1771980246",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2365790/4b3903c2f3c86b6235c45b56e6a42fa09ca5ac51/ss_4b3903c2f3c86b6235c45b56e6a42fa09ca5ac51.1920x1080.jpg?t=1771980246",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2365790/ss_12f1f7e9f0dc6688dc7933c2e609ccaddd306f8b.1920x1080.jpg?t=1771980246"
     ]
   },
   {
@@ -2317,15 +2352,15 @@
     "floor": "3F",
     "title": "めくるりウィッチ (Mekururi)",
     "exhibitor": "SleepingMuseum",
-    "genre": "パズル",
+    "genre": "アクション",
     "description": "魔女のお目目をぐるぐる回して秘密を解錠する不思議なアドベンチャーゲームです。 めくるめく謎掛けや立ち塞がる怪物に惑わされずに彼女を最後までエスコートしましょう。",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/4156490/",
     "images": [
-      "/images/3F-D11/1.png",
-      "/images/3F-D11/2.png",
-      "/images/3F-D11/3.png",
-      "/images/3F-D11/4.png",
-      "/images/3F-D11/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156490/9af787505114a03114b02ebb78efa13ea526305e/ss_9af787505114a03114b02ebb78efa13ea526305e.1920x1080.jpg?t=1779576395",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156490/a85d10a2bfc039769293ffb41d3aab2da5fdc50b/ss_a85d10a2bfc039769293ffb41d3aab2da5fdc50b.1920x1080.jpg?t=1779576395",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156490/e39e0529313cffd6234b039001cf9f8c782dbb78/ss_e39e0529313cffd6234b039001cf9f8c782dbb78.1920x1080.jpg?t=1779576395",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156490/ee90595d73a5b654c18afb17199020afa8cb80a5/ss_ee90595d73a5b654c18afb17199020afa8cb80a5.1920x1080.jpg?t=1779576395",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4156490/8c57e900f076c42f2b32b79c6060dae96ba5f739/ss_8c57e900f076c42f2b32b79c6060dae96ba5f739.1920x1080.jpg?t=1779576395"
     ]
   },
   {
@@ -2657,15 +2692,15 @@
     "floor": "3F",
     "title": "Gutsy Grid (ガッツィ・グリッド)",
     "exhibitor": "Team Gutsy",
-    "genre": "パズル",
-    "description": "アクションデッキ構築ゲーム。頼れるガッツィービットコンソールで敵との遭遇を戦い抜こう。カートリッジやコンソール改造でアビリティを集めよう。ガッツィービットの力を駆使して、二つの世界を脅かす邪悪な陰謀を阻止し、最高にクールな夏休みを過ごそう。",
-    "storeUrl": "",
+    "genre": "アクション",
+    "description": "An Action Deck-builder. Battle through enemy encounters with your trusty Gutsy Bit console. Collect abilities through Carts and Console Mods. Wield the power of the Gutsy-Bit to stop a sinister plot threatening two worlds and have the raddest summer vacation ever.",
+    "storeUrl": "https://store.steampowered.com/app/4597800/",
     "images": [
-      "/images/3F-D31/1.png",
-      "/images/3F-D31/2.png",
-      "/images/3F-D31/3.png",
-      "/images/3F-D31/4.png",
-      "/images/3F-D31/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597800/b857fd5feb54a287cf54b07aff4db6401c82f120/ss_b857fd5feb54a287cf54b07aff4db6401c82f120.1920x1080.jpg?t=1779397946",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597800/0d78216ffb3b3c35aaf536483e915d413dca552a/ss_0d78216ffb3b3c35aaf536483e915d413dca552a.1920x1080.jpg?t=1779397946",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597800/e0888bc4b3cd8d890fe3ef7f304636f799922d75/ss_e0888bc4b3cd8d890fe3ef7f304636f799922d75.1920x1080.jpg?t=1779397946",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597800/5cbf6cc33c901b35666575497fe9e08e3f8a8a60/ss_5cbf6cc33c901b35666575497fe9e08e3f8a8a60.1920x1080.jpg?t=1779397946",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597800/c458d67795a7cb89437658df100fc77d8a565e69/ss_c458d67795a7cb89437658df100fc77d8a565e69.1920x1080.jpg?t=1779397946"
     ]
   },
   {
@@ -2743,14 +2778,14 @@
     "title": "Hermit Computer",
     "exhibitor": "Visual Interactive Arts (VIA studio)",
     "genre": "アドベンチャー",
-    "description": "『ハーミット・コンピューター』は、2001年を舞台にしたホラーパズルゲームです。隠遁王国の奥深くで、あなたは部外者として、秘密裏に国家管理されているコンピューターオペレーティングシステムを使って重要な情報を抽出する任務を負います。",
-    "storeUrl": "",
+    "description": "Hermit Computer is a horror-puzzle game set in 2001. Deep within the Hermit Kingdom, you play as an outsider tasked with extracting critical intelligence using a secretive state-controlled computer operating system.",
+    "storeUrl": "https://store.steampowered.com/app/3638070/",
     "images": [
-      "/images/3F-D36/1.png",
-      "/images/3F-D36/2.png",
-      "/images/3F-D36/3.png",
-      "/images/3F-D36/4.png",
-      "/images/3F-D36/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3638070/8cf19dde9a6331b440f5f5d6a3ca504ad918785c/ss_8cf19dde9a6331b440f5f5d6a3ca504ad918785c.1920x1080.jpg?t=1779808693",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3638070/d75d6b50f856fba3ce7864ae66f91867b4943926/ss_d75d6b50f856fba3ce7864ae66f91867b4943926.1920x1080.jpg?t=1779808693",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3638070/ba2a0f502b54e66f12f50e967c732e34cd52459e/ss_ba2a0f502b54e66f12f50e967c732e34cd52459e.1920x1080.jpg?t=1779808693",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3638070/aa72d24ea6a01943925ac09bc0fcf8b6172a40e8/ss_aa72d24ea6a01943925ac09bc0fcf8b6172a40e8.1920x1080.jpg?t=1779808693",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3638070/fd64b2d6bd18b437494de6ce49c8763661bab302/ss_fd64b2d6bd18b437494de6ce49c8763661bab302.1920x1080.jpg?t=1779808693"
     ]
   },
   {
@@ -2778,13 +2813,13 @@
     "exhibitor": "WOMBO COMBO GAMES INC.",
     "genre": "アクション",
     "description": "Ghost Vanguard は、スタイリッシュアクションとローグライク要素を組み合わせたベルトスクロールアクション。 剣を手に取り、邪悪なダンジョンへと足を踏み入れよう。華麗なコンボを駆使して、闇から現れる邪神の軍勢を打ち倒し、奪われた英雄の魂を取り戻せ！",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/2577430/",
     "images": [
-      "/images/3F-D38/1.png",
-      "/images/3F-D38/2.png",
-      "/images/3F-D38/3.png",
-      "/images/3F-D38/4.png",
-      "/images/3F-D38/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2577430/ec318760a7949ffa722d7125e2e3e956bf170899/ss_ec318760a7949ffa722d7125e2e3e956bf170899.1920x1080.jpg?t=1776828642",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2577430/f0077c56ccd6f4d334694c149f877bca4f4906ad/ss_f0077c56ccd6f4d334694c149f877bca4f4906ad.1920x1080.jpg?t=1776828642",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2577430/6b9490e96fe0cc0fa47dbd10c7e324de177f6528/ss_6b9490e96fe0cc0fa47dbd10c7e324de177f6528.1920x1080.jpg?t=1776828642",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2577430/d26a8e720dbfd769735463f1c2a9305c219d1537/ss_d26a8e720dbfd769735463f1c2a9305c219d1537.1920x1080.jpg?t=1776828642",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2577430/9fd0b7fa9cc91d671b03875ff77cbf5a6cecd6a2/ss_9fd0b7fa9cc91d671b03875ff77cbf5a6cecd6a2.1920x1080.jpg?t=1776828642"
     ]
   },
   {
@@ -2812,13 +2847,13 @@
     "exhibitor": "YOHCAN Co., Ltd.",
     "genre": "アクション",
     "description": "『夢閃少女』は、ローグライト・ベルトスクロールアクションゲームです。 夢遊メカを操る女子高生となり、夢閃タービンを起動して合体変身！パートナーと力を合わせて夢の世界を救いましょう！",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/3253950/",
     "images": [
-      "/images/3F-D40/1.png",
-      "/images/3F-D40/2.png",
-      "/images/3F-D40/3.png",
-      "/images/3F-D40/4.png",
-      "/images/3F-D40/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253950/0ff03d8cc53dd4dfec747afcd44c1e8e4f6b52af/ss_0ff03d8cc53dd4dfec747afcd44c1e8e4f6b52af.1920x1080.jpg?t=1779259342",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253950/036d0ba8c203eaf0e766e40858cbc28533dfe5ab/ss_036d0ba8c203eaf0e766e40858cbc28533dfe5ab.1920x1080.jpg?t=1779259342",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253950/f408972261254806d60397dfc670a8cac9d7a6ac/ss_f408972261254806d60397dfc670a8cac9d7a6ac.1920x1080.jpg?t=1779259342",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253950/d0bc847ac08d50e0c24aaeb77a1fce0be65a5532/ss_d0bc847ac08d50e0c24aaeb77a1fce0be65a5532.1920x1080.jpg?t=1779259342",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253950/66716f5d2ec1d9c1c0cc853ea5715c00c31aab1a/ss_66716f5d2ec1d9c1c0cc853ea5715c00c31aab1a.1920x1080.jpg?t=1779259342"
     ]
   },
   {
@@ -2844,15 +2879,15 @@
     "floor": "3F",
     "title": "MAPS (My Apocalyptic Plan for Survival)",
     "exhibitor": "Stumpysquid AB",
-    "genre": "シミュレーション",
-    "description": "目覚めると、そこは新たな現実、新たな世界だった…。生き残るための計画は？\n\nMAPSは、存在を拒絶する世界で、守るべきものを再建していく、映画のような横スクロール型サバイバルゲームです。他の生存者を見つけ、コロニーを拡大し、人々を守るための困難な決断を下しましょう。いつ建設し、いつ移動し、いつ戦うのか。",
-    "storeUrl": "",
+    "genre": "アドベンチャー",
+    "description": "Coming Soon",
+    "storeUrl": "https://store.steampowered.com/app/4264290/",
     "images": [
-      "/images/3F-D42/1.png",
-      "/images/3F-D42/2.png",
-      "/images/3F-D42/3.png",
-      "/images/3F-D42/4.png",
-      "/images/3F-D42/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4264290/d1572a53ac67b12f207ae44407cc33f33274641f/ss_d1572a53ac67b12f207ae44407cc33f33274641f.1920x1080.jpg?t=1782983817",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4264290/026f1d426519a092cb37737c201c9e6bc8002ce8/ss_026f1d426519a092cb37737c201c9e6bc8002ce8.1920x1080.jpg?t=1782983817",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4264290/d82c195acd96756747dfaf23405275a18b1827ad/ss_d82c195acd96756747dfaf23405275a18b1827ad.1920x1080.jpg?t=1782983817",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4264290/4e18f1e0a4aaccf133b5b63208df86fd7a23c1a8/ss_4e18f1e0a4aaccf133b5b63208df86fd7a23c1a8.1920x1080.jpg?t=1782983817",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4264290/1c16e0f9c94fc2d255d2f1d3922284500190ab67/ss_1c16e0f9c94fc2d255d2f1d3922284500190ab67.1920x1080.jpg?t=1782983817"
     ]
   },
   {
@@ -2862,14 +2897,14 @@
     "title": "セラフィーヌは空を行く (Seraphine's Skyward Journey)",
     "exhibitor": "Mizukagami Studio",
     "genre": "アクション",
-    "description": "「さぁ行こう　空が呼んでいる」 セラフィーヌは空を行くは、手描き風のグラフィックで描かれたスチームパンクな空の世界を、飛行船に乗って旅するアドベンチャーゲームです。",
-    "storeUrl": "",
+    "description": "「さぁ行こう 空が呼んでいる」 セラフィーヌは空を行くは、手描き風のグラフィックで描かれたスチームパンクな空の世界を、飛行船に乗って旅するアドベンチャーゲームです。 この世界では、空に無数の浮遊大陸や空中拠点が存在し、それらを行き来しながら物資の輸送や交易、時には空賊退治といった様々な任務に挑みます。そしてあなたは、未知の空域「ディープ・スカイ」を目指して旅を続けていきます。 飛行船を動かすには、蒸気機関を動かすための石炭補給やリソースの管理、船の修理・メンテナンスなど、やるべきことがたくさんあります。けれど、それら一つひとつが空を旅するという、危険でロマンあふれる冒険を彩ります。",
+    "storeUrl": "https://store.steampowered.com/app/4008030/",
     "images": [
-      "/images/3F-D43/1.png",
-      "/images/3F-D43/2.png",
-      "/images/3F-D43/3.png",
-      "/images/3F-D43/4.png",
-      "/images/3F-D43/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4008030/90e78a5509da7c272f835cf60b9b5a63e3cc432c/ss_90e78a5509da7c272f835cf60b9b5a63e3cc432c.1920x1080.jpg?t=1781816636",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4008030/41820aa1bce6e3216f137ea59f8e7896a596f179/ss_41820aa1bce6e3216f137ea59f8e7896a596f179.1920x1080.jpg?t=1781816636",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4008030/0ade292206ad3cdf2c696c155a54b68361b28ae4/ss_0ade292206ad3cdf2c696c155a54b68361b28ae4.1920x1080.jpg?t=1781816636",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4008030/0cf4cb893ea146da1d434f4b0ed7563ae16a1d80/ss_0cf4cb893ea146da1d434f4b0ed7563ae16a1d80.1920x1080.jpg?t=1781816636",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4008030/17b0a56851724bbe55595bb1519c9976efb13ab9/ss_17b0a56851724bbe55595bb1519c9976efb13ab9.1920x1080.jpg?t=1781816636"
     ]
   },
   {
@@ -2895,15 +2930,15 @@
     "floor": "3F",
     "title": "おデの巣穴でレベル上げなんてさせない",
     "exhibitor": "Pomuya",
-    "genre": "RPG",
+    "genre": "アクション",
     "description": "「おデの巣⽳でレベル上げはサせナイ︕」 冒険者が村にやってきた。 あなたはゴブリンの斥候だ。正⾯切っては戦えないが、あなたには⾃慢の⾜がある。 村中を駆け回って、勇者と死闘を繰り広げる村の⼒⾃慢たちをサポートするのだ。この戦いの切札となるのは、あなたが届けるポーションや装備である。",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/3019490/",
     "images": [
-      "/images/3F-D45/1.png",
-      "/images/3F-D45/2.png",
-      "/images/3F-D45/3.png",
-      "/images/3F-D45/4.png",
-      "/images/3F-D45/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3019490/2c7507340abc6a05f031b4f29e3b2320018cb586/ss_2c7507340abc6a05f031b4f29e3b2320018cb586.1920x1080.jpg?t=1780985531",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3019490/33ec3a1019bde5fee22738251eb14c012afac758/ss_33ec3a1019bde5fee22738251eb14c012afac758.1920x1080.jpg?t=1780985531",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3019490/97365682bb71716ba689d03e54fdbd3e3c14dea2/ss_97365682bb71716ba689d03e54fdbd3e3c14dea2.1920x1080.jpg?t=1780985531",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3019490/4940e44f9443b39aeb9f02bd81627f80286c069a/ss_4940e44f9443b39aeb9f02bd81627f80286c069a.1920x1080.jpg?t=1780985531",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3019490/7014ee8ec86bac54fa1b5f395a1e370000270697/ss_7014ee8ec86bac54fa1b5f395a1e370000270697.1920x1080.jpg?t=1780985531"
     ]
   },
   {
@@ -2914,13 +2949,13 @@
     "exhibitor": "Appare Factory,LLC",
     "genre": "アクション",
     "description": "「かぶって、避けて、撃ちまくれ！ヅラでウイルスを吹き飛ばせ！」笑えて気持ちいいツインスティックシューティング！さまざまなZURAを重ねて火力アップ！敵を倒してコンボをつなぎ、短時間で爽快なフロー体験を味わおう！世界中のプレイヤーとスコアを競え！",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/2732600/",
     "images": [
-      "/images/3F-D46/1.png",
-      "/images/3F-D46/2.png",
-      "/images/3F-D46/3.png",
-      "/images/3F-D46/4.png",
-      "/images/3F-D46/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2732600/f121c50813b9711d81884e255c4809d170019c0c/ss_f121c50813b9711d81884e255c4809d170019c0c.1920x1080.jpg?t=1761824162",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2732600/7069772c50487ca6ad19289f0a0372c1f17123f4/ss_7069772c50487ca6ad19289f0a0372c1f17123f4.1920x1080.jpg?t=1761824162",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2732600/fd2c10ee63cbc05e078bd2b8fa5833c204fcb4e8/ss_fd2c10ee63cbc05e078bd2b8fa5833c204fcb4e8.1920x1080.jpg?t=1761824162",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2732600/ba771b21da7cc1251bc46da57e6a03e3e21f2c94/ss_ba771b21da7cc1251bc46da57e6a03e3e21f2c94.1920x1080.jpg?t=1761824162",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2732600/502de98fdbf6c0fe446c6acee3f0280d1560c651/ss_502de98fdbf6c0fe446c6acee3f0280d1560c651.1920x1080.jpg?t=1761824162"
     ]
   },
   {
@@ -2931,13 +2966,13 @@
     "exhibitor": "Lob studio Inc.",
     "genre": "シミュレーション",
     "description": "かつて夢の場所だったゲームショップ。なぜ「斜陽」となったのか—— 1985年から2010年、激動の25年を店長と駆け抜ける経営シミュレーションゲーム。",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/3986100/",
     "images": [
-      "/images/3F-D47/1.png",
-      "/images/3F-D47/2.png",
-      "/images/3F-D47/3.png",
-      "/images/3F-D47/4.png",
-      "/images/3F-D47/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3986100/fdd388cb743652e2d858d04f915a7dab8aa4b6c8/ss_fdd388cb743652e2d858d04f915a7dab8aa4b6c8.1920x1080.jpg?t=1781018553",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3986100/c599eeecd955e7d978f7b2d3f6d2936d291461f6/ss_c599eeecd955e7d978f7b2d3f6d2936d291461f6.1920x1080.jpg?t=1781018553",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3986100/93fee404d0c1a54ccd26a68cbf7f18204daaa1c1/ss_93fee404d0c1a54ccd26a68cbf7f18204daaa1c1.1920x1080.jpg?t=1781018553",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3986100/cde21aca6a97c84c3b6b2d488c5f2695abcf8a51/ss_cde21aca6a97c84c3b6b2d488c5f2695abcf8a51.1920x1080.jpg?t=1781018553",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3986100/4cc72a2fcf61272a3122a1ed761644472c323e9a/ss_4cc72a2fcf61272a3122a1ed761644472c323e9a.1920x1080.jpg?t=1781018553"
     ]
   },
   {
@@ -2946,15 +2981,15 @@
     "floor": "3F",
     "title": "DEAREND",
     "exhibitor": "KUROSAWA CREATE",
-    "genre": "シューティング",
+    "genre": "アクション",
     "description": "『DEAREND』は、終末世界を舞台にしたシネマティック・アクションアドベンチャーです。 AIによる崩壊後の世界で過去に家族を失った男と、人間の心を持つヒューマノイドの少女との運命が交錯します。",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/4123950/",
     "images": [
-      "/images/3F-D48/1.png",
-      "/images/3F-D48/2.png",
-      "/images/3F-D48/3.png",
-      "/images/3F-D48/4.png",
-      "/images/3F-D48/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123950/38b74748a056734706625ebc83a987824c854edb/ss_38b74748a056734706625ebc83a987824c854edb.1920x1080.jpg?t=1779283361",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123950/ab3bebb9a447024a019856ccbd58a2bbbfb28a5b/ss_ab3bebb9a447024a019856ccbd58a2bbbfb28a5b.1920x1080.jpg?t=1779283361",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123950/5fe6896ffca467746b1b224be18a83d8b57ef370/ss_5fe6896ffca467746b1b224be18a83d8b57ef370.1920x1080.jpg?t=1779283361",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123950/2c0be90fb71d277a84225f1f17462febe72694e3/ss_2c0be90fb71d277a84225f1f17462febe72694e3.1920x1080.jpg?t=1779283361",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4123950/d4a3417c4b9f3462749bc85c48f4ac316b61fb8a/ss_d4a3417c4b9f3462749bc85c48f4ac316b61fb8a.1920x1080.jpg?t=1779283361"
     ]
   },
   {
@@ -2997,15 +3032,15 @@
     "floor": "3F",
     "title": "行列のできる武器鍛冶屋 (Line Forge BlackSmith)",
     "exhibitor": "KansyaGames",
-    "genre": "シミュレーション",
-    "description": "個性豊かな冒険者たちが「行列」を作る武器鍛冶屋。 お客様の「得意武器」を記憶力とミニゲームで素早く特定し、タイミングアクションで武器を鍛造しましょう。",
-    "storeUrl": "",
+    "genre": "アクション",
+    "description": "個性豊かな冒険者たちが「行列」を作る武器鍛冶屋。 お客様の「得意武器」を記憶力とミニゲームで素早く特定し、タイミングアクションで武器を鍛造しましょう。 武器を提供したお客さんが戦う「バトルパート」では、客を強化し立ちはだかるステージのボスを打ち倒せ！常連100人できるかな？",
+    "storeUrl": "https://store.steampowered.com/app/4133630/",
     "images": [
-      "/images/3F-D51/1.png",
-      "/images/3F-D51/2.png",
-      "/images/3F-D51/3.png",
-      "/images/3F-D51/4.png",
-      "/images/3F-D51/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4133630/2f5788c65f3784bd8d2603633f2b60c2b1b106df/ss_2f5788c65f3784bd8d2603633f2b60c2b1b106df.1920x1080.jpg?t=1778524555",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4133630/ed00335b4041d6db8572c40016fe3684ef9fa271/ss_ed00335b4041d6db8572c40016fe3684ef9fa271.1920x1080.jpg?t=1778524555",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4133630/54911e58d9271b760f893db79dfb38e035537fc0/ss_54911e58d9271b760f893db79dfb38e035537fc0.1920x1080.jpg?t=1778524555",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4133630/1e681471e9965ac65edce7c86a519babaf0da24e/ss_1e681471e9965ac65edce7c86a519babaf0da24e.1920x1080.jpg?t=1778524555",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4133630/1e276f2c8489e3fde954138815d38d0b565eea4e/ss_1e276f2c8489e3fde954138815d38d0b565eea4e.1920x1080.jpg?t=1778524555"
     ]
   },
   {
@@ -3016,13 +3051,13 @@
     "exhibitor": "Kei26",
     "genre": "アクション",
     "description": "ロープをあやつることしかできない主人公「ロープくん」がその力で様々なギミックを乗り越えていく、とってもユニークなパズルアクションゲーム！ 物を運んだり、ボールをはね返したり、敵をしばって倒したり、ロープの可能性は無限大！ 待ち受ける数多くの困難をロープくんとともに乗り越えよう！",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/2919070/",
     "images": [
-      "/images/3F-D52/1.png",
-      "/images/3F-D52/2.png",
-      "/images/3F-D52/3.png",
-      "/images/3F-D52/4.png",
-      "/images/3F-D52/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2919070/814f315a7aad61be95862ef899741603cdf2ec5b/ss_814f315a7aad61be95862ef899741603cdf2ec5b.1920x1080.jpg?t=1773241220",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2919070/a7bfe598b1c671ea34f41f68e5403699a372ebce/ss_a7bfe598b1c671ea34f41f68e5403699a372ebce.1920x1080.jpg?t=1773241220",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2919070/3ecfc32d335a06f4d2f0738f47ded0bf21edf4b3/ss_3ecfc32d335a06f4d2f0738f47ded0bf21edf4b3.1920x1080.jpg?t=1773241220",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2919070/0b07cf3bd5dd246d78f6b223bb1aba66cfd63f70/ss_0b07cf3bd5dd246d78f6b223bb1aba66cfd63f70.1920x1080.jpg?t=1773241220",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2919070/60bdc5a4f6dc8c96269827a85be649a194cf0ed7/ss_60bdc5a4f6dc8c96269827a85be649a194cf0ed7.1920x1080.jpg?t=1773241220"
     ]
   },
   {
@@ -3031,15 +3066,15 @@
     "floor": "3F",
     "title": "Dyping Escape",
     "exhibitor": "Heaviside Creations",
-    "genre": "アクション",
+    "genre": "アドベンチャー",
     "description": "「あなたに是非タイピングゲームをして欲しいのです。」『Dyping Escape』は、ゲームマスターである”目玉”の指示に従い、キーを打つだけのタイピングゲームです。ただし、入力した言葉はそのままあなたの身に降りかかります。自ら不可解なプログラムを入力してPCを壊したりしないようご注意ください。",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/3406810/",
     "images": [
-      "/images/3F-D53/1.png",
-      "/images/3F-D53/2.png",
-      "/images/3F-D53/3.png",
-      "/images/3F-D53/4.png",
-      "/images/3F-D53/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3406810/3a037c73218d4e3c15273a237bebfbe8cec53d9a/ss_3a037c73218d4e3c15273a237bebfbe8cec53d9a.1920x1080.jpg?t=1774497500",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3406810/8f963cc1c7f3b5ae0cb01deb9ee70c1790147b9a/ss_8f963cc1c7f3b5ae0cb01deb9ee70c1790147b9a.1920x1080.jpg?t=1774497500",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3406810/d55f424d46bf698ed5526fcf1d77a0ec5afe1e0b/ss_d55f424d46bf698ed5526fcf1d77a0ec5afe1e0b.1920x1080.jpg?t=1774497500",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3406810/79a8cb43cc77f69431bbf27644ccf1c7b053c865/ss_79a8cb43cc77f69431bbf27644ccf1c7b053c865.1920x1080.jpg?t=1774497500",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3406810/1be80e8cf2069df09b2aba9e88bae91e732500fb/ss_1be80e8cf2069df09b2aba9e88bae91e732500fb.1920x1080.jpg?t=1774497500"
     ]
   },
   {
@@ -3048,15 +3083,15 @@
     "floor": "3F",
     "title": "ロスト＆ファウンドCo. (Lost and Found Co.)",
     "exhibitor": "Bit Egg Inc.",
-    "genre": "アドベンチャー",
+    "genre": "パズル",
     "description": "ロスト＆ファウンドCo.はほんわかした世界を駆け巡る捜し物ゲーム。個性的なキャラがいくつもの不思議な場所を探る。 落とし物を見つけながら小さな龍神の返り咲きを目指そう！",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/2101390/",
     "images": [
-      "/images/3F-D54/1.png",
-      "/images/3F-D54/2.png",
-      "/images/3F-D54/3.png",
-      "/images/3F-D54/4.png",
-      "/images/3F-D54/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/ss_073f406868ebfcf89000836b6671e50f5cdcb343.1920x1080.jpg?t=1783181330",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/ss_47c724e942e6296c32eb183f0e464c4be79b4516.1920x1080.jpg?t=1783181330",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/ss_6bee5a772a4c48517709b835c143fd096ddb781e.1920x1080.jpg?t=1783181330",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/ss_775098806b18fb662e08df234dc06e852dd0de7c.1920x1080.jpg?t=1783181330",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/ss_2a341872a4ab584f2d71deccb64ebcb145cf28a3.1920x1080.jpg?t=1783181330"
     ]
   },
   {
@@ -3082,15 +3117,15 @@
     "floor": "3F",
     "title": "Cento",
     "exhibitor": "Hoshimadara Lab.",
-    "genre": "アドベンチャー",
+    "genre": "パズル",
     "description": "音楽に合わせてコマンドを入力し、スキルを発動させて戦う『Cento』 スキルを強化しながらアーティファクトを集め、多種多様な楽曲のステージで戦おう！",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/2416050/",
     "images": [
-      "/images/3F-D56/1.png",
-      "/images/3F-D56/2.png",
-      "/images/3F-D56/3.png",
-      "/images/3F-D56/4.png",
-      "/images/3F-D56/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416050/ss_291ee4420d407ae80ea1817fd1c4197c6ae35f5a.1920x1080.jpg?t=1780367037",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416050/ss_af67d4bb468213f26d7a2e8d49ddfe401254ebf8.1920x1080.jpg?t=1780367037",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416050/ss_4c55e757002e451a932b7dcb5aa857651f72c93d.1920x1080.jpg?t=1780367037",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416050/ss_dbc9a89eb5d9a5c11f243c66467f4330de94cda0.1920x1080.jpg?t=1780367037",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416050/ss_7360563dfafce6d3e0dc7715700ae21518aafa9c.1920x1080.jpg?t=1780367037"
     ]
   },
   {
@@ -3100,14 +3135,14 @@
     "title": "Calling",
     "exhibitor": "MatsuOkaGumi",
     "genre": "アドベンチャー",
-    "description": "Calling。",
-    "storeUrl": "",
+    "description": "Operate a telephone switchboard, meet caricatured historical figures, and avert a nuclear war in this alternate history Cold War comedy. Use tactile point-and-click controls to drag wires and install wacky gadgets as you juggle waves of calls.",
+    "storeUrl": "https://store.steampowered.com/app/2627660/",
     "images": [
-      "/images/3F-D57/1.png",
-      "/images/3F-D57/2.png",
-      "/images/3F-D57/3.png",
-      "/images/3F-D57/4.png",
-      "/images/3F-D57/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627660/71384b9c9a86a09e89479196ca6f13d7867cc4b7/ss_71384b9c9a86a09e89479196ca6f13d7867cc4b7.1920x1080.jpg?t=1772247684",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627660/5a36e11e102eec788f6ab8c67bde51625db38d87/ss_5a36e11e102eec788f6ab8c67bde51625db38d87.1920x1080.jpg?t=1772247684",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627660/ss_1f5e573080ee82b1f5e725961b78865a12607fab.1920x1080.jpg?t=1772247684",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627660/52af9417efeac56e32a52a6459c0693ccaee285d/ss_52af9417efeac56e32a52a6459c0693ccaee285d.1920x1080.jpg?t=1772247684",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627660/ss_5d6c027462233aa2a20328c4c96430d4e6358626.1920x1080.jpg?t=1772247684"
     ]
   },
   {
@@ -3118,13 +3153,13 @@
     "exhibitor": "LOTS",
     "genre": "アドベンチャー",
     "description": "シニカルな高校生・ヘウンの乾いた日常は、寄宿舎・502号室のルームメイトたちと学園のミステリーを追ううちに少しずつ色づき始める。学園×日常×ミステリーの推理アドベンチャー",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/3362130/",
     "images": [
-      "/images/3F-D58/1.png",
-      "/images/3F-D58/2.png",
-      "/images/3F-D58/3.png",
-      "/images/3F-D58/4.png",
-      "/images/3F-D58/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3362130/78719d95dd90540266e31b80f2b524fb8e6e5483/ss_78719d95dd90540266e31b80f2b524fb8e6e5483.1920x1080.jpg?t=1775902187",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3362130/0d1234a37e3d3ec1ee8cd36640285425ea358149/ss_0d1234a37e3d3ec1ee8cd36640285425ea358149.1920x1080.jpg?t=1775902187",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3362130/e7baa089fcb8c4ca15f5d5f0a6de9cf02899cba1/ss_e7baa089fcb8c4ca15f5d5f0a6de9cf02899cba1.1920x1080.jpg?t=1775902187",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3362130/b69862b3d9e11c626d63227495be1ba1636c79d9/ss_b69862b3d9e11c626d63227495be1ba1636c79d9.1920x1080.jpg?t=1775902187",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3362130/a16802848c9769bd56b5b95bd11993acf91a6196/ss_a16802848c9769bd56b5b95bd11993acf91a6196.1920x1080.jpg?t=1775902187"
     ]
   },
   {
@@ -3133,15 +3168,15 @@
     "floor": "3F",
     "title": "Own Time Own Target",
     "exhibitor": "No Average Joe",
-    "genre": "シューティング",
+    "genre": "アクション",
     "description": "『Own Time Own Target』は、2人のプレイヤーが別々の戦場で対決する、純粋な2D 1対1の対戦ゲームです。周囲の状況を把握することは、火力で相手を圧倒することと同じくらい重要です。手軽に始められますが、きっと夢中になってしまうことでしょう。友情が保たれるかどうかは保証できません。",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/2854200/",
     "images": [
-      "/images/3F-D59/1.png",
-      "/images/3F-D59/2.png",
-      "/images/3F-D59/3.png",
-      "/images/3F-D59/4.png",
-      "/images/3F-D59/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854200/817c60970bc673257f79464a962df8871cfe6ee9/ss_817c60970bc673257f79464a962df8871cfe6ee9.1920x1080.jpg?t=1783066934",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854200/0da14ff42bf3598c397312d8ea3bdc3a05ac48b4/ss_0da14ff42bf3598c397312d8ea3bdc3a05ac48b4.1920x1080.jpg?t=1783066934",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854200/ad2d9c5678e781ad2ab514af1f701293e2bf5218/ss_ad2d9c5678e781ad2ab514af1f701293e2bf5218.1920x1080.jpg?t=1783066934",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854200/a90c38a3b26a023905807d3bacdb0a97ab4280da/ss_a90c38a3b26a023905807d3bacdb0a97ab4280da.1920x1080.jpg?t=1783066934",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854200/e164b649cfb761a650c758399f6231e4726f2370/ss_e164b649cfb761a650c758399f6231e4726f2370.1920x1080.jpg?t=1783066934"
     ]
   },
   {
@@ -3150,15 +3185,15 @@
     "floor": "3F",
     "title": "Addie Shen",
     "exhibitor": "Unexpected Accessories",
-    "genre": "アドベンチャー",
-    "description": "Addie Shenは、数学をベースにしたパズルシューティングゲームです。ソロプレイ、協力プレイ、またはスキルを磨いて邪悪なPEMDASの手下たちを阻止しましょう。あなたは数学の力で世界を救えるでしょうか？",
-    "storeUrl": "",
+    "genre": "アクション",
+    "description": "Addie Shen is a math based puzzle shooter. Play solo, team up in co-op, or practice your skills to stop the evil PEMDAS minions. Can you save the world with math?",
+    "storeUrl": "https://store.steampowered.com/app/3364130/",
     "images": [
-      "/images/3F-D60/1.png",
-      "/images/3F-D60/2.png",
-      "/images/3F-D60/3.png",
-      "/images/3F-D60/4.png",
-      "/images/3F-D60/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3364130/aff87cbc29f599e26e061822811bd2e2a363cf99/ss_aff87cbc29f599e26e061822811bd2e2a363cf99.1920x1080.jpg?t=1775843519",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3364130/8c842915434e3b8e49fa6fdbb8df3fbc60a809d3/ss_8c842915434e3b8e49fa6fdbb8df3fbc60a809d3.1920x1080.jpg?t=1775843519",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3364130/eb4dbee369ac924686b6072d6fd3e7148c3659c5/ss_eb4dbee369ac924686b6072d6fd3e7148c3659c5.1920x1080.jpg?t=1775843519",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3364130/07e9120b8bd7446d7914917e7dd0810a461e6ea1/ss_07e9120b8bd7446d7914917e7dd0810a461e6ea1.1920x1080.jpg?t=1775843519",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3364130/833e454c3720f3afa58b65995ab08e2e89c75bd0/ss_833e454c3720f3afa58b65995ab08e2e89c75bd0.1920x1080.jpg?t=1775843519"
     ]
   },
   {
@@ -3186,13 +3221,13 @@
     "exhibitor": "kusoge00",
     "genre": "アクション",
     "description": "忍者没入型シミュレーション。 様々な道具と秘伝の忍術を駆使して、任務を遂行せよ。 敵を捕らえて、影の軍団を築き上げろ。 分割画面で協力プレイができます！",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/3634550/",
     "images": [
-      "/images/3F-D62/1.png",
-      "/images/3F-D62/2.png",
-      "/images/3F-D62/3.png",
-      "/images/3F-D62/4.png",
-      "/images/3F-D62/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634550/22c034e96e7d8db913a2d0626f6d2749a2b1597a/ss_22c034e96e7d8db913a2d0626f6d2749a2b1597a.1920x1080.jpg?t=1767706435",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634550/05e23eb1c93ce2bde55241a33743d545df4dc8b1/ss_05e23eb1c93ce2bde55241a33743d545df4dc8b1.1920x1080.jpg?t=1767706435",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634550/d7246338731cfb93c86eaf5b4ec715e6982977a2/ss_d7246338731cfb93c86eaf5b4ec715e6982977a2.1920x1080.jpg?t=1767706435",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634550/0231d706c4042c79583c917e784408ec16c30b4c/ss_0231d706c4042c79583c917e784408ec16c30b4c.1920x1080.jpg?t=1767706435",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634550/37eb95ebefbaa5a84c0900aa9be6ed8f7b76877c/ss_37eb95ebefbaa5a84c0900aa9be6ed8f7b76877c.1920x1080.jpg?t=1767706435"
     ]
   },
   {
@@ -3202,14 +3237,14 @@
     "title": "プリッとプリズナー (Pritto Prisoner)",
     "exhibitor": "PinCool, Inc.",
     "genre": "アクション",
-    "description": "かわいい見た目で超カオス！動物と看守ロボットに分かれて戦う4対2の非対称アクションパーティーゲーム。動物は「うんぴ」や「おぴっこ」、個性豊かなスキルを駆使して脱獄！ロボットはカスタマイズしたパーツとガジェットで捕まえよう！シンプル操作で誰でも楽しめて、極めるほどに笑える――世界初(!?)の排泄型脱出アクションパーティーゲーム、開幕！",
-    "storeUrl": "",
+    "description": "【Ver.2.0大型アップデート配信中！】かわいい見た目で超カオス！動物と看守ロボットに分かれて戦う4対2の非対称アクションパーティーゲーム。新ステージ3つ、新キャラクター4体、一発逆転のスペシャルアイテムが登場！動物は「うんぴ」や「おぴっこ」、個性豊かなスキルを駆使して脱獄！ロボットはカスタマイズしたパーツとガジェットで捕まえよう！シンプル操作で誰でも楽しめて、極めるほどに笑える――世界初(!?)の排泄型脱出アクションパーティーゲーム、さらに進化！",
+    "storeUrl": "https://store.steampowered.com/app/3036800/",
     "images": [
-      "/images/3F-D63/1.png",
-      "/images/3F-D63/2.png",
-      "/images/3F-D63/3.png",
-      "/images/3F-D63/4.png",
-      "/images/3F-D63/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3036800/121b8e51c09b714d09539f80507a2d182f91e923/ss_121b8e51c09b714d09539f80507a2d182f91e923.1920x1080.jpg?t=1782404566",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3036800/ace81d512026b2be588c27517dc7af7675dcf923/ss_ace81d512026b2be588c27517dc7af7675dcf923.1920x1080.jpg?t=1782404566",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3036800/707500d96dccca1becf60bbcd4c9ba00e7f2ccfe/ss_707500d96dccca1becf60bbcd4c9ba00e7f2ccfe.1920x1080.jpg?t=1782404566",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3036800/f0c026008621a1473da2d0873dae711c0eaca904/ss_f0c026008621a1473da2d0873dae711c0eaca904.1920x1080.jpg?t=1782404566",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3036800/fa4cbfa90238a1a4e3da56bcb9ff4535ce38fe19/ss_fa4cbfa90238a1a4e3da56bcb9ff4535ce38fe19.1920x1080.jpg?t=1782404566"
     ]
   },
   {
@@ -3219,14 +3254,14 @@
     "title": "ブラス・クーバスの死後依頼 (The Posthumous Investigation)",
     "exhibitor": "Infini Fun",
     "genre": "アドベンチャー",
-    "description": "ブラス・クーバスは死んでいる。だが、その理由を突き止めてほしいと望んでいる。 1937年、ノワールに染まったリオ・デ・ジャネイロを舞台にしたタイムループ型殺人ミステリー。",
-    "storeUrl": "",
+    "description": "ブラス・クーバスは死んでいる。だが、その理由を突き止めてほしいと望んでいる。 1937年、ノワールに染まったリオ・デ・ジャネイロを舞台にしたタイムループ型殺人ミステリー。 同じ一日を繰り返し、人物を操り、秘密を暴け。死が依頼人となり、時間だけが君の武器となる。",
+    "storeUrl": "https://store.steampowered.com/app/2466900/",
     "images": [
-      "/images/3F-D64/1.png",
-      "/images/3F-D64/2.png",
-      "/images/3F-D64/3.png",
-      "/images/3F-D64/4.png",
-      "/images/3F-D64/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466900/a25afe69119c1c878d541bddc64b5f3c445eab66/ss_a25afe69119c1c878d541bddc64b5f3c445eab66.1920x1080.jpg?t=1783457135",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466900/3cf81ea0b830c3c1ed77a733ca681e9067920ac9/ss_3cf81ea0b830c3c1ed77a733ca681e9067920ac9.1920x1080.jpg?t=1783457135",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466900/8ecc9ec746fa06005c148c1b7df3b894e40fdd99/ss_8ecc9ec746fa06005c148c1b7df3b894e40fdd99.1920x1080.jpg?t=1783457135",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466900/76324967fb7fcf96dca92b7921a5972a431f0846/ss_76324967fb7fcf96dca92b7921a5972a431f0846.1920x1080.jpg?t=1783457135",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466900/65a39f18c4b7515b077508bfa8010ac314af421f/ss_65a39f18c4b7515b077508bfa8010ac314af421f.1920x1080.jpg?t=1783457135"
     ]
   },
   {
@@ -3235,15 +3270,15 @@
     "floor": "3F",
     "title": "FEAR FA 98™",
     "exhibitor": "Jacob Jazz",
-    "genre": "ホラー",
-    "description": "サイレントヒルとFIFA 98を融合させたゲーム。敵の頭をボールとして使い、ナイフを使い、悪魔を召喚せよ！史上初のサバイバルホラーサッカーシミュレーター！",
-    "storeUrl": "",
+    "genre": "その他",
+    "description": "FEAR FA 98: Silent Hill mixed with FIFA 98. Use your enemies' heads as the ball, use knives, and summon demons! the very first survival horror soccer simulator!. Play against the computer, or the classic local mode to enjoy with your friends on a terrifying afternoon worthy of the '90s.",
+    "storeUrl": "https://store.steampowered.com/app/3495990/",
     "images": [
-      "/images/3F-D65/1.png",
-      "/images/3F-D65/2.png",
-      "/images/3F-D65/3.png",
-      "/images/3F-D65/4.png",
-      "/images/3F-D65/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495990/44d0b6df1d8d4843551cb084d4069565ddcda343/ss_44d0b6df1d8d4843551cb084d4069565ddcda343.1920x1080.jpg?t=1777028685",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495990/868850b9f27e8a12cc73b7a350597886f09d1881/ss_868850b9f27e8a12cc73b7a350597886f09d1881.1920x1080.jpg?t=1777028685",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495990/2e71a96e54dc369a860d00a818c9bdc28835e266/ss_2e71a96e54dc369a860d00a818c9bdc28835e266.1920x1080.jpg?t=1777028685",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495990/7f9e8567173b08548e8198205212496157797bb6/ss_7f9e8567173b08548e8198205212496157797bb6.1920x1080.jpg?t=1777028685",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495990/d03316738a73e7264622483974f9a3309a241330/ss_d03316738a73e7264622483974f9a3309a241330.1920x1080.jpg?t=1777028685"
     ]
   },
   {
@@ -3254,13 +3289,13 @@
     "exhibitor": "Hello Quest",
     "genre": "アドベンチャー",
     "description": "目を覚ますと、そこは水没した奇妙な水族館だった。 映る自分の姿は、溶けている……。まるでゼリーのように。 クラゲたちが静かに漂う、出口のない深淵で、何を見るのか。",
-    "storeUrl": "",
+    "storeUrl": "https://store.steampowered.com/app/3387390/",
     "images": [
-      "/images/3F-D66/1.png",
-      "/images/3F-D66/2.png",
-      "/images/3F-D66/3.png",
-      "/images/3F-D66/4.png",
-      "/images/3F-D66/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387390/183d59b9b0bb9c2b02fd67faa1bd00b3c7a16688/ss_183d59b9b0bb9c2b02fd67faa1bd00b3c7a16688.1920x1080.jpg?t=1779406406",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387390/40d12b324cc9c406c75107d44c071efec1b08ddd/ss_40d12b324cc9c406c75107d44c071efec1b08ddd.1920x1080.jpg?t=1779406406",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387390/e821d971f8d4da1ba4b0623b4fc5c471af9beae3/ss_e821d971f8d4da1ba4b0623b4fc5c471af9beae3.1920x1080.jpg?t=1779406406",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387390/e547945616f06946b726a5a04724287629dc1986/ss_e547945616f06946b726a5a04724287629dc1986.1920x1080.jpg?t=1779406406",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3387390/96e90c4af19b87886023ac9ff1bd2370e2ac60a4/ss_96e90c4af19b87886023ac9ff1bd2370e2ac60a4.1920x1080.jpg?t=1779406406"
     ]
   },
   {
@@ -3337,15 +3372,15 @@
     "floor": "3F",
     "title": "東京工芸大学ゲーム学科 (U01)",
     "exhibitor": "東京工芸大学ゲーム学科",
-    "genre": "その他",
-    "description": "特殊デバイス展示。",
-    "storeUrl": "",
+    "genre": "RPG",
+    "description": "U01: Dark Days in Stoneholme Dark Days in Stoneholme is a D&D 5th Edition compatible adventure suitable for four to six PCs of 1st-2nd level that features low-level exploration in Aventyr's Underworld and intrigue both in and around the dwarven city of Stonehol",
+    "storeUrl": "https://store.steampowered.com/app/1320330/",
     "images": [
-      "/images/3F-U01/1.png",
-      "/images/3F-U01/2.png",
-      "/images/3F-U01/3.png",
-      "/images/3F-U01/4.png",
-      "/images/3F-U01/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1320330/ss_0257b0bb017dcab2c7e71000e27554eeae576843.1920x1080.jpg?t=1783029653",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1320330/ss_d7571348634c24517df9aae90b482cb68afc3c99.1920x1080.jpg?t=1783029653",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1320330/ss_3376a2f96cf5d82a05d7f04395584148848b5fbb.1920x1080.jpg?t=1783029653",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1320330/ss_95b426af4ecbe73a6e386925a08a91f79baa601a.1920x1080.jpg?t=1783029653",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1320330/ss_82c303f27bd4187c17c3a7c8c8ea89756faf14e1.1920x1080.jpg?t=1783029653"
     ]
   },
   {
@@ -3354,15 +3389,14 @@
     "floor": "3F",
     "title": "東京工芸大学ゲーム学科 (U02)",
     "exhibitor": "東京工芸大学ゲーム学科",
-    "genre": "その他",
-    "description": "特殊デバイス展示。",
-    "storeUrl": "",
+    "genre": "RPG",
+    "description": "Investigate gruesome murders in Stoneholme, a neutral underworld city, as you infiltrate a dark dwarven manor to uncover demonic sorcery and stop a shape-shifting killer.",
+    "storeUrl": "https://store.steampowered.com/app/649700/",
     "images": [
-      "/images/3F-U02/1.png",
-      "/images/3F-U02/2.png",
-      "/images/3F-U02/3.png",
-      "/images/3F-U02/4.png",
-      "/images/3F-U02/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/649700/ss_4bf7543a8d7d138412f09860139f27961565c21d.1920x1080.jpg?t=1782900787",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/649700/ss_3bc58eb9e0213d2007baddd5a8a78c87f1e7ec74.1920x1080.jpg?t=1782900787",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/649700/ss_f7bcdbef14949d118b4aa761f51efdac9d29b6a2.1920x1080.jpg?t=1782900787",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/649700/ss_1a41c07c96efe578af655504ecb2875528a8b7fd.1920x1080.jpg?t=1782900787"
     ]
   },
   {
@@ -3371,15 +3405,14 @@
     "floor": "3F",
     "title": "東京工芸大学ゲーム学科 (U03)",
     "exhibitor": "東京工芸大学ゲーム学科",
-    "genre": "その他",
-    "description": "特殊デバイス展示。",
-    "storeUrl": "",
+    "genre": "RPG",
+    "description": "Investigate a noble's mysterious death, uncover dark secrets, and face peril in Stoneholme's tombs as 5th-level PCs. A 5E compatible adventure with urban investigation, new magical items, monsters, and insights into the dwarven city's Underworld.",
+    "storeUrl": "https://store.steampowered.com/app/650930/",
     "images": [
-      "/images/3F-U03/1.png",
-      "/images/3F-U03/2.png",
-      "/images/3F-U03/3.png",
-      "/images/3F-U03/4.png",
-      "/images/3F-U03/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/650930/ss_b12795d2410e29c2eae7740f853116c1d34fb897.1920x1080.jpg?t=1782901077",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/650930/ss_673cc387669e434043b25ec6a92a1b2d26249a91.1920x1080.jpg?t=1782901077",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/650930/ss_1bd63ba42777d6398d1249eec7ac537ed22c0b7a.1920x1080.jpg?t=1782901077",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/650930/ss_21a8f05714203b524062dac528e429c073a604a2.1920x1080.jpg?t=1782901077"
     ]
   },
   {
@@ -3745,15 +3778,15 @@
     "floor": "3F",
     "title": "MIYAZAWORKS (U25)",
     "exhibitor": "MIYAZAWORKS",
-    "genre": "その他",
-    "description": "特殊デバイス展示。",
-    "storeUrl": "",
+    "genre": "シミュレーション",
+    "description": "The locomotive that helped change the face and history of North American railroading – the remarkable General Electric U25B “U-Boat” (along with its six-axle sister, the U25C) – is now available for Train Simulator Classic!",
+    "storeUrl": "https://store.steampowered.com/app/2403301/",
     "images": [
-      "/images/3F-U25/1.png",
-      "/images/3F-U25/2.png",
-      "/images/3F-U25/3.png",
-      "/images/3F-U25/4.png",
-      "/images/3F-U25/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2403301/ss_2b92473eb8ef5567b692e59a8357cd3342aa628f.1920x1080.jpg?t=1727168315",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2403301/ss_ac417a65a4168e2c73c0506b59c32c61f1d9fdcd.1920x1080.jpg?t=1727168315",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2403301/ss_5d0665063c91ad8a5ece8d959ce60e42a19a6d94.1920x1080.jpg?t=1727168315",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2403301/ss_2e503844395260f15414ab129cfeb9399ea62a9f.1920x1080.jpg?t=1727168315",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2403301/ss_9b8cca30dde5f96873d1c2cf05e31fa9b8031314.1920x1080.jpg?t=1727168315"
     ]
   },
   {
@@ -3762,15 +3795,11 @@
     "floor": "3F",
     "title": "UNUSE",
     "exhibitor": "UNUSE",
-    "genre": "その他",
-    "description": "特殊デバイス展示。",
-    "storeUrl": "",
+    "genre": "パズル",
+    "description": "This DLC includes unused track of CUBE XL.",
+    "storeUrl": "https://store.steampowered.com/app/918410/",
     "images": [
-      "/images/3F-U26/1.png",
-      "/images/3F-U26/2.png",
-      "/images/3F-U26/3.png",
-      "/images/3F-U26/4.png",
-      "/images/3F-U26/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/918410/ss_5b5db7230eaddc00f0c82f5a74ab447beec6a8a1.1920x1080.jpg?t=1650833007"
     ]
   },
   {
@@ -3779,15 +3808,15 @@
     "floor": "3F",
     "title": "のへもん (U27)",
     "exhibitor": "のへもん",
-    "genre": "その他",
-    "description": "特殊デバイス展示。",
-    "storeUrl": "",
+    "genre": "パズル",
+    "description": "Ultra Resonance is a retrowave, sokoban-like, puzzle game about a cat in search of The Truth.",
+    "storeUrl": "https://store.steampowered.com/app/1413670/",
     "images": [
-      "/images/3F-U27/1.png",
-      "/images/3F-U27/2.png",
-      "/images/3F-U27/3.png",
-      "/images/3F-U27/4.png",
-      "/images/3F-U27/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413670/ss_3fcfad52e2d02a197db9b33052b152849e9584b9.1920x1080.jpg?t=1748159263",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413670/ss_aea7307542c44633078e4bb46a8bfe19e40b0f2e.1920x1080.jpg?t=1748159263",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413670/ss_a863438b1112fde43e1a51957288ef15fd2ef555.1920x1080.jpg?t=1748159263",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413670/ss_0597ac7507675788a5306058c9cb56710e8bd66a.1920x1080.jpg?t=1748159263",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413670/ss_35e040b15790caf8277d65896a55b2c0e7b51f91.1920x1080.jpg?t=1748159263"
     ]
   },
   {
@@ -3830,15 +3859,15 @@
     "floor": "3F",
     "title": "のへもん (U30)",
     "exhibitor": "のへもん",
-    "genre": "その他",
-    "description": "特殊デバイス展示。",
-    "storeUrl": "",
+    "genre": "シミュレーション",
+    "description": "General Electric established itself as an independent builder of mainline diesel locomotives in 1959 with its 2,500-horsepower U25B, and throughout the 1960s and into the 1970s, GE produced an ever-expanding – and more powerful – line of “Universal”-series diesels, which came to be widely nicknamed as “U-boats.",
+    "storeUrl": "https://store.steampowered.com/app/376958/",
     "images": [
-      "/images/3F-U30/1.png",
-      "/images/3F-U30/2.png",
-      "/images/3F-U30/3.png",
-      "/images/3F-U30/4.png",
-      "/images/3F-U30/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/376958/ss_ddc46b6fd1fa7cce8e4a218f8c2ba487d5559a3a.1920x1080.jpg?t=1728576886",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/376958/ss_53b25ac383c274c1632d312f613f3b7bd449cd8e.1920x1080.jpg?t=1728576886",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/376958/ss_ef9be2ce6fdce6cb554e290179cee23b0d84b804.1920x1080.jpg?t=1728576886",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/376958/ss_c22c5f0f5d5539c3d04a52eb82e8de7749c79733.1920x1080.jpg?t=1728576886",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/376958/ss_5bafc813c421fe90c8e484351cdcfdef61a1e153.1920x1080.jpg?t=1728576886"
     ]
   },
   {
@@ -3881,15 +3910,15 @@
     "floor": "3F",
     "title": "Tamakotronica (U33)",
     "exhibitor": "Tamakotronica",
-    "genre": "その他",
-    "description": "特殊デバイス展示。",
-    "storeUrl": "",
+    "genre": "シミュレーション",
+    "description": "Classic 1960s and 1970s-era General Electric “U-Boat” diesel locomotives come to Train Simulator with the Southern Pacific U33C/U30C pack from accomplished developer DTM.",
+    "storeUrl": "https://store.steampowered.com/app/1560939/",
     "images": [
-      "/images/3F-U33/1.png",
-      "/images/3F-U33/2.png",
-      "/images/3F-U33/3.png",
-      "/images/3F-U33/4.png",
-      "/images/3F-U33/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1560939/ss_a524996c24e51c259c965e2c3215c1d6c3b03867.1920x1080.jpg?t=1727694190",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1560939/ss_c5faadebf7ffe64e48a3eb454f96dc1066400e8b.1920x1080.jpg?t=1727694190",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1560939/ss_a87ea15e9f5f8298038357b6a612bdc5dbe65604.1920x1080.jpg?t=1727694190",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1560939/ss_e06f50f367ab94500f78d9ecd08d45a162a5e3e9.1920x1080.jpg?t=1727694190",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1560939/ss_e5b763fb1f7c98e80c48b972d418f2cae8ae21b3.1920x1080.jpg?t=1727694190"
     ]
   },
   {
@@ -4034,15 +4063,15 @@
     "floor": "3F",
     "title": "MIX",
     "exhibitor": "MIX",
-    "genre": "その他",
-    "description": "パートナーブース。",
-    "storeUrl": "",
+    "genre": "アクション",
+    "description": "「キングダム ハーツ」シリーズの原点となる1作目から根幹となる6作品を収録した、『KINGDOM HEARTS -HD 1.5+2.5 ReMIX-』がSteamに登場！ 今、夢のような冒険へ。",
+    "storeUrl": "https://store.steampowered.com/app/2552430/",
     "images": [
-      "/images/3F-C09/1.png",
-      "/images/3F-C09/2.png",
-      "/images/3F-C09/3.png",
-      "/images/3F-C09/4.png",
-      "/images/3F-C09/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/ss_7fec87ad80856a7a3f4cf487cd70ce3a2ad8b280.1920x1080.jpg?t=1779418330",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/ss_9cd43d79e8206460e989d653fa4461c1c9cfc849.1920x1080.jpg?t=1779418330",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/ss_44a263601363334fdd598144813d2a96f0b030e1.1920x1080.jpg?t=1779418330",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/ss_65f24887aba04097139dc3553532da7d374e30af.1920x1080.jpg?t=1779418330",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552430/ss_f02606d4b776c08ec208fe0eb69f245cf613b0ad.1920x1080.jpg?t=1779418330"
     ]
   },
   {
@@ -4153,15 +4182,15 @@
     "floor": "3F",
     "title": "アスク",
     "exhibitor": "アスク",
-    "genre": "その他",
-    "description": "詳細情報はこちらから\nhttps://www.auryn.co.jp/20260513_01/",
-    "storeUrl": "",
+    "genre": "RPG",
+    "description": "新生ド直球RPG！ JRPGのど真ん中を行く熱いシナリオとバトル。そして、大ボリュームの内容となっています。PS1～2世代のRPGに青春を感じるあなたに是非。",
+    "storeUrl": "https://store.steampowered.com/app/3338450/",
     "images": [
-      "/images/3F-C16/1.png",
-      "/images/3F-C16/2.png",
-      "/images/3F-C16/3.png",
-      "/images/3F-C16/4.png",
-      "/images/3F-C16/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3338450/ss_9b55a22e839fbae9cc07549dc33d4d4b1f7dc378.1920x1080.jpg?t=1758462389",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3338450/ss_3764c0a02fe3556020b317f2c43083bb564bf370.1920x1080.jpg?t=1758462389",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3338450/ss_8dc9a21513b8baa95b0ff4d08bdeca87d82c4aa9.1920x1080.jpg?t=1758462389",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3338450/ss_a4948d840c74ec7bd66154fa99a59e92508b84b1.1920x1080.jpg?t=1758462389",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3338450/ss_8b35a1ba46776469e47f7bb23c41008d3f2925a4.1920x1080.jpg?t=1758462389"
     ]
   },
   {
@@ -4255,15 +4284,15 @@
     "floor": "3F",
     "title": "バハムート",
     "exhibitor": "バハムート",
-    "genre": "その他",
-    "description": "メディアブース。",
-    "storeUrl": "",
+    "genre": "アドベンチャー",
+    "description": "あなたはバハムートの世界に足を踏み入れた。ここでは飢えと闇、病が影のように付きまとい、危険に万全の備えをしなければならない。己のバハムートを手懐けよ——彼らに拠点を築かせ、電力を供給させよ。そのバハムートたちを率いて、この大地で最も強大な存在に挑め！",
+    "storeUrl": "https://store.steampowered.com/app/4600540/",
     "images": [
-      "/images/3F-E03/1.png",
-      "/images/3F-E03/2.png",
-      "/images/3F-E03/3.png",
-      "/images/3F-E03/4.png",
-      "/images/3F-E03/5.png"
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600540/1c1f17691709326fe040c656fd1881eb653f6cc8/ss_1c1f17691709326fe040c656fd1881eb653f6cc8.1920x1080.jpg?t=1779802712",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600540/85f7bc3598add140a206cdc0cc96aa997b9e345b/ss_85f7bc3598add140a206cdc0cc96aa997b9e345b.1920x1080.jpg?t=1779802712",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600540/5a4b71a7c477947378091874d1411a9847592e0f/ss_5a4b71a7c477947378091874d1411a9847592e0f.1920x1080.jpg?t=1779802712",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600540/e374830f892642be5e1d1928e90fd3983619af8f/ss_e374830f892642be5e1d1928e90fd3983619af8f.1920x1080.jpg?t=1779802712",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4600540/c877991f5f5ae04f320beb40c5b948da07abc628/ss_c877991f5f5ae04f320beb40c5b948da07abc628.1920x1080.jpg?t=1779802712"
     ]
   },
   {

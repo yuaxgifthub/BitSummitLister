@@ -681,13 +681,18 @@ button {
    フェーズ3 追加スタイル（メモ編集 / 共有モーダル / 閲覧専用モード）
    ============================================================ */
 
-/* ---------- メモ（常時編集可能） ---------- */
-.memo-area {
-  background: #ffffff;
+/* ---------- メモ（鉛筆で編集モード） ---------- */
+.memo-edit-btn.editing {
+  background: var(--accent); /* 編集中は鉛筆ボタンをアクセント色に */
 }
-.memo-area:focus {
-  border-color: var(--accent); /* フォーカス時にアクセント色の枠 */
-  outline: none;
+.memo-editing-label {
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 700;
+}
+.memo-area:not([readonly]) {
+  background: #ffffff;
+  border-color: var(--accent); /* 編集中はアクセント色の枠 */
 }
 
 /* ---------- 共有モーダル ---------- */

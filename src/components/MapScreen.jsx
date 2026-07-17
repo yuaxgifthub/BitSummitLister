@@ -6,7 +6,7 @@
 //   ドロワー表示中はボタンが「×」になり、オーバーレイタップでも閉じる
 //   フロア切り替えはドロワー表示中も操作可能
 // ============================================================
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import GAMES from "../data/games.json";
 import MapZoomContainer from "./MapZoomContainer.jsx";
 import FloorMap from "./FloorMap.jsx";
@@ -23,16 +23,34 @@ export default function MapScreen({
   const [drawerOpen, setDrawerOpen] = useState(false);
   const checkedGames = GAMES.filter(g => checkedIds.has(g.id));
 
+  // 改善11: マップ操作中（パン/ズーム/スクロール）はフロア切替・リストボタンを
+  // Alpha40%に減光してマップの視認性を上げる。操作が止まって0.6秒後に戻す。
+  const [mapBusy, setMapBusy] = useState(false);
+  const busyTimer = useRef(null);
+  const markBusy = () => {
+    setMapBusy(true);
+    clearTimeout(busyTimer.current);
+    busyTimer.current = setTimeout(() => setMapBusy(false), 600);
+  };
+  useEffect(() => () => clearTimeout(busyTimer.current), []);
+
   return (
     <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
-      {/* マップ本体 */}
-      <div style={{
-        position: "absolute",
-        inset: 0,
-        overflowY: "auto",
-        overflowX: "hidden",
-        WebkitOverflowScrolling: "touch",
-      }}>
+      {/* マップ本体（操作を検知して減光トリガーにする） */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          overflowY: "auto",
+          overflowX: "hidden",
+          WebkitOverflowScrolling: "touch",
+        }}
+        onTouchStart={markBusy}
+        onTouchMove={markBusy}
+        onPointerDown={markBusy}
+        onWheel={markBusy}
+        onScroll={markBusy}
+      >
         <MapZoomContainer floor={mapFloor} zoomTarget={mapZoomTarget}>
           <FloorMap
             floor={mapFloor}
@@ -66,7 +84,7 @@ export default function MapScreen({
       )}
 
       {/* フロア切り替え（ドロワーより上に置き、表示中も操作可能にする） */}
-      <div className="floor-toggle">
+      <div className={`floor-toggle${mapBusy ? " dimmed" : ""}`}>
         {["1F", "3F"].map(f => (
           <button
             key={f}
@@ -80,7 +98,7 @@ export default function MapScreen({
 
       {/* リスト表示ボタン（右下・丸）。ドロワー表示中は×になる */}
       <button
-        className="map-fab"
+        className={`map-fab${mapBusy ? " dimmed" : ""}`}
         onClick={() => setDrawerOpen(o => !o)}
         aria-label={drawerOpen ? "リストを閉じる" : "チェックしたリストを表示"}
       >

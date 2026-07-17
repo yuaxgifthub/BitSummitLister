@@ -88,7 +88,10 @@ export default function GameDialog({
           <CloseIcon />
         </button>
 
-        <div className="dialog-card" onClick={(e) => e.stopPropagation()}>
+        <div className="dialog-card with-actions" onClick={(e) => e.stopPropagation()}>
+          {/* 改善7: 中身を「スクロール領域(dialog-body)」と「固定フッター(dialog-actions)」に
+              分離し、スクロールしてもチェック等のボタンが常に押せるようにする */}
+          <div className="dialog-body">
           {/* タイトル・出展者名 */}
           <div className="dialog-title">{game.title}</div>
           <div className="dialog-exhibitor">{game.exhibitor || "「」"}</div>
@@ -159,18 +162,23 @@ export default function GameDialog({
             </>
           )}
 
-          {/* チェックボタン（トグルして閉じる。閲覧専用モードでは非表示） */}
-          {!readOnly && (
-            <button className="dialog-btn" onClick={() => { onToggleCheck(); onClose(); }}>
-              {isChecked ? "チェックを外す" : "チェックする"}
-            </button>
-          )}
+          </div>{/* /dialog-body（ここまでがスクロール領域） */}
 
-          {/* 会場マップを見るボタン */}
-          {!readOnly && showMapButton && (
-            <button className="dialog-btn" onClick={onShowOnMap}>
-              会場マップを見る
-            </button>
+          {/* 固定フッター: スクロールしても常時表示されるボタン群（改善7） */}
+          {!readOnly && (
+            <div className="dialog-actions">
+              {/* チェックボタン（トグルして閉じる） */}
+              <button className="dialog-btn" onClick={() => { onToggleCheck(); onClose(); }}>
+                {isChecked ? "チェックを外す" : "チェックする"}
+              </button>
+
+              {/* 会場マップを見るボタン */}
+              {showMapButton && (
+                <button className="dialog-btn" onClick={onShowOnMap}>
+                  会場マップを見る
+                </button>
+              )}
+            </div>
           )}
         </div>
       </div>

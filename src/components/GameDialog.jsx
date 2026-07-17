@@ -35,14 +35,8 @@ export default function GameDialog({
   // 出展内容の全文ポップアップ開閉
   const [fullDescOpen, setFullDescOpen] = useState(false);
 
-  // メモ編集モード（鉛筆ボタンでON/OFF。入力は即時保存なので閉じても消えない）
-  const [memoEditing, setMemoEditing] = useState(false);
+  // メモ入力欄への参照（鉛筆ボタンからフォーカスを当てるため）
   const memoRef = useRef(null);
-  const startMemoEdit = () => {
-    setMemoEditing(true);
-    // readOnly解除後にフォーカスを当てる
-    requestAnimationFrame(() => memoRef.current?.focus());
-  };
 
   // 背後スクロール禁止（表示中のみ）
   useEffect(() => {
@@ -112,28 +106,30 @@ export default function GameDialog({
             <span style={{ fontSize: 13, color: "#888888" }}>None</span>
           )}
 
-          {/* メモ欄（フェーズ3: "bitsummit-notes" に保存。閲覧専用モードでは非表示） */}
+          {/* メモ欄（フェーズ3: "bitsummit-notes" に保存。閲覧専用モードでは非表示）
+              iOS対策: 編集モード(readOnly連動)を廃止し常時入力可能にする。
+              以前は onBlur で編集モードを解除していたが、iOS Safariでは
+              フォーカス取得直後やIME変換確定時にblurが割り込み、readOnlyへ戻って
+              入力が弾かれていた。textareaは常に編集可能とし、鉛筆はフォーカス補助にする。 */}
           {!readOnly && (
             <>
               <div className="memo-head">
                 <span className="dialog-section-title" style={{ margin: 0 }}>メモ</span>
                 <button
-                  className={`memo-edit-btn${memoEditing ? " editing" : ""}`}
-                  aria-label={memoEditing ? "メモの編集を終了" : "メモを編集"}
-                  onClick={() => (memoEditing ? setMemoEditing(false) : startMemoEdit())}
+                  type="button"
+                  className="memo-edit-btn"
+                  aria-label="メモを入力"
+                  onClick={() => memoRef.current?.focus()}
                 >
-                  <PencilIcon color={memoEditing ? "#ffffff" : "#333333"} />
+                  <PencilIcon color="#333333" />
                 </button>
-                {memoEditing && <span className="memo-editing-label">編集中（自動保存）</span>}
               </div>
               <textarea
                 ref={memoRef}
                 className="memo-area"
-                readOnly={!memoEditing}
                 value={note}
                 onChange={e => onSaveNote?.(game.id, e.target.value)}
-                onBlur={() => setMemoEditing(false)}
-                placeholder={memoEditing ? "メモを入力…" : "鉛筆ボタンを押すとメモを編集できます"}
+                placeholder="メモを入力…"
                 aria-label="メモ"
               />
             </>

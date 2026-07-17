@@ -90,10 +90,22 @@ button {
 .header-icon-btn {
   background: none;
   border: none;
+  /* iOS WebKit対策: タップ領域を44px以上確保（Apple推奨の最小ヒットサイズ）。
+     線画アイコンは塗り面積が無く、隙間をタップすると当たり判定が抜けるため、
+     ボタン本体で十分な面積を確保する。 */
+  min-width: 44px;
+  min-height: 44px;
   padding: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+}
+/* iOS WebKit対策: アイコンSVG（およびstroke線画の子要素）はタップを透過させ、
+   クリックは必ずボタン本体で受ける。これによりアイコン形状に依存せず全面が反応する。 */
+.header-icon-btn svg,
+.header-icon-btn svg * {
+  pointer-events: none;
 }
 
 /* ---------- フッタータブ（固定） ---------- */
@@ -277,11 +289,22 @@ button {
 .card-grid .card-title { font-size: 13px; }
 
 /* マップドロワー用コンパクトカード */
-.card-compact { display: flex; align-items: stretch; height: 78px; }
+/* マップドロワー用コンパクトカード
+   高さは固定せず min-height にする。タグが2つで折り返しても
+   タイトルが上にはみ出して overflow:hidden で切れることが無くなる。
+   画像は align-items:stretch でカード高さに追従する。 */
+.card-compact { display: flex; align-items: stretch; min-height: 78px; }
 .card-compact + .card-compact { margin-top: 12px; }
-.card-compact .card-img { width: 44%; height: 100%; }
-.card-compact .card-body { padding: 8px 10px; gap: 6px; }
-.card-compact .card-title { font-size: 12px; }
+.card-compact .card-img { width: 44%; align-self: stretch; }
+.card-compact .card-body {
+  padding: 8px 10px;
+  gap: 6px;
+  justify-content: center; /* 中身が78px未満なら中央、超えたら自然に上下へ伸びる */
+}
+.card-compact .card-title {
+  font-size: 12px;
+  white-space: normal;      /* 省略済みタイトルはそのまま。折り返しは不要だが切れ防止 */
+}
 .card-compact .tag { font-size: 9px; }
 
 /* ---------- ページネーション ---------- */
@@ -658,18 +681,13 @@ button {
    フェーズ3 追加スタイル（メモ編集 / 共有モーダル / 閲覧専用モード）
    ============================================================ */
 
-/* ---------- メモ編集 ---------- */
-.memo-edit-btn.editing {
-  background: var(--accent); /* 編集中は鉛筆ボタンをアクセント色に */
-}
-.memo-editing-label {
-  font-size: 11px;
-  color: var(--accent);
-  font-weight: 700;
-}
-.memo-area:not([readonly]) {
+/* ---------- メモ（常時編集可能） ---------- */
+.memo-area {
   background: #ffffff;
-  border-color: var(--accent);
+}
+.memo-area:focus {
+  border-color: var(--accent); /* フォーカス時にアクセント色の枠 */
+  outline: none;
 }
 
 /* ---------- 共有モーダル ---------- */

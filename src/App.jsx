@@ -9,6 +9,9 @@ import { useState, useMemo, useEffect } from "react";
 import GAMES from "./data/games.json";
 import { STORAGE_KEYS } from "./constants.js";
 import { useCheckedIds } from "./hooks/useCheckedIds.js";
+import { useNotes } from "./hooks/useNotes.js";
+import SharedListScreen, { parseSharedIds } from "./components/SharedListScreen.jsx";
+import ShareModal from "./components/ShareModal.jsx";
 import AppHeader from "./components/AppHeader.jsx";
 import FooterTabs from "./components/FooterTabs.jsx";
 import TitleListScreen from "./components/TitleListScreen.jsx";
@@ -24,7 +27,18 @@ const HEADER_TITLES = {
   map: "会場マップ",
 };
 
+// ?shared=1,5,23 がURLにあるか（起動時に一度だけ判定。フェーズ3: 共有機能）
+const SHARED_IDS = parseSharedIds();
+
 export default function App() {
+  // 閲覧専用モード: 共有されたリストだけを表示し、localStorageには一切触れない
+  if (SHARED_IDS !== null) {
+    return <SharedListScreen sharedIds={SHARED_IDS} />;
+  }
+  return <MainApp />;
+}
+
+function MainApp() {
   // ページ全体のピンチズームを無効化（フェーズ1から維持）
   useEffect(() => {
     let meta = document.querySelector('meta[name="viewport"]');
@@ -46,6 +60,10 @@ export default function App() {
   const [selectedGame, setSelectedGame] = useState(null);
   const [modalSource, setModalSource] = useState("list"); // 'list' | 'checklist' | 'map-drawer' | 'map'
   const [menuOpen, setMenuOpen] = useState(false);
+  const [shareOpen, setShareOpen] = useState(false); // 共有モーダル（フェーズ3）
+
+  // メモ（localStorage "bitsummit-notes" と同期。フェーズ3）
+  const { notes, saveNote } = useNotes();
 
   // リスト / グリッド表示（localStorageに保持。指示書5-6）
   const [viewMode, setViewMode] = useState(() => {
@@ -96,8 +114,15 @@ export default function App() {
         <HamburgerIcon />
       </button>
     ) : activeTab === "checklist" ? (
-      // 共有機能はフェーズ3で実装（アイコンのみ先行配置）
-      <button className="header-icon-btn" aria-label="リストを共有" disabled>
+      // 共有機能（フェーズ3）: チェックが1件もない場合は押せない
+      <button
+        type="button"
+        className="header-icon-btn"
+        aria-label="リストを共有"
+        disabled={checkedIds.size === 0}
+        style={checkedIds.size === 0 ? { opacity: 0.45 } : undefined}
+        onClick={() => setShareOpen(true)}
+      >
         <ShareIcon />
       </button>
     ) : null;
@@ -139,11 +164,18 @@ export default function App() {
       {/* ハンバーガーメニューのドロワー */}
       {menuOpen && <MenuDrawer onClose={() => setMenuOpen(false)} />}
 
+      {/* 共有モーダル（リスト画面ヘッダーの共有アイコンから） */}
+      {shareOpen && (
+        <ShareModal checkedIds={checkedIds} onClose={() => setShareOpen(false)} />
+      )}
+
       {/* ゲーム詳細ダイアログ */}
       {selectedGame && (
         <GameDialog
           game={selectedGame}
           source={modalSource}
+          note={notes[selectedGame.id] || ""}
+          onSaveNote={saveNote}
           isChecked={checkedIds.has(selectedGame.id)}
           onToggleCheck={() => {
             toggleCheck(selectedGame.id);

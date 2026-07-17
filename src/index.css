@@ -1,0 +1,764 @@
+/* ============================================================
+   グローバルスタイル / デザイントークン（フェーズ2 UI刷新）
+   配色はデザイン画像準拠のオレンジ基調・ライトテーマ。
+   アクセント色を差し替えるだけでリブランドできるよう変数に集約。
+   ============================================================ */
+:root {
+  --accent: #F96A2E;          /* メインアクセント */
+  --accent-muted: #FFA783;    /* 表示切替 非選択アイコンベース */
+  --accent-dark: #E14E12;     /* ヘッダーグラデーションの濃い側 */
+  --tab-active: #000000;      /* フッタータブ 選択状態 */
+  --tab-inactive: #4b4b4b;    /* フッタータブ 非選択状態 */
+  --card-border: #0E7A6D;     /* カードの緑（ティール）枠線 ※意図的な装飾 */
+  --card-bg: #FDEEE6;         /* カード右側の地色（クリーム/薄オレンジ） */
+  --control-bg: #D9D9D9;      /* 検索窓・絞り込みボタンのグレー */
+  --pager-active: #E09706;    /* カルーセルページャー 現在 */
+  --pager-inactive: #C9C9C9;  /* カルーセルページャー 非現在 */
+  --text-main: #222222;
+  --text-sub: #555555;
+  --mask: rgba(0, 0, 0, 0.4); /* ダイアログのマスク #000000 Alpha40% */
+  --header-grad: linear-gradient(90deg, #FA7A2F 0%, #E14E12 100%);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP",
+    "Yu Gothic", "Meiryo", sans-serif;
+  color: var(--text-main);
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ---------- アプリ全体レイアウト（ヘッダー/フッター固定） ---------- */
+.app-root {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  touch-action: pan-x pan-y;
+}
+
+.app-main {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- ヘッダー（固定・オレンジグラデーション） ---------- */
+.app-header {
+  flex: none;
+  position: relative;
+  background: var(--header-grad);
+  padding: calc(14px + env(safe-area-inset-top)) 16px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 60;
+}
+.app-header.shared { /* 閲覧専用モード用の別トーン（フェーズ3で使用） */
+  background: linear-gradient(90deg, #4A7B8C 0%, #2C5568 100%);
+}
+.app-header-title {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.app-header-right {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(calc(-50% + env(safe-area-inset-top) / 2));
+  display: flex;
+  align-items: center;
+}
+.header-icon-btn {
+  background: none;
+  border: none;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- フッタータブ（固定） ---------- */
+.footer-tabs {
+  flex: none;
+  display: flex;
+  background: #ffffff;
+  border-top: 1px solid #e5e5e5;
+  padding: 6px 0 calc(6px + env(safe-area-inset-bottom));
+  z-index: 60;
+}
+.footer-tab {
+  flex: 1;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 4px 0;
+}
+.footer-tab-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--tab-inactive);
+}
+.footer-tab.active .footer-tab-label { color: var(--tab-active); }
+
+/* ---------- 検索・絞り込み・表示切替の操作列 ---------- */
+.search-controls {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px 10px;
+  background: #ffffff;
+  transition: opacity 0.3s ease;
+  z-index: 50;
+}
+.search-controls.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.filter-btn {
+  flex: none;
+  width: 44px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: var(--control-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-box {
+  flex: 1;
+  min-width: 0;
+  height: 40px;
+  background: var(--control-bg);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  gap: 6px;
+}
+.search-box input {
+  flex: 1;
+  min-width: 0;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: var(--text-main);
+}
+.search-box input::placeholder { color: #777777; }
+.view-toggle {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.view-toggle-divider {
+  width: 2px;
+  height: 32px;
+  background: var(--accent);
+  border-radius: 1px;
+}
+.view-toggle-btn {
+  width: 42px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-muted); /* 非選択 */
+}
+.view-toggle-btn.active { background: var(--accent); } /* 選択 */
+
+/* ---------- カード ---------- */
+.list-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 4px 14px 24px;
+}
+.card {
+  border: 2px solid var(--card-border); /* 緑（ティール）枠線。全カード共通の意図的な装飾 */
+  border-radius: 12px;
+  background: var(--card-bg);
+  overflow: hidden;
+  cursor: pointer;
+}
+.card-list {
+  display: flex;
+  align-items: stretch;
+  height: 104px;
+}
+.card-list + .card-list { margin-top: 14px; }
+.card-img {
+  background: #101418;
+  flex: none;
+  position: relative;
+  overflow: hidden;
+}
+.card-list .card-img { width: 45%; height: 100%; }
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.card-noimg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8a8a8a;
+  font-size: 11px;
+}
+.card-body {
+  flex: 1;
+  min-width: 0;
+  padding: 12px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+.card-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.3;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.card-tags { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.tag {
+  background: var(--accent);
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  display: inline-block;
+}
+.tag-booth { padding: 4px; letter-spacing: 0.5px; } /* 仕様: パディング4 */
+.tag-genre { padding: 8px; }                        /* 仕様: パディング8 */
+
+/* グリッド表示 */
+.card-grid-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.card-grid .card-img { width: 100%; aspect-ratio: 3 / 4; }
+.card-grid .card-body { padding: 10px 10px 12px; }
+.card-grid .card-title { font-size: 13px; }
+
+/* マップドロワー用コンパクトカード */
+.card-compact { display: flex; align-items: stretch; height: 78px; }
+.card-compact + .card-compact { margin-top: 12px; }
+.card-compact .card-img { width: 44%; height: 100%; }
+.card-compact .card-body { padding: 8px 10px; gap: 6px; }
+.card-compact .card-title { font-size: 12px; }
+.card-compact .tag { font-size: 9px; }
+
+/* ---------- ページネーション ---------- */
+.pagination {
+  margin-top: 40px; /* 仕様: 末のリストから Y:40 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+.page-btn {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 6px;
+  border: 1px solid #F5B99C;
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text-main);
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-btn.current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+.page-btn:disabled { opacity: 0.4; cursor: default; }
+.page-ellipsis { color: var(--accent); font-weight: 700; letter-spacing: 2px; }
+
+/* ---------- 空表示 ---------- */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #999999;
+  font-size: 13px;
+  padding: 64px 16px;
+  text-align: center;
+}
+
+/* ---------- ドロワー（右から / Move in-out） ---------- */
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 150;
+  animation: fadeIn 0.2s ease;
+}
+.menu-drawer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 74%;
+  max-width: 320px;
+  background: #ffffff;
+  box-shadow: -4px 0 16px rgba(0, 0, 0, 0.2);
+  animation: slideInRight 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  padding: calc(16px + env(safe-area-inset-top)) 0 16px;
+}
+.menu-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 12px;
+  border-bottom: 1px solid #eeeeee;
+}
+.menu-drawer-title { font-size: 15px; font-weight: 800; }
+.menu-link {
+  display: block;
+  padding: 16px;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ---------- マップ画面のフローティングUI ---------- */
+.floor-toggle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 22px;
+  display: flex;
+  background: var(--accent-muted);
+  border-radius: 999px;
+  padding: 4px;
+  z-index: 40;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+.floor-toggle button {
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 8px 22px;
+  border-radius: 999px;
+}
+.floor-toggle button.active { background: var(--accent); }
+.map-fab {
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+  width: 58px;
+  height: 58px;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  z-index: 45;
+}
+.map-drawer-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: flex-end;
+}
+.map-drawer {
+  width: 62%;
+  height: 100%;
+  background: rgba(92, 92, 92, 0.72); /* 半透明グレーのオーバーレイ */
+  padding: 14px 12px 96px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  animation: slideInRight 0.25s ease;
+}
+
+/* ---------- ダイアログ ---------- */
+.dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--mask);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 56px 16px 24px;
+  animation: fadeIn 0.15s ease;
+}
+.dialog-card {
+  width: 100%;
+  max-width: 420px;
+  max-height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 22px 20px 28px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+}
+.dialog-close {
+  position: absolute;
+  top: calc(10px + env(safe-area-inset-top));
+  right: 12px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #555555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 210;
+}
+.dialog-title {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.3;
+  word-break: break-word;
+}
+.dialog-exhibitor {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-sub);
+  margin-top: 4px;
+}
+.dialog-section-title {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 20px 0 8px;
+}
+.dialog-desc {
+  font-size: 13px;
+  color: #444444;
+  line-height: 1.8;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* 仕様: 27文字×4行までクランプ */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-word;
+}
+.read-all-btn {
+  background: none;
+  border: none;
+  color: #555555;
+  font-size: 12px;
+  text-decoration: underline;
+  padding: 0;
+}
+.store-link {
+  font-size: 13px;
+  color: #444444;
+  text-decoration: underline;
+  word-break: break-all;
+}
+.memo-head { display: flex; align-items: center; gap: 10px; margin: 20px 0 8px; }
+.memo-edit-btn {
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 8px;
+  background: var(--control-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.memo-area {
+  width: 100%;
+  min-height: 170px;
+  border: 1px solid #cccccc;
+  border-radius: 12px;
+  background: #f4f4f4;
+  padding: 12px;
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--text-main);
+  resize: vertical;
+  outline: none;
+}
+.dialog-btn {
+  display: block;
+  width: 82%;
+  margin: 14px auto 0;
+  padding: 15px 0;
+  border: none;
+  border-radius: 14px;
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* カルーセル */
+.carousel-wrap { position: relative; margin-top: 14px; padding: 0 22px; }
+.carousel-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #4a4a4a;
+  border-radius: 6px;
+  overflow: hidden;
+  user-select: none;
+}
+.carousel-frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  background: none;
+  border-left: none;
+  border-right: none;
+  padding: 0;
+}
+.carousel-arrow.prev { left: 0; border-right: 15px solid var(--accent); }
+.carousel-arrow.next { right: 0; border-left: 15px solid var(--accent); }
+.carousel-pager { display: flex; justify-content: center; gap: 8px; margin-top: 10px; }
+.carousel-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background: var(--pager-inactive);
+}
+.carousel-dot.active { background: var(--pager-active); }
+.carousel-noimg {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #e2e2e2;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888888;
+  font-size: 14px;
+}
+
+/* 絞り込みモーダル */
+.filter-modal {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border: 2px solid var(--card-border);
+  border-radius: 16px;
+  padding: 18px 18px 26px;
+}
+.filter-close {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background: var(--control-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter-label { font-size: 15px; font-weight: 800; margin: 18px 0 8px; }
+.filter-select {
+  width: 100%;
+  height: 44px;
+  border: none;
+  border-radius: 8px;
+  background: var(--control-bg);
+  font-size: 14px;
+  padding: 0 12px;
+  color: var(--text-main);
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23444' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+.filter-apply {
+  display: block;
+  margin: 26px auto 0;
+  padding: 13px 44px;
+  border: none;
+  border-radius: 12px;
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+/* ============================================================
+   フェーズ3 追加スタイル（メモ編集 / 共有モーダル / 閲覧専用モード）
+   ============================================================ */
+
+/* ---------- メモ編集 ---------- */
+.memo-edit-btn.editing {
+  background: var(--accent); /* 編集中は鉛筆ボタンをアクセント色に */
+}
+.memo-editing-label {
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 700;
+}
+.memo-area:not([readonly]) {
+  background: #ffffff;
+  border-color: var(--accent);
+}
+
+/* ---------- 共有モーダル ---------- */
+.share-modal {
+  position: relative;
+  width: min(88vw, 380px);
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px 20px 22px;
+}
+.share-modal-title {
+  font-size: 16px;
+  font-weight: 800;
+}
+.share-modal-sub {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text-sub);
+}
+.share-url-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+.share-url-input {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 12px;
+  font-family: inherit;
+  color: var(--text-main);
+  background: #f4f4f4;
+  outline: none;
+}
+.share-copy-btn {
+  flex: none;
+  border: none;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 0 16px;
+  white-space: nowrap;
+}
+.share-sns-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+.share-sns-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--accent);
+  border-radius: 10px;
+  background: #ffffff;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+  padding: 11px 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* ---------- 閲覧専用モード（共有されたリスト） ---------- */
+.shared-banner {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: #E9F1F4; /* ヘッダーの別トーン(青緑)に合わせた淡色 */
+  border-bottom: 1px solid #C8D9E0;
+  color: #2C5568;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 14px;
+  z-index: 55;
+}
+.shared-banner-close {
+  border: 1px solid #2C5568;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #2C5568;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 5px 14px;
+}

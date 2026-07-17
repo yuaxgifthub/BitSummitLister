@@ -5,29 +5,26 @@
 // ============================================================
 
 // 表示するページ番号の並びを作る
-// 改善5: 現在ページによって表示数が増減しないよう、常に安定した形式にする。
-//   ・現在ページを含む連続3ページの窓 + 先頭(1) + 末尾(total) を表示
-//   ・離れている場合のみ「…」を挟む
-//   例) 34ページ中: 1頁目「1 2 3 … 34」/ 2頁目「1 2 3 … 34」/
-//       4頁目「1 … 3 4 5 … 34」/ 34頁目「1 … 32 33 34」
+// 改善: どのページでも表示形式を固定する。
+//   現在ページを起点に連続3ページ + 「…」 + 最終ページ。
+//   例) 3頁目「< 3 4 5 … 34 >」/ 1頁目「< 1 2 3 … 34 >」
+//   末尾付近では最終ページと重複・逆転しないよう起点を寄せる。
 function buildPages(current, total) {
   if (total <= 5) return Array.from({ length: total }, (_, i) => i + 1);
 
-  // 現在ページを中心とした連続3ページの窓（端では窓ごと寄せる）
-  let start = current - 1;
+  // 連続3ページの起点。末尾では最終ページの手前に収める
+  let start = current;
+  if (start > total - 2) start = total - 2; // 例: total34なら最大32起点(32,33,34)
   if (start < 1) start = 1;
-  if (start > total - 2) start = total - 2;
-  const windowPages = [start, start + 1, start + 2];
 
-  // 先頭・末尾を加えて昇順に整列（重複は除去）
-  const sorted = [...new Set([1, ...windowPages, total])].sort((a, b) => a - b);
+  const seq = [start, start + 1, start + 2].filter(p => p <= total);
+  const result = [...seq];
 
-  const result = [];
-  let prev = 0;
-  for (const p of sorted) {
-    if (p - prev > 1) result.push("…");
-    result.push(p);
-    prev = p;
+  // 最終ページを付ける（連続窓に既に含まれていなければ「…」を挟む）
+  const last = seq[seq.length - 1];
+  if (last < total) {
+    if (total - last > 1) result.push("…");
+    result.push(total);
   }
   return result;
 }

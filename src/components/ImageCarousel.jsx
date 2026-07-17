@@ -98,15 +98,15 @@ export default function ImageCarousel({ images }) {
             }}
           />
         ))}
-      </div>
 
-      {/* 左右矢印（オレンジ三角・画像の外側。デザイン画像1参照） */}
-      {multi && (
-        <>
-          <button className="carousel-arrow prev" onClick={goPrev} aria-label="前の画像" />
-          <button className="carousel-arrow next" onClick={goNext} aria-label="次の画像" />
-        </>
-      )}
+        {/* 左右矢印（画像の端から内側8pxに配置。改善） */}
+        {multi && (
+          <>
+            <button className="carousel-arrow prev" onClick={goPrev} aria-label="前の画像" />
+            <button className="carousel-arrow next" onClick={goNext} aria-label="次の画像" />
+          </>
+        )}
+      </div>
 
       {/* ページャー（設定されている画像分を表示） */}
       {multi && (

@@ -19,18 +19,19 @@ export default function MapScreen({
   checkedIds, checkedBooths,
   onBoothClick,
   onOpenGame,
+  onFocusBooth,
 }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const checkedGames = GAMES.filter(g => checkedIds.has(g.id));
 
   // 改善11: マップ操作中（パン/ズーム/スクロール）はフロア切替・リストボタンを
-  // Alpha40%に減光してマップの視認性を上げる。操作が止まって0.6秒後に戻す。
+  // Alpha40%に減光してマップの視認性を上げる。操作が止まって0.4秒後に戻す。
   const [mapBusy, setMapBusy] = useState(false);
   const busyTimer = useRef(null);
   const markBusy = () => {
     setMapBusy(true);
     clearTimeout(busyTimer.current);
-    busyTimer.current = setTimeout(() => setMapBusy(false), 600);
+    busyTimer.current = setTimeout(() => setMapBusy(false), 400);
   };
   useEffect(() => () => clearTimeout(busyTimer.current), []);
 
@@ -75,7 +76,12 @@ export default function MapScreen({
                   key={game.id}
                   game={game}
                   variant="compact"
-                  onClick={(e) => { e.stopPropagation(); onOpenGame(game, "map-drawer"); }}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    // 改善: ダイアログを出さず該当ブースへピックアップし、ドロワーを閉じる
+                    onFocusBooth?.(game);
+                    setDrawerOpen(false);
+                  }}
                 />
               ))
             )}

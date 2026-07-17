@@ -18,7 +18,7 @@ export const STORAGE_KEYS = {
 };
 
 // 1ページあたりの表示件数（指示書5-2）
-export const PAGE_SIZE = 10;
+export const PAGE_SIZE = 15;
 
 // タイトルの最大表示文字数（超過分は「…」に省略。指示書5-2）
 export const TITLE_MAX_CHARS = 12;

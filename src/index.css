@@ -267,7 +267,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 8px;
+  gap: 16px; /* 改善: タイトルとタグの間隔 8px→16px */
 }
 .card-title {
   font-size: 13px; /* 改善1: 15px→13px（大きすぎる指摘への対応） */
@@ -297,7 +297,7 @@ button {
   gap: 14px;
 }
 .card-grid .card-img { width: 100%; aspect-ratio: 3 / 4; }
-.card-grid .card-body { padding: 10px 10px 12px; }
+.card-grid .card-body { padding: 10px 10px 12px; gap: 8px; }
 .card-grid .card-title { font-size: 12px; } /* 改善1: 13px→12px */
 /* 改善3: グリッドではタグを縦並びに統一。
    ジャンル名の長さ次第で横1列に収まったり折り返したりして不揃いだったため、
@@ -522,6 +522,12 @@ button {
   padding: 4px 20px 18px;
   background: #ffffff;
   border-top: 1px solid #f0f0f0; /* スクロール領域との区切り */
+  transition: opacity 0.25s ease;
+}
+/* 改善: スクロール中は Alpha40% に減光し、押下判定も無効化する */
+.dialog-actions.scrolling {
+  opacity: 0.4;
+  pointer-events: none;
 }
 .dialog-close {
   position: absolute;
@@ -619,10 +625,9 @@ button {
 }
 
 /* カルーセル */
-/* 改善8: 画像を約+20%拡大。
-   左右の矢印用余白を 22px→16px に詰めて横幅を広げ、
-   アスペクト比を 16:9 → 16:10 にして高さも増やす（バランスは要調整）。 */
-.carousel-wrap { position: relative; margin-top: 14px; padding: 0 16px; }
+/* 改善: 画像サイズを維持しつつ、左右矢印を画像の端から内側に8px配置する。
+   wrapのpaddingを0にして画像(frame)を全幅にし、矢印はframe内側8pxに重ねる。 */
+.carousel-wrap { position: relative; margin-top: 14px; padding: 0; }
 .carousel-frame {
   position: relative;
   width: 100%;
@@ -653,8 +658,8 @@ button {
   border-right: none;
   padding: 0;
 }
-.carousel-arrow.prev { left: 0; border-right: 15px solid var(--accent); }
-.carousel-arrow.next { right: 0; border-left: 15px solid var(--accent); }
+.carousel-arrow.prev { left: 8px; border-right: 15px solid var(--accent); }
+.carousel-arrow.next { right: 8px; border-left: 15px solid var(--accent); }
 .carousel-pager { display: flex; justify-content: center; gap: 8px; margin-top: 10px; }
 .carousel-dot {
   width: 9px;

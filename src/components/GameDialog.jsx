@@ -38,6 +38,17 @@ export default function GameDialog({
   // メモ入力欄への参照（鉛筆ボタンからフォーカスを当てるため）
   const memoRef = useRef(null);
 
+  // 改善: 固定ボタンはスクロール中のみ Alpha40% に減光し押下無効化する。
+  // dialog-body のスクロール検知。停止0.4秒後に通常表示へ戻す。
+  const [bodyScrolling, setBodyScrolling] = useState(false);
+  const scrollTimer = useRef(null);
+  const handleBodyScroll = () => {
+    setBodyScrolling(true);
+    clearTimeout(scrollTimer.current);
+    scrollTimer.current = setTimeout(() => setBodyScrolling(false), 400);
+  };
+  useEffect(() => () => clearTimeout(scrollTimer.current), []);
+
   // メモ編集モード（鉛筆で開始、iOSキーボードの「完了」= blur で解除）
   const [memoEditing, setMemoEditing] = useState(false);
   // 鉛筆を押した直後に発火する「意図しない blur」を無視するためのガード。
@@ -91,7 +102,7 @@ export default function GameDialog({
         <div className="dialog-card with-actions" onClick={(e) => e.stopPropagation()}>
           {/* 改善7: 中身を「スクロール領域(dialog-body)」と「固定フッター(dialog-actions)」に
               分離し、スクロールしてもチェック等のボタンが常に押せるようにする */}
-          <div className="dialog-body">
+          <div className="dialog-body" onScroll={handleBodyScroll}>
           {/* タイトル・出展者名 */}
           <div className="dialog-title">{game.title}</div>
           <div className="dialog-exhibitor">{game.exhibitor || "「」"}</div>
@@ -166,7 +177,7 @@ export default function GameDialog({
 
           {/* 固定フッター: スクロールしても常時表示されるボタン群（改善7） */}
           {!readOnly && (
-            <div className="dialog-actions">
+            <div className={`dialog-actions${bodyScrolling ? " scrolling" : ""}`}>
               {/* チェックボタン（トグルして閉じる） */}
               <button className="dialog-btn" onClick={() => { onToggleCheck(); onClose(); }}>
                 {isChecked ? "チェックを外す" : "チェックする"}

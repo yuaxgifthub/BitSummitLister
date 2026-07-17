@@ -155,6 +155,11 @@ function MainApp() {
             checkedBooths={checkedBooths}
             onBoothClick={handleBoothClick}
             onOpenGame={openGame}
+            onFocusBooth={(game) => {
+              // 改善: ドロワーのカードタップは、ダイアログを出さず該当ブースへ即ピックアップ
+              setMapFloor(game.floor);
+              setMapZoomTarget({ boothId: game.booth, floor: game.floor });
+            }}
           />
         )}
       </main>

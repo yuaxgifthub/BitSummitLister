@@ -102,7 +102,7 @@ export default function GameDialog({
         <div className="dialog-card with-actions" onClick={(e) => e.stopPropagation()}>
           {/* 改善7: 中身を「スクロール領域(dialog-body)」と「固定フッター(dialog-actions)」に
               分離し、スクロールしてもチェック等のボタンが常に押せるようにする */}
-          <div className="dialog-body" onScroll={handleBodyScroll}>
+          <div className={`dialog-body${showMapButton ? " two-actions" : ""}`} onScroll={handleBodyScroll}>
           {/* タイトル・出展者名 */}
           <div className="dialog-title">{game.title}</div>
           <div className="dialog-exhibitor">{game.exhibitor || "「」"}</div>

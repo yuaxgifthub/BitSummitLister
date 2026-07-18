@@ -509,21 +509,36 @@ button {
 .dialog-card.with-actions {
   overflow: hidden;
   padding: 0;
+  position: relative; /* 方法B: 浮かせるボタンの配置基準 */
 }
 .dialog-body {
   flex: 1;
   min-height: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  padding: 22px 20px 20px;
+  /* 方法B: 下端に浮かせたボタンの高さ分の余白を確保し、
+     最後の内容がボタンの裏に隠れないようにする（ボタン約56px + 余白） */
+  padding: 22px 20px 88px;
 }
 .dialog-actions {
-  flex: none;
-  /* 白い固定帯・区切り線を廃止し、ボタンのみが見える状態にする。
-     背景と border-top を無くし、上パディングも詰める。 */
-  padding: 0 20px 18px;
-  background: transparent;
+  /* 方法B: カード下部に重ねて浮かせる。白い固定帯は無くし、
+     ボタン背後は白→透明のグラデーションで可読性だけ確保する。 */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 20px 18px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.85) 45%,
+    rgba(255, 255, 255, 0.96) 100%
+  );
   transition: opacity 0.25s ease;
+}
+/* 2ボタン（会場マップを見るボタンあり）の場合は余白を増やす */
+.dialog-body.two-actions {
+  padding-bottom: 150px;
 }
 /* 改善: スクロール中は Alpha40% に減光し、押下判定も無効化する */
 .dialog-actions.scrolling {

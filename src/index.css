@@ -519,9 +519,10 @@ button {
 }
 .dialog-actions {
   flex: none;
-  padding: 4px 20px 18px;
-  background: #ffffff;
-  border-top: 1px solid #f0f0f0; /* スクロール領域との区切り */
+  /* 白い固定帯・区切り線を廃止し、ボタンのみが見える状態にする。
+     背景と border-top を無くし、上パディングも詰める。 */
+  padding: 0 20px 18px;
+  background: transparent;
   transition: opacity 0.25s ease;
 }
 /* 改善: スクロール中は Alpha40% に減光し、押下判定も無効化する */
@@ -625,9 +626,17 @@ button {
 }
 
 /* カルーセル */
-/* 改善: 画像サイズを維持しつつ、左右矢印を画像の端から内側に8px配置する。
-   wrapのpaddingを0にして画像(frame)を全幅にし、矢印はframe内側8pxに重ねる。 */
-.carousel-wrap { position: relative; margin-top: 14px; padding: 0; }
+/* Figma仕様に合わせたカルーセル。
+   矢印はダイアログ(カード)の縁から8px。矢印16px、画像との間4px。
+   dialog-bodyの左右padding(20px)を負マージンで打ち消してカード縁基準にし、
+   28px(=8+16+4)のガターで矢印と画像を配置する。 */
+.carousel-wrap {
+  position: relative;
+  margin-top: 14px;
+  margin-left: -20px;   /* dialog-body の padding を相殺 */
+  margin-right: -20px;
+  padding: 0 28px;      /* カード縁から: 8px(縁-矢印) + 16px(矢印) + 4px(矢印-画像) */
+}
 .carousel-frame {
   position: relative;
   width: 100%;
@@ -651,15 +660,16 @@ button {
   transform: translateY(-50%);
   width: 0;
   height: 0;
-  border-top: 11px solid transparent;
-  border-bottom: 11px solid transparent;
+  /* 16×16の三角形: 高さ=8+8=16px、幅=16px */
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
   background: none;
-  border-left: none;
-  border-right: none;
   padding: 0;
 }
-.carousel-arrow.prev { left: 8px; border-right: 15px solid var(--accent); }
-.carousel-arrow.next { right: 8px; border-left: 15px solid var(--accent); }
+/* 矢印はダイアログ縁から8pxの位置（=ガター28pxの左端から8px）。
+   これで矢印(16px)の内側端は縁から24px、画像端は28pxなので画像とは4px空く。 */
+.carousel-arrow.prev { left: 8px; border-right: 16px solid var(--accent); border-left: none; }
+.carousel-arrow.next { right: 8px; border-left: 16px solid var(--accent); border-right: none; }
 .carousel-pager { display: flex; justify-content: center; gap: 8px; margin-top: 10px; }
 .carousel-dot {
   width: 9px;

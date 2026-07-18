@@ -456,12 +456,12 @@ button {
   align-items: center;
   justify-content: center;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
-  z-index: 45;
+  z-index: 55; /* ドロワー(50)より前面。開いている時の×ボタンを押せるようにする */
 }
 .map-drawer-overlay {
   position: absolute;
   inset: 0;
-  z-index: 30;
+  z-index: 50; /* フロア切替ピル(40)より前面に。ドロワーを最前面のマスクとして表示 */
   display: flex;
   justify-content: flex-end;
 }
@@ -872,4 +872,8 @@ button {
 .floor-toggle.dimmed,
 .map-fab.dimmed {
   opacity: 0.4; /* 仕様: Alpha 40% */
+}
+/* ドロワー表示中はフロア切替を操作不可にする（ドロワーの背後に隠れる） */
+.floor-toggle.disabled {
+  pointer-events: none;
 }

@@ -90,7 +90,7 @@ export default function MapScreen({
       )}
 
       {/* フロア切り替え（ドロワーより上に置き、表示中も操作可能にする） */}
-      <div className={`floor-toggle${mapBusy ? " dimmed" : ""}`}>
+      <div className={`floor-toggle${mapBusy ? " dimmed" : ""}${drawerOpen ? " disabled" : ""}`}>
         {["1F", "3F"].map(f => (
           <button
             key={f}
